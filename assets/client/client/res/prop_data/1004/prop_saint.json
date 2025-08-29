@@ -1,0 +1,86 @@
+{
+	"1" : {
+		"stage_id" : 1,
+		"stage_name" : "青龙",
+		"name" : "AzureDragon",
+		"limit_round" : 20,
+		"wave_group_1" : {
+			"5" : {
+				"hero_id" : 100172,
+				"lv" : 80,
+				"star" : 5,
+				"grade" : 150,
+				"jingjie" : 12,
+				"skill_lv" : 80,
+				"equip_lv" : 910,
+				"fabao_cur" : 0,
+				"fabao_grade" : 3,
+				"fabao_lv" : 80,
+				"horse_lv" : 80
+			}
+		}
+	},
+	"2" : {
+		"stage_id" : 2,
+		"stage_name" : "白虎",
+		"name" : "WhiteTiger",
+		"limit_round" : 20,
+		"wave_group_1" : {
+			"2" : {
+				"hero_id" : 100173,
+				"lv" : 80,
+				"star" : 5,
+				"grade" : 150,
+				"jingjie" : 12,
+				"skill_lv" : 80,
+				"equip_lv" : 910,
+				"fabao_cur" : 0,
+				"fabao_grade" : 3,
+				"fabao_lv" : 80,
+				"horse_lv" : 80
+			}
+		}
+	},
+	"3" : {
+		"stage_id" : 3,
+		"stage_name" : "朱雀",
+		"name" : "VermilionBird",
+		"limit_round" : 20,
+		"wave_group_1" : {
+			"5" : {
+				"hero_id" : 100174,
+				"lv" : 80,
+				"star" : 5,
+				"grade" : 150,
+				"jingjie" : 12,
+				"skill_lv" : 80,
+				"equip_lv" : 910,
+				"fabao_cur" : 0,
+				"fabao_grade" : 3,
+				"fabao_lv" : 80,
+				"horse_lv" : 80
+			}
+		}
+	},
+	"4" : {
+		"stage_id" : 4,
+		"stage_name" : "玄武",
+		"name" : "BlackTortoise",
+		"limit_round" : 20,
+		"wave_group_1" : {
+			"2" : {
+				"hero_id" : 100175,
+				"lv" : 80,
+				"star" : 5,
+				"grade" : 150,
+				"jingjie" : 12,
+				"skill_lv" : 80,
+				"equip_lv" : 910,
+				"fabao_cur" : 0,
+				"fabao_grade" : 3,
+				"fabao_lv" : 80,
+				"horse_lv" : 80
+			}
+		}
+	}
+}

@@ -1,0 +1,9706 @@
+{
+	"1" : {
+		"id" : 1,
+		"name" : "普通攻击",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2" : {
+		"id" : 2,
+		"name" : "普通攻击",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1000" : {
+		"id" : 1000,
+		"name" : "通用技能",
+		"description" : "所有小怪通用技能，准备回合20，无法释放。",
+		"type" : 0,
+		"loopstart" : 20,
+		"cooldown" : 1,
+		"priority" : 1,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 1 ]
+					}
+				]
+			}
+		]
+	},
+	"100001" : {
+		"id" : 100001,
+		"name" : "通用技能",
+		"description" : "所有小怪通用技能，消耗怒气200，无法释放。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 200,
+		"priority" : 3,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 1 ]
+					}
+				]
+			}
+		]
+	},
+	"1001" : {
+		"id" : 1001,
+		"name" : "否极泰来",
+		"description" : "逆境达到极点，就会向顺境转化。攻击敌方前排单体，造成物理攻击{0}%的伤害，生命值越少，造成的伤害越高。生命百分比减少1%，攻击伤害增加2%。每升1级物理攻击伤害提高1%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 2650,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 21,
+						"type" : 0,
+						"value" : [ 90, 2 ],
+						"growth" : [ 1 ]
+					}
+				]
+			}
+		]
+	},
+	"1002" : {
+		"id" : 1002,
+		"name" : "弹水出渊",
+		"description" : "乐音浩大磅礴，弱蛟龙出海。攻击敌方前排，造成法术攻击{0}%的伤害。每升1级法术攻击伤害提高0.5%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 1100,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 2,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 90, 0, 0 ],
+						"growth" : [ 0.5 ]
+					}
+				]
+			}
+		]
+	},
+	"1003" : {
+		"id" : 1003,
+		"name" : "云风破",
+		"description" : "话风为无形，利用敏捷的身法，穿梭于敌阵之中。攻击敌方一列，造成物理攻击{0}%的伤害。，且有30%破击。每升1级物理攻击伤害提高0.6%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 1175,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 4,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 150, 30, 0 ],
+						"growth" : [ 0.6 ]
+					}
+				]
+			}
+		]
+	},
+	"1004" : {
+		"id" : 1004,
+		"name" : "奇门遁甲",
+		"description" : "运筹于帷幄之中，决胜于千里之外。利用推演之术令敌人分不清眼前的目标与方位。攻击敌方全体，造成法术攻击{0}%的伤害，并使目标迷茫2回合。每升1级法术攻击伤害提高0.2%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 4230,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 90, 0, 0 ],
+						"growth" : [ 0.2 ]
+					},
+					{
+						"id" : 53,
+						"type" : 2,
+						"value" : [ 100, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1005" : {
+		"id" : 1005,
+		"name" : "火尖枪",
+		"description" : "寒芒乍现，枪出如龙，似火云翻滚，若红霞漫天。攻击敌方一列，造成物理攻击{0}%的伤害。每升1级物理攻击伤害提高0.6%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 1200,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 4,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 160, 0, 0 ],
+						"growth" : [ 0.6 ]
+					}
+				]
+			}
+		]
+	},
+	"1006" : {
+		"id" : 1006,
+		"name" : "妖灵怒嚎",
+		"description" : "悲风飒飒，惨雾迷迷，据妖灵之怨念，像目标释放音波攻击。攻击敌方前排单体，造成法术攻击{0}%的伤害，且有30%几率降低10%法术防御，持续2回合。每升1级法术攻击伤害提高1%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 1737,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 1 ]
+					},
+					{
+						"id" : 104,
+						"type" : 2,
+						"value" : [ 30, 10, 2 ],
+						"growth" : [ 0, 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1007" : {
+		"id" : 1007,
+		"name" : "暗枪",
+		"description" : "明枪易躲，暗箭难防。攻击敌方后排单体，造成物理攻击{0}%的伤害。每升1级物理攻击伤害提高1%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 1,
+		"delaytime" : 1173,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 1,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 160, 0, 0 ],
+						"growth" : [ 1 ]
+					}
+				]
+			}
+		]
+	},
+	"1008" : {
+		"id" : 1008,
+		"name" : "冷箭",
+		"description" : "明枪易躲，暗箭难防。攻击敌方后排单体，造成法术攻击{0}%的伤害。每升1级法术攻击伤害提高1%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 1,
+		"delaytime" : 1296,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 1,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 160, 0, 0 ],
+						"growth" : [ 1 ]
+					}
+				]
+			}
+		]
+	},
+	"1009" : {
+		"id" : 1009,
+		"name" : "冒死直谏",
+		"description" : "忠言逆耳，冒着被杀的危险，中心卫国。自身降低20%物理防御和20%法术防御，我方全体英杰增加{0}%物理攻击和{1}%法术攻击，持续3回合，技能释放时，我方全体英杰怒气加5。每升1级增加的物理攻击和法术攻击提高0.2%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 1,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 103,
+						"type" : 2,
+						"value" : [ 100, 20, 3 ],
+						"growth" : [ 0, 0 ]
+					},
+					{
+						"id" : 104,
+						"type" : 2,
+						"value" : [ 100, 20, 3 ],
+						"growth" : [ 0, 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 11,
+						"type" : 1,
+						"value" : [ 10, 3 ],
+						"growth" : [ 0.2 ]
+					},
+					{
+						"id" : 12,
+						"type" : 1,
+						"value" : [ 10, 3 ],
+						"growth" : [ 0.2 ]
+					},
+					{
+						"id" : 19,
+						"type" : 1,
+						"value" : [ 5 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1010" : {
+		"id" : 1010,
+		"name" : "蛊惑",
+		"description" : "巧言令色，颠倒黑白，令人心神大乱，是非不分。随机攻击敌方一名英杰，造成物理攻击{0}%的伤害，且有30%几率魅惑目标2回合。每升1级物理攻击伤害提高0.7%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 954,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 150, 0, 0 ],
+						"growth" : [ 0.7 ]
+					},
+					{
+						"id" : 55,
+						"type" : 2,
+						"value" : [ 30, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1011" : {
+		"id" : 1011,
+		"name" : "天子剑",
+		"description" : "真龙天子，天命所归。镇压群魔，汽运加深。攻击敌方前排单体，造成物理攻击{0}%的伤害，并且无法闪避。每升1级物理攻击伤害提高0.8%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 2005,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 160, 0, 0 ],
+						"growth" : [ 0.8 ]
+					}
+				]
+			}
+		]
+	},
+	"1012" : {
+		"id" : 1012,
+		"name" : "酒池肉林",
+		"description" : "以酒为池，悬肉为林。我方全体英杰附加酒池肉林标记2回合。标记存在时，物理攻击降低10%，物理防御降低10%，法术防御降低10%，回合结束时，生命恢复{0}%，怒气加{1}。每升1级生命恢复提高0.1%，怒气提高0.1。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 1,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 34,
+						"type" : 3,
+						"value" : [ 5, 5 ],
+						"growth" : [ 0.1, 0.1 ]
+					}
+				]
+			}
+		]
+	},
+	"1013" : {
+		"id" : 1013,
+		"name" : "双斧连斩",
+		"description" : "手持两柄短斧，进行快速的连续斩击。攻击敌方前排单体，造成物理攻击{0}%的四联击伤害。每升1级物理攻击伤害提高0.3%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 1714,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 80, 0, 0 ],
+						"growth" : [ 0.3 ]
+					},
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 72, 0, 0 ],
+						"growth" : [ 0.27 ]
+					},
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 80, 0, 0 ],
+						"growth" : [ 0.3 ]
+					},
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 72, 0, 0 ],
+						"growth" : [ 0.27 ]
+					}
+				]
+			}
+		]
+	},
+	"1014" : {
+		"id" : 1014,
+		"name" : "虎啸独龙",
+		"description" : "枪影烁烁，招式迅猛，生如虎啸，宛若游龙。攻击敌方前排单体，造成物理攻击{0}%的伤害，且有30%几率令目标眩晕2回合。每升1级物理攻击伤害提高0.8%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 1415,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 160, 0, 0 ],
+						"growth" : [ 0.8 ]
+					},
+					{
+						"id" : 52,
+						"type" : 2,
+						"value" : [ 30, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1015" : {
+		"id" : 1015,
+		"name" : "三尖两刃刀",
+		"description" : "刀分三叉，锐利无比，刀中有刀，以一化三，一面两刃。攻击敌方前排，造成物理攻击{0}%的二连击伤害。每升1级物理攻击伤害提高0.4%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 1824,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 2,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 160, 0, 0 ],
+						"growth" : [ 0.4 ]
+					},
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 160, 0, 0 ],
+						"growth" : [ 0.4 ]
+					}
+				]
+			}
+		]
+	},
+	"1016" : {
+		"id" : 1016,
+		"name" : "蛟龙出海",
+		"description" : "手中双鞭乃是蛟龙所化，一阴一阳，鞭打来犯之敌。攻击敌方后排单体，造成法术攻击{0}%的二连击伤害。每升1级法术攻击伤害提高0.6%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 2090,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 1,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 140, 0, 0 ],
+						"growth" : [ 0.6 ]
+					},
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 140, 0, 0 ],
+						"growth" : [ 0.6 ]
+					}
+				]
+			}
+		]
+	},
+	"1017" : {
+		"id" : 1017,
+		"name" : "八棱亮银锤",
+		"description" : "银锤发手没遮拦，戟刺咽喉蛇信起。自来也见将军战，不似今番无底止。攻击敌方前排单体，造成物理攻击{0}%的二连击伤害，且有30%几率令目标眩晕2回合。每升1级物理攻击伤害提高1.5%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 1734,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 200, 0, 0 ],
+						"growth" : [ 1.5 ]
+					},
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 200, 0, 0 ],
+						"growth" : [ 1.5 ]
+					},
+					{
+						"id" : 52,
+						"type" : 2,
+						"value" : [ 30, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1018" : {
+		"id" : 1018,
+		"name" : "夺魂枪",
+		"description" : "出手诡异，天马行空，让人无法判断攻击的轨迹，枪出夺魂。攻击敌方后排单体，造成法术攻击{0}%的伤害，且目标中毒2回合。每升1级法术攻击伤害提高1%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 2026,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 1,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 160, 0, 0 ],
+						"growth" : [ 1 ]
+					},
+					{
+						"id" : 204,
+						"type" : 2,
+						"value" : [ 100, 15, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1019" : {
+		"id" : 1019,
+		"name" : "落石",
+		"description" : "天降巨石，仿佛山岳之力加诸于一人。攻击敌方前排单体，造成法术攻击{0}%的伤害，且有30%几率令目标眩晕2回合。每升1级法术攻击伤害提高1%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 1600,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 160, 0, 0 ],
+						"growth" : [ 1 ]
+					},
+					{
+						"id" : 52,
+						"type" : 2,
+						"value" : [ 30, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1020" : {
+		"id" : 1020,
+		"name" : "狐媚魂火",
+		"description" : "狐族天赋神通，利用自身修炼的妖气形成魂火攻击敌人。攻击敌方随机一名英杰，造成法术攻击{0}%的伤害，且魅惑目标1回合。每升1级法术攻击伤害提高0.5%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 2000,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 130, 0, 0 ],
+						"growth" : [ 0.5 ]
+					},
+					{
+						"id" : 55,
+						"type" : 2,
+						"value" : [ 100, 1 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2000" : {
+		"id" : 2000,
+		"name" : "通用技能",
+		"description" : "所有小怪通用技能，准备回合20，无法释放。",
+		"type" : 0,
+		"loopstart" : 20,
+		"cooldown" : 1,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 1 ]
+					}
+				]
+			}
+		]
+	},
+	"2001" : {
+		"id" : 2001,
+		"name" : "文王神卦",
+		"description" : "从伏羲八卦演变而来的测算推演之术。发动后自身受到的物理伤害和法术伤害{0}%反弹至伤害来源，持续3回合。每升1级反弹伤害提高0.6%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 31,
+						"type" : 1,
+						"value" : [ 40, 3 ],
+						"growth" : [ 0.6 ]
+					}
+				]
+			}
+		]
+	},
+	"2002" : {
+		"id" : 2002,
+		"name" : "听风入松",
+		"description" : "词曲轻柔婉转，弱春风拂面。为我方生命最低的一名英杰恢复生命，恢复数值是法术攻击的{0}%。每升1级恢复百分比提高1%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 6,
+				"effect" : [
+					{
+						"id" : 41,
+						"type" : 0,
+						"value" : [ 120 ],
+						"growth" : [ 1 ]
+					}
+				]
+			}
+		]
+	},
+	"2003" : {
+		"id" : 2003,
+		"name" : "奔雷斩",
+		"description" : "此技示弱奔雷，突入敌人后方，聚雷电负于攻击。攻击敌方后排单体，造成物理攻击{0}%的伤害，且有30%几率令目标麻痹2回合。每升1级物理攻击伤害提高1.2%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 2168,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 1,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 200, 0, 0 ],
+						"growth" : [ 1.2 ]
+					},
+					{
+						"id" : 51,
+						"type" : 2,
+						"value" : [ 30, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2004" : {
+		"id" : 2004,
+		"name" : "愿者上钩",
+		"description" : "姜太公钓鱼，愿者上钩。对敌方随机一名英杰附加一个鱼标记，我方随机一名英杰附加一个饵标记，持续3回合。若带有鱼标记的敌方英杰攻击我方带有饵标记的英杰，造成的伤害数值，为我方全体英杰回复相应数值的生命，此外，我方全体英杰物理攻击增加{0}%，法术攻击增加{1}%，持续2回合。标记消失前，我方带有饵标记的英杰处于定身状态。每升1级增加的物理攻击和法术攻击提高0.1%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 81,
+						"type" : 3,
+						"value" : [ 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 82,
+						"type" : 3,
+						"value" : [ 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 11,
+						"type" : 1,
+						"value" : [ 5, 2 ],
+						"growth" : [ 0.1 ]
+					},
+					{
+						"id" : 12,
+						"type" : 1,
+						"value" : [ 5, 2 ],
+						"growth" : [ 0.1 ]
+					}
+				]
+			}
+		]
+	},
+	"2005" : {
+		"id" : 2005,
+		"name" : "乾坤震天箭",
+		"description" : "乾坤之弓，弓如满月，震天一箭，箭无虚发。攻击敌方后排单体，造成物理攻击{0}%的伤害，且有30%几率破击。每升1级物理攻击伤害提高1%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 1800,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 1,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 220, 30, 0 ],
+						"growth" : [ 1 ]
+					}
+				]
+			}
+		]
+	},
+	"2006" : {
+		"id" : 2006,
+		"name" : "召唤黄金力士",
+		"description" : "五星镇彩，光照玄冥。千神万圣，护我真灵，急急如律令，黄巾力士何在！召唤一个黄金力士，攻击敌方前排单体，黄巾力士的伤害是物理攻击的{0}%，黄金力士不会被攻击，持续存在3回合。每升1级物理攻击伤害提高2%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 23,
+						"type" : 3,
+						"value" : [ 0, 300, 3 ],
+						"growth" : [ 2 ]
+					}
+				]
+			}
+		]
+	},
+	"2007" : {
+		"id" : 2007,
+		"name" : "巧舌如簧",
+		"description" : "能说会道，善于狡辩。自身附加巧舌如簧标记3回合，受到的物理攻击有50%几率被转移至我方随机一名英杰，一旦受到的攻击成功转移，则自身增加{0}%物理攻击，持续3回合。每升1级自身增加的物理攻击提高0.4%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 83,
+						"type" : 3,
+						"value" : [ 3, 50 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 11,
+						"type" : 3,
+						"value" : [ 10, 3 ],
+						"growth" : [ 0.4 ]
+					}
+				]
+			}
+		]
+	},
+	"2008" : {
+		"id" : 2008,
+		"name" : "诡计多端",
+		"description" : "欺诈的计谋层出不穷。自身附加诡计多端标记3回合，受到的法术攻击有50%几率被转移至我方随机一名英杰，一旦受到的攻击成功被转移，则自身增加{0}%法术攻击，持续3回合。每升1级增加的法术攻击提高0.4%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 84,
+						"type" : 3,
+						"value" : [ 3, 50 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 12,
+						"type" : 1,
+						"value" : [ 10, 3 ],
+						"growth" : [ 0.4 ]
+					}
+				]
+			}
+		]
+	},
+	"2009" : {
+		"id" : 2009,
+		"name" : "剖心救主",
+		"description" : "君让臣死，臣不得不死！这一颗忠心拿去便是。自身损失20%生命，为我方生命最低的一名英杰恢复生命，恢复数值是损失生命的{0}%，若生命不足20%则保留1点生命。每升1级恢复数值的百分比提高2%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 1,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 44,
+						"type" : 0,
+						"value" : [ 220 ],
+						"growth" : [ 2 ]
+					}
+				]
+			}
+		]
+	},
+	"2010" : {
+		"id" : 2010,
+		"name" : "飞头术",
+		"description" : "砍下头颅，身首分离，且头颅飞天，不灭不死。全场除自身以外随机一名英杰附加飞头标记，持续3回合。飞头标记存在时，免疫自身所受到的伤害。被标记的英杰如果在标记时间内死亡，则自身死亡。飞头标记消失时，自身恢复{0}%生命。每升1级标记消失时生命恢复增加0.2%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 3,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : -1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 85,
+						"type" : 3,
+						"value" : [ 3, 5 ],
+						"growth" : [ 0.2 ]
+					}
+				]
+			}
+		]
+	},
+	"2011" : {
+		"id" : 2011,
+		"name" : "巨桥发粟",
+		"description" : "周武王灭纣后，遣南宫括散发巨桥仓的粮食，赈济饥民，史称巨桥发粟。释放后自身冷静2回合。回合结束时，我方全体英杰恢复生命{0}%，持续3回合。每升1级恢复生命提高0.1%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 203,
+						"type" : 1,
+						"value" : [ 5, 3 ],
+						"growth" : [ 0.1 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 56,
+						"type" : 2,
+						"value" : [ 100, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2012" : {
+		"id" : 2012,
+		"name" : "煌威紫气",
+		"description" : "煌煌天威，真龙紫气。扫除叛乱，破灭诛邪。攻击敌方前排单体，造成物理攻击{0}%的伤害，额外降低目标{1}点怒气。每升1级物理攻击伤害提高0.6%，额外降低怒气0.2。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 3837,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 120, 0, 0 ],
+						"growth" : [ 0.6 ]
+					},
+					{
+						"--" : "//目标扣除怒气。",
+						"id" : 19,
+						"type" : 0,
+						"value" : [ -10 ],
+						"growth" : [ -0.2 ]
+					}
+				]
+			}
+		]
+	},
+	"2013" : {
+		"id" : 2013,
+		"name" : "三千飞虎兵",
+		"description" : "手下最强军队，攻无不克，战无不胜，勇猛非凡。攻击敌方全体。造成物理攻击{0}%的二连击伤害。每升1级物理攻击伤害提高0.2%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 2890,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 0.2 ]
+					},
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 0.2 ]
+					}
+				]
+			}
+		]
+	},
+	"2014" : {
+		"id" : 2014,
+		"name" : "金眼神莺",
+		"description" : "眼睛金色，爪子锋利，降妖除魔，速度非凡。攻击敌方后排单体，造成物理攻击{0}%的伤害，且目标流血2回合。每升1级物理攻击伤害提高1.2%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 2080,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 1,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 200, 0, 0 ],
+						"growth" : [ 1.2 ]
+					},
+					{
+						"--" : "//回合结束时目标降低15%的当前生命。",
+						"id" : 201,
+						"type" : 2,
+						"value" : [ 100, 30, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2015" : {
+		"id" : 2015,
+		"name" : "哮天犬",
+		"description" : "形似敖犬，毛色纯白，因被杨戬所救，故对杨戬十分忠心。随机攻击敌方一名英杰，造成物理攻击{0}%的伤害，此外，哮天犬将在回合结束时与目标缠斗，持续2回合。每升1级物理攻击伤害提高0.8%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 1956,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 120, 0, 0 ],
+						"growth" : [ 0.8 ]
+					},
+					{
+						"--" : "目标进入缠斗状态，该状态下回合结束受到60%物攻伤害，速度减50%",
+						"id" : 24,
+						"type" : 2,
+						"value" : [ 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2016" : {
+		"id" : 2016,
+		"name" : "五行盾法",
+		"description" : "木火土金水，行变化之盾法，不知诀窍者，只能五选其一破解。修炼高深可闪避天下绝大多数的攻击。自身有{0}%几率闪避敌方攻击，持续3回合。每升1级闪避几率提高0.5%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"1" : "//目标闪避几率增加。",
+						"id" : 17,
+						"type" : 1,
+						"value" : [ 30, 3 ],
+						"growth" : [ 0.5 ]
+					}
+				]
+			}
+		]
+	},
+	"2017" : {
+		"id" : 2017,
+		"name" : "火龙镖",
+		"description" : "镖色赤红，出手如电，似惊鸿一闪。攻击敌方后排单体，造成法术攻击{0}%的伤害，且令目标中毒3回合。每升1级法术攻击伤害提高1.2%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 1758,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 1,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 200, 0, 0 ],
+						"growth" : [ 1.2 ]
+					},
+					{
+						"--" : "//目标进入中毒状态，进入中毒状态下的英杰回合结束时扣除生命上限的15%的当前生命。",
+						"id" : 204,
+						"type" : 2,
+						"value" : [ 100, 15, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2018" : {
+		"id" : 2018,
+		"name" : "呼名落马术",
+		"description" : "敌我对战时都需要通报彼此姓名表示尊重，而此神通可以通过呼喊对方姓名让人魂魄离体，摔下马来。攻击敌方前排单体，造成法术攻击{0}%的伤害，且目标落马3回合。每升1级法术攻击伤害提高1%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 5750,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 1 ]
+					},
+					{
+						"--" : "//速度和生命上限降低30%",
+						"id" : 45,
+						"type" : 2,
+						"value" : [ 30, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2019" : {
+		"id" : 2019,
+		"name" : "天崩地裂",
+		"description" : "飞沙走石，天摇地动，对敌方阵型造成巨大伤害。攻击敌方全体，造成法术攻击{0}%的伤害，且有50%几率令目标眩晕2回合。每升1级法术攻击伤害提高0.3%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 4510,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 0.3 ]
+					},
+					{
+						"id" : 52,
+						"type" : 2,
+						"value" : [ 50, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2020" : {
+		"id" : 2020,
+		"name" : "魅惑天下",
+		"description" : "倾世之姿，媚骨天成，顾盼生姿，霍乱天下！攻击敌方全体，造成法术攻击{0}%的伤害，且有30%几率魅惑目标2回合，同时己方除自身外的随机一名英杰魅惑1回合。每升1级法术攻击伤害提高0.2%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 2194,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 0.3 ]
+					},
+					{
+						"id" : 55,
+						"type" : 2,
+						"value" : [ 30, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 14,
+				"effect" : [
+					{
+						"id" : 55,
+						"type" : 3,
+						"value" : [ 100, 1 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3001" : {
+		"id" : 3001,
+		"name" : "其命维新",
+		"description" : "文王受到万民爱戴，所管辖的地界国誉昌盛。自身受到的物理伤害降低20%。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 1011,
+						"type" : 3,
+						"value" : [ 20 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3002" : {
+		"id" : 3002,
+		"name" : "白猿救主",
+		"description" : "白面猿其色金黄，唯有面部雪白，故称白面元。此猴虽生性顽劣，却聪明伶俐，即为忠心护主。自身受到攻击时，伤害来源30%几率受到白面猿反击，反击伤害是法术攻击的80%。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 1022,
+						"type" : 3,
+						"value" : [ 80, 30 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3003" : {
+		"id" : 3003,
+		"name" : "风雷双翼",
+		"description" : "展翅高飞、风雷齐至。风雷翅一展，脚登天，头往下，二翅腾开，顷刻万里。自身速度提高10%，闪避率提高10%。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 1006,
+						"type" : 3,
+						"value" : [ 10 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 1007,
+						"type" : 3,
+						"value" : [ 10 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3004" : {
+		"id" : 3004,
+		"name" : "顺应天意",
+		"description" : "顺天意之所指，行惠民之事，乃智者之所为。自身不会被暴击。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 1023,
+						"type" : 3,
+						"value" : [],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3005" : {
+		"id" : 3005,
+		"name" : "莲花之身",
+		"description" : "碧藕为骨，荷叶为衣，出淤泥而不染，元气生生不息。死亡3回合后50%生命复活。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 1031,
+						"type" : 3,
+						"value" : [ 3, 1, 50 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3006" : {
+		"id" : 3006,
+		"name" : "顽石之心",
+		"description" : "此石生于天地玄黄之外，经过地水火风，炼成精灵。自身物理防御增加10%，法术防御增加15%。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 1003,
+						"type" : 3,
+						"value" : [ 10 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 1004,
+						"type" : 3,
+						"value" : [ 15 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3007" : {
+		"id" : 3007,
+		"name" : "唯利是图",
+		"description" : "贪图利益，不计后果。我方每死亡一名英杰，自身物理攻击增加10%。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 1032,
+						"type" : 3,
+						"value" : [ 10 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3008" : {
+		"id" : 3008,
+		"name" : "损人利己",
+		"description" : "损害他人，使自身受益。我方每死亡一名英杰，自身法术攻击增加10%。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 1033,
+						"type" : 3,
+						"value" : [ 10 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3009" : {
+		"id" : 3009,
+		"name" : "七窍玲珑心",
+		"description" : "心生七孔，故名七窍玲珑心，相传可以与世界万物交流，重伤者食用心脏可有治愈之效。前7回合，每回合第一次受到致命攻击时，自身保留1点生命。回合结束时，生命恢复7%。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 1034,
+						"type" : 3,
+						"value" : [ 7 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 1035,
+						"type" : 3,
+						"value" : [ 7, 7 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3010" : {
+		"id" : 3010,
+		"name" : "妖言惑众",
+		"description" : "迷惑人的邪说。用荒谬的鬼话迷惑对手。自身受到伤害有20%几率令伤害来源混乱2回合。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 36,
+						"type" : 3,
+						"value" : [ 20, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3011" : {
+		"id" : 3011,
+		"name" : "牧野鹰扬",
+		"description" : "维师尚父，时维鹰扬。牧野之役，以武王为统帅，太公望为总指挥。自身存活时，我方全体英杰物理攻击增加10%，且每回合额外增加2%物理攻击，自身死亡时，增加的物理攻击消失。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 3011,
+						"type" : 3,
+						"value" : [ 10, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3012" : {
+		"id" : 3012,
+		"name" : "殷商国运",
+		"description" : "有娀氏之女名简狄，吞玄鸟之卵而生契。成就了商朝五百多年的国运，加身在纣王一人身上。我方存活的英杰越多，自身的属性加持越多！除自身以外，每多一名英杰，物理攻击增加10%，物理防御增加10%，法术防御增加10%。若我方除自身以外的英杰都已死亡，回合结束时发动自焚技能，攻击敌方全体，造成物理攻击150%的伤害，且自身保留1点生命。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 3012,
+						"type" : 3,
+						"value" : [],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"30120" : {
+		"id" : 30120,
+		"name" : "自焚",
+		"description" : "",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 3,
+						"value" : [ 150, 0, 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 43,
+						"type" : 3,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3013" : {
+		"id" : 3013,
+		"name" : "审时度势",
+		"description" : "观察分析时势，估计情况的变化，做出最有利于自身的决定。自身的普通攻击只会攻击敌方生命最低的一名英杰。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 6,
+				"effect" : [
+					{
+						"--" : "//为普通攻击指定目标。",
+						"id" : 3013,
+						"type" : 0,
+						"value" : [],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3014" : {
+		"id" : 3014,
+		"name" : "忠良君子",
+		"description" : "威行天下，义重四方，施恩积德，人人敬仰。在对战时会压制敌方相应位置的英杰两个境界。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "//降低相应位置目标的指定境界数。",
+						"id" : 3014,
+						"type" : 3,
+						"value" : [ 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3015" : {
+		"id" : 3015,
+		"name" : "八九玄功",
+		"description" : "锻筋练骨，洗经伐髓，修治大成之境界可使气血源源不绝，防御逆天，练成者凤毛麟角，实属不易。前9回合，每回合结束时，自身物理防御增加8%，法术防御增加8%。第10回合起，回合结束时，生命恢复9%。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "目标前9回合每回合的回合结束时物理和法术防御增加8%，10回合起回合结束时生命恢复9%",
+						"id" : 3015,
+						"type" : 3,
+						"value" : [],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3016" : {
+		"id" : 3016,
+		"name" : "托孤之臣",
+		"description" : "新皇年幼，先皇托孤于信任的忠心之陈。我方第一名英杰死亡时，随机将该英杰的一项属性附加给闻仲。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 3016,
+						"type" : 3,
+						"value" : [],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3017" : {
+		"id" : 3017,
+		"name" : "收宝花篮",
+		"description" : "可收取对方打来的各种暗器法宝。一场战斗中，同一个法宝技能只有第一次攻击时会对自身造成伤害。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "/目标免疫一场战斗中同一法宝的多次效果",
+						"id" : 3017,
+						"type" : 3,
+						"value" : [],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3018" : {
+		"id" : 3018,
+		"name" : "丧门星",
+		"description" : "带来晦气和灾祸的人。凡是与其为敌者，无不受其影响。自身受到攻击时有50%几率令伤害来源中毒2回合。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 204,
+						"type" : 3,
+						"value" : [ 50, 15, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3019" : {
+		"id" : 3019,
+		"name" : "奎龙血脉",
+		"description" : "龙头，独脚，蛇颈，虾须，虎足鹰爪，一身鳞片，能人言。每回合结束时，自身恢复生命20%。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 3019,
+						"type" : 3,
+						"value" : [ 20 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3020" : {
+		"id" : 3020,
+		"name" : "九尾天狐",
+		"description" : "狐升九尾乃是狐族的至高境界，个中玄妙不为外人所知，法力无边，源源不绝，断尾重生，神通种种，包罗万象。自身法术攻击增加20%，本场战斗中每死亡一次，法术攻击降低10%。受到攻击时，伤害来源怒气减5。首次死亡45%几率复活，此后每死亡一次复活几率减5%。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 3020,
+						"type" : 3,
+						"value" : [],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10001" : {
+		"id" : 10001,
+		"name" : "文王白玉龟",
+		"description" : "攻击敌方全体，造成物理攻击150%的伤害，并且我方全体英杰物理防御增加{0}%，持续3回合。消耗怒气30。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 30,
+		"priority" : 3,
+		"delaytime" : 3800,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 13,
+						"type" : 1,
+						"value" : [ 10, 3 ],
+						"growth" : [ 6 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 150, 0, 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10002" : {
+		"id" : 10002,
+		"name" : "七香车",
+		"description" : "攻击敌方全体，造成法术攻击{0}的伤害。同时我方全体英杰速度增加{1}%，持续3回合。消耗怒气40。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 40,
+		"priority" : 3,
+		"delaytime" : 3200,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 150, 0, 0 ],
+						"growth" : [ 10 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 16,
+						"type" : 1,
+						"value" : [ 10, 3 ],
+						"growth" : [ 2 ]
+					}
+				]
+			}
+		]
+	},
+	"10003" : {
+		"id" : 10003,
+		"name" : "醒酒毡",
+		"description" : "解除我方全体英杰的负面状态，并且恢复{0}%的生命。消耗怒气20。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 20,
+		"priority" : 3,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 15,
+						"type" : 0,
+						"value" : [ 5 ],
+						"growth" : [ 1 ]
+					},
+					{
+						"id" : 42,
+						"type" : 0,
+						"value" : [],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10004" : {
+		"id" : 10004,
+		"name" : "风雷黄金棍",
+		"description" : "攻击敌方生命最高的一名英杰，造成物理攻击{0}%的伤害，且有50%几率令目标眩晕2回合。消耗怒气50。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 50,
+		"priority" : 3,
+		"delaytime" : 3250,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 7,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 220, 0, 0 ],
+						"growth" : [ 30 ]
+					},
+					{
+						"id" : 52,
+						"type" : 2,
+						"value" : [ 50, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10005" : {
+		"id" : 10005,
+		"name" : "雷公凿",
+		"description" : "攻击敌方全体，造成法术攻击{0}%的伤害，且有{1}%几率令目标麻痹3回合。消耗怒气50。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 50,
+		"priority" : 3,
+		"delaytime" : 5830,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 220, 0, 0 ],
+						"growth" : [ 30 ]
+					},
+					{
+						"id" : 51,
+						"type" : 2,
+						"value" : [ 60, 3 ],
+						"growth" : [ 8 ]
+					}
+				]
+			}
+		]
+	},
+	"10006" : {
+		"id" : 10006,
+		"name" : "打神鞭",
+		"description" : "攻击敌方生命最低的一名英杰，造成法术攻击{0}%的伤害，若本次攻击时目标被击杀，敌方全体英杰怒气归零。消耗怒气60。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 60,
+		"priority" : 3,
+		"delaytime" : 5569,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 6,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 200, 0, 0 ],
+						"growth" : [ 20 ]
+					}
+				]
+			}
+		]
+	},
+	"10007" : {
+		"id" : 10007,
+		"name" : "戊己杏黄旗",
+		"description" : "为我方全体英杰附加一个护盾，护盾未被打破前可吸收敌方对我方造成的物理攻击伤害和法术攻击伤害，吸收数值是自身生命的{0}%。消耗怒气80。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 80,
+		"priority" : 3,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 33,
+						"type" : 1,
+						"value" : [ 300 ],
+						"growth" : [ 60 ]
+					}
+				]
+			}
+		]
+	},
+	"10008" : {
+		"id" : 10008,
+		"name" : "乾坤圈",
+		"description" : "随机攻击敌方一名英杰，造成物理攻击{0}%的伤害，且有30%几率暴击。消耗怒气60。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 60,
+		"priority" : 3,
+		"delaytime" : 4200,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 300, 0, 30 ],
+						"growth" : [ 30 ]
+					}
+				]
+			}
+		]
+	},
+	"10009" : {
+		"id" : 10009,
+		"name" : "混天绫",
+		"description" : "为自身附加格挡状态，成功几率{0}%，持续3回合。消耗怒气30。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 30,
+		"priority" : 3,
+		"delaytime" : 3600,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 32,
+						"type" : 1,
+						"value" : [ 50, 3 ],
+						"growth" : [ 10 ]
+					}
+				]
+			}
+		]
+	},
+	"10010" : {
+		"id" : 10010,
+		"name" : "风火轮",
+		"description" : "自身增加速度{0}%，持续4回合。消耗怒气20。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 20,
+		"priority" : 3,
+		"delaytime" : 3500,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 16,
+						"type" : 1,
+						"value" : [ 10, 4 ],
+						"growth" : [ 3 ]
+					}
+				]
+			}
+		]
+	},
+	"10011" : {
+		"id" : 10011,
+		"name" : "八卦云光帕",
+		"description" : "攻击敌方前排，造成法术攻击{0}%的伤害，且有50%几率降低20%法术防御，持续3回合。消耗怒气40。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 40,
+		"priority" : 3,
+		"delaytime" : 5360,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 2,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 16 ]
+					},
+					{
+						"id" : 104,
+						"type" : 2,
+						"value" : [ 50, 20, 3 ],
+						"growth" : [ 0, 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10012" : {
+		"id" : 10012,
+		"name" : "拔舌钩",
+		"description" : "攻击敌方前排单体，造成物理攻击{0}%的伤害，并且封印目标2回合。消耗怒气40。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 40,
+		"priority" : 3,
+		"delaytime" : 3468,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 24 ]
+					},
+					{
+						"id" : 54,
+						"type" : 2,
+						"value" : [ 100, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10013" : {
+		"id" : 10013,
+		"name" : "缚魂锁",
+		"description" : "攻击敌方前排单体，造成法术攻击{0}%的伤害，并且封印目标2回合。消耗怒气40。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 40,
+		"priority" : 3,
+		"delaytime" : 3266,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 24 ]
+					},
+					{
+						"id" : 54,
+						"type" : 2,
+						"value" : [ 100, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10014" : {
+		"id" : 10014,
+		"name" : "灭妖令",
+		"description" : "攻击敌方全体，造成法术攻击160%的伤害，且降低物理防御{0}%法术防御{1}%，持续3回合。消耗怒气50。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 50,
+		"priority" : 3,
+		"delaytime" : 3249,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 160, 0, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 103,
+						"type" : 2,
+						"value" : [ 100, 10, 3 ],
+						"growth" : [ 0, 6 ]
+					},
+					{
+						"id" : 104,
+						"type" : 2,
+						"value" : [ 100, 10, 3 ],
+						"growth" : [ 0, 6 ]
+					}
+				]
+			}
+		]
+	},
+	"10015" : {
+		"id" : 10015,
+		"name" : "开天珠",
+		"description" : "随机攻击敌方一名英杰，造成物理攻击{0}%的伤害，且目标眩晕2回合。消耗怒气40。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 40,
+		"priority" : 3,
+		"delaytime" : 2618,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 150, 0, 0 ],
+						"growth" : [ 20 ]
+					},
+					{
+						"id" : 52,
+						"type" : 2,
+						"value" : [ 100, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10016" : {
+		"id" : 10016,
+		"name" : "雷公鞭",
+		"description" : "攻击敌方一列，造成物理攻击{0}%的伤害，且目标麻痹3回合。消耗怒气40。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 40,
+		"priority" : 3,
+		"delaytime" : 3570,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 4,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 160, 0, 0 ],
+						"growth" : [ 12 ]
+					},
+					{
+						"id" : 51,
+						"type" : 2,
+						"value" : [ 100, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10017" : {
+		"id" : 10017,
+		"name" : "黄钺",
+		"description" : "释放后我方存活的英杰随机进行{0}次普通攻击。消耗怒气50。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 50,
+		"priority" : 3,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "//目标释放指定次数普通攻击。",
+						"id" : 1017,
+						"type" : 0,
+						"value" : [ 5 ],
+						"growth" : [ 0.6 ]
+					}
+				]
+			}
+		]
+	},
+	"10018" : {
+		"id" : 10018,
+		"name" : "牦尾杖",
+		"description" : "释放后我方存活的英杰随机释放{0}次可释放的技能。消耗怒气50。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 50,
+		"priority" : 3,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "//目标无视控制释放指定次数技能。",
+						"id" : 1018,
+						"type" : 0,
+						"value" : [ 1 ],
+						"growth" : [ 0.6 ]
+					}
+				]
+			}
+		]
+	},
+	"10019" : {
+		"id" : 10019,
+		"name" : "斩将刀",
+		"description" : "攻击敌方后排单体，造成物理攻击{0}%的伤害，且有{1}%几率触发必杀。消耗怒气50。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 50,
+		"priority" : 3,
+		"delaytime" : 3554,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 1,
+				"effect" : [
+					{
+						"id" : 4,
+						"type" : 0,
+						"value" : [ 10 ],
+						"growth" : [ 4 ]
+					},
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 150, 0, 0 ],
+						"growth" : [ 16 ]
+					}
+				]
+			}
+		]
+	},
+	"10020" : {
+		"id" : 10020,
+		"name" : "铁嘴神鹰",
+		"description" : "随机攻击敌方一名英杰，造成物理攻击{0}%的伤害，回合结束时，降低目标当前生命的{1}%，持续3回合。消耗怒气40。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 40,
+		"priority" : 3,
+		"delaytime" : 3800,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 200, 0, 0 ],
+						"growth" : [ 16 ]
+					},
+					{
+						"-1" : "//回合结束时降低目标指定百分比的当前血量。流血",
+						"id" : 201,
+						"type" : 2,
+						"value" : [ 100, 30, 3 ],
+						"growth" : [ 4 ]
+					}
+				]
+			}
+		]
+	},
+	"10021" : {
+		"id" : 10021,
+		"name" : "金攥提芦枪",
+		"description" : "攻击敌方一列，造成物理攻击{0}%的伤害，且有50%几率令目标眩晕2回合。消耗怒气30。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 30,
+		"priority" : 3,
+		"delaytime" : 3151,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 4,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 160, 0, 0 ],
+						"growth" : [ 12 ]
+					},
+					{
+						"id" : 52,
+						"type" : 2,
+						"value" : [ 50, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10022" : {
+		"id" : 10022,
+		"name" : "金弓银弹",
+		"description" : "随机攻击敌方一名英杰，造成物理攻击{0}%的伤害，并且将目标的怒气归0。消耗怒气40。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 40,
+		"priority" : 3,
+		"delaytime" : 3244,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 220, 0, 0 ],
+						"growth" : [ 20 ]
+					},
+					{
+						"--" : "//目标怒气归零。",
+						"id" : 18,
+						"type" : 0,
+						"value" : [],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10023" : {
+		"id" : 10023,
+		"name" : "开山斧",
+		"description" : "攻击敌方前排单体，造成物理攻击{0}%的伤害，且目标眩晕3回合。消耗怒气70。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 70,
+		"priority" : 3,
+		"delaytime" : 2945,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 200, 0, 0 ],
+						"growth" : [ 30 ]
+					},
+					{
+						"id" : 52,
+						"type" : 2,
+						"value" : [ 100, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10024" : {
+		"id" : 10024,
+		"name" : "赶山鞭",
+		"description" : "随机攻击敌方一名英杰，造成物理攻击{0}%的伤害，并交换该列英杰的位置。消耗怒气20。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 20,
+		"priority" : 3,
+		"delaytime" : 3309,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 200, 0, 0 ],
+						"growth" : [ 20 ]
+					},
+					{
+						"--" : "//目标与该列的英杰互换位置，注，若该列只有一个英杰，该目标也会移动到这一列的另外一个位置。",
+						"id" : 25,
+						"type" : 0,
+						"value" : [],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10025" : {
+		"id" : 10025,
+		"name" : "雌雄双鞭",
+		"description" : "随机攻击敌方两名英杰，造成法术攻击{0}%的伤害，且附加雌雄标记3回合。雌雄标记状态下，如果其中一名英杰死亡，则另一名被标记的英杰也会死亡。消耗怒气60。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 60,
+		"priority" : 3,
+		"delaytime" : 3023,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 9,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 120, 0, 0 ],
+						"growth" : [ 12 ]
+					},
+					{
+						"-1" : "//目标附加雌雄标记。",
+						"id" : 86,
+						"type" : 3,
+						"value" : [ 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10026" : {
+		"id" : 10026,
+		"name" : "莫邪宝剑",
+		"description" : "随机攻击敌方一名英杰，造成法术攻击{0}%的伤害。且有50%几率破击。消耗怒气30。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 30,
+		"priority" : 3,
+		"delaytime" : 4506,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 200, 50, 0 ],
+						"growth" : [ 20 ]
+					}
+				]
+			}
+		]
+	},
+	"10027" : {
+		"id" : 10027,
+		"name" : "攒心钉",
+		"description" : "攻击敌方前排单体，造成法术攻击{0}%的伤害，且有50%几率令目标定身2回合。消耗怒气20。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 20,
+		"priority" : 3,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 130, 0, 0 ],
+						"growth" : [ 16 ]
+					},
+					{
+						"-1" : "//目标进入定身状态。",
+						"id" : 57,
+						"type" : 2,
+						"value" : [ 50, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10028" : {
+		"id" : 10028,
+		"name" : "丧门夺魂枪",
+		"description" : "攻击敌方一列，造成法术攻击{0}%的伤害，且有50%几率附加夺魂标记1回合，附加夺魂标记的英杰，本回合内再次受到攻击则死亡。消耗怒气60。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 60,
+		"priority" : 3,
+		"delaytime" : 3610,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 4,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 150, 0, 0 ],
+						"growth" : [ 20 ]
+					},
+					{
+						"id" : 8,
+						"type" : 3,
+						"value" : [ 50, 1 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10029" : {
+		"id" : 10029,
+		"name" : "奎龙之角",
+		"description" : "攻击敌方一列，造成物理攻击{0}%的伤害，且后排被攻击的目标100%被暴击。消耗怒气40。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 40,
+		"priority" : 3,
+		"delaytime" : 3396,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 4,
+				"effect" : [
+					{
+						"id" : 6,
+						"type" : 0,
+						"value" : [ 300, 0, 0 ],
+						"growth" : [ 40 ]
+					}
+				]
+			}
+		]
+	},
+	"10030" : {
+		"id" : 10030,
+		"name" : "妖丹自爆",
+		"description" : "攻击敌方全体，造成法术攻击{0}%的伤害，并且自身保留1点生命，剩余生命值平均分成等份，攻击敌方在场的所有目标。消耗怒气80。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 80,
+		"priority" : 3,
+		"delaytime" : 8203,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 7,
+						"type" : 0,
+						"value" : [ 150, 0, 0 ],
+						"growth" : [ 10 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 43,
+						"type" : 3,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10031" : {
+		"id" : 10031,
+		"name" : "青丘印",
+		"description" : "攻击敌方后排单体，造成法术攻击{0}%的伤害，且封印目标3回合。消耗怒气60。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 60,
+		"priority" : 3,
+		"delaytime" : 3136,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 1,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 200, 0, 0 ],
+						"growth" : [ 20 ]
+					},
+					{
+						"id" : 54,
+						"type" : 2,
+						"value" : [ 100, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1021" : {
+		"id" : 1021,
+		"name" : "方天三叉戟",
+		"description" : "上阵对敌的一杆画戟。随机攻击敌方三名英杰，造成物理攻击{0}%的伤害，且有30%几率破击。每升1级物理攻击伤害提高0.5%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 2367,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 10,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 190, 30, 0 ],
+						"growth" : [ 0.5 ]
+					}
+				]
+			}
+		]
+	},
+	"2021" : {
+		"id" : 2021,
+		"name" : "五行斩",
+		"description" : "以五行术法演化而来的对敌仙法。攻击敌方前排单体，造成物理攻击{0}%的伤害，并且随机附加金，木，水，火，土属性负面状态。金为致盲，木为中毒，水为封印，火为虚弱，土为眩晕。每升1级物理攻击伤害提高1%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 2544,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 1 ]
+					},
+					{
+						"id" : 20,
+						"type" : 2,
+						"value" : [ 20, 2 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 204,
+						"type" : 2,
+						"value" : [ 20, 15, 2 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 54,
+						"type" : 2,
+						"value" : [ 20, 2 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 38,
+						"type" : 2,
+						"value" : [ 20, 2 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 52,
+						"type" : 2,
+						"value" : [ 20, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3021" : {
+		"id" : 3021,
+		"name" : "托塔天王",
+		"description" : "玲珑塔乃是燃灯道人所赠，后随李靖一同肉身成圣。自身不会被破击。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "//目标免疫破击",
+						"id" : 3021,
+						"type" : 3,
+						"value" : [],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10032" : {
+		"id" : 10032,
+		"name" : "玲珑宝塔",
+		"description" : "攻击敌方怒气最高的一名英杰，造成法术攻击{0}%的伤害，附加煅烧标记5回合。附加煅烧标记的目标物理攻击和法术攻击增加10%，回合结束时降低20%生命，且只能攻击李靖。标记消失前，李静无法释放该法宝技能。消耗怒气30。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 30,
+		"priority" : 3,
+		"delaytime" : 3700,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 12,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 220, 0, 0 ],
+						"growth" : [ 30 ]
+					},
+					{
+						"--" : "//附加煅烧标记",
+						"id" : 88,
+						"type" : 3,
+						"value" : [ 5 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10033" : {
+		"id" : 10033,
+		"name" : "六陈鞭",
+		"description" : "攻击敌方前排单体，造成物理攻击{0}%的六连击伤害。且有50%几率破击。消耗怒气50。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 50,
+		"priority" : 3,
+		"delaytime" : 2467,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 60, 50, 0 ],
+						"growth" : [ 12 ]
+					},
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 60, 50, 0 ],
+						"growth" : [ 12 ]
+					},
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 60, 50, 0 ],
+						"growth" : [ 12 ]
+					},
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 60, 50, 0 ],
+						"growth" : [ 12 ]
+					},
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 60, 50, 0 ],
+						"growth" : [ 12 ]
+					},
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 60, 50, 0 ],
+						"growth" : [ 12 ]
+					}
+				]
+			}
+		]
+	},
+	"1022" : {
+		"id" : 1022,
+		"name" : "金光乍现",
+		"description" : "寒光一闪，金光乍现，如天外一剑，转瞬即过。随机攻击敌方一名英杰，造成法术攻击{0}%的伤害，且目标致盲2回合。每升1级法术攻击伤害提高1%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 2417,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 160, 0, 0 ],
+						"growth" : [ 1 ]
+					},
+					{
+						"--" : "//目标附加致盲状态，处于该状态下的英杰命中下降30%",
+						"id" : 20,
+						"type" : 2,
+						"value" : [ 100, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2022" : {
+		"id" : 2022,
+		"name" : "甘露净瓶",
+		"description" : "救苦救难，杨枝甘露。为我方生命百分比最少的一名英杰恢复生命，恢复数值是法术攻击的{0}%，且驱散该英杰的所有负面状态。每升1级恢复数值百分比提高1%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 6,
+				"effect" : [
+					{
+						"id" : 41,
+						"type" : 0,
+						"value" : [ 150 ],
+						"growth" : [ 1 ]
+					},
+					{
+						"--" : "//驱散目标的负面状态，注，只驱散类型为2的状态",
+						"id" : 42,
+						"type" : 0,
+						"value" : [],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3022" : {
+		"id" : 3022,
+		"name" : "灵蛇护体",
+		"description" : "天赋神通，灵蛇护体。受到伤害时，有30%几率反击伤害来源，反击伤害是法术攻击的60%，并且目标中毒2回合。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 3022,
+						"type" : 3,
+						"value" : [],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10034" : {
+		"id" : 10034,
+		"name" : "遁龙桩",
+		"description" : "随机攻击敌方一名英杰，{0}%几率令目标定身4回合，回合结束时目标生命降低10%。消耗怒气60。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 60,
+		"priority" : 3,
+		"delaytime" : 2139,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"--" : "//目标定身，注一，回合结束时目标损失10%生命，注二，升级增加附加定身成功几率",
+						"id" : 58,
+						"type" : 2,
+						"value" : [ 50, 4 ],
+						"growth" : [ 10 ]
+					}
+				]
+			}
+		]
+	},
+	"1023" : {
+		"id" : 1023,
+		"name" : "摘叶飞花",
+		"description" : "舞刀弄剑，夺人性命，摘叶飞花,亦能伤人。随机攻击敌方一名英杰，造成法术攻击{0}%的伤害，且目标禁疗2回合。每升1级法术攻击伤害提高0.8%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 2942,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 150, 0, 0 ],
+						"growth" : [ 0.8 ]
+					},
+					{
+						"--" : "//目标进入禁疗状态，禁疗状态血量只减不加",
+						"id" : 39,
+						"type" : 2,
+						"value" : [ 100, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2023" : {
+		"id" : 2023,
+		"name" : "耳聪目明",
+		"description" : "大彻大悟，明心见性。我方全体英杰速度增加{0}%，持续2回合，且附加必中3回合。每升1级速度提高0.2%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 16,
+						"type" : 1,
+						"value" : [ 5, 2 ],
+						"growth" : [ 0.2 ]
+					},
+					{
+						"--" : "//目标进入必中状态，必中状态无视所有闪避效果",
+						"id" : 22,
+						"type" : 1,
+						"value" : [ 200, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3023" : {
+		"id" : 3023,
+		"name" : "惠岸行者",
+		"description" : "普贤真人弟子，封神后成为观世音菩萨大弟子。自身每次受到攻击时，物理防御和法术防御增加5%。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 3023,
+						"type" : 3,
+						"value" : [ 5 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10035" : {
+		"id" : 10035,
+		"name" : "吴钩双剑",
+		"description" : "随机攻击敌方一名英杰，造成法术攻击{0}%的二连击伤害，且目标流血2回合。消耗怒气30。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 30,
+		"priority" : 3,
+		"delaytime" : 4306,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 12 ]
+					},
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 12 ]
+					},
+					{
+						"id" : 201,
+						"type" : 2,
+						"value" : [ 100, 15, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1024" : {
+		"id" : 1024,
+		"name" : "乾坤一掷",
+		"description" : "才气逼人，一掷千金，化法力为黄金，以黄金为暗器。随机攻击敌方一名英杰，造成物理攻击{0}%的伤害，并且扣除目标{1}点怒气。每升1级物理攻击伤害提高0.5%，扣除怒气增加0.1。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 2724,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 0.5 ]
+					},
+					{
+						"id" : 19,
+						"type" : 0,
+						"value" : [ -10 ],
+						"growth" : [ -0.1 ]
+					}
+				]
+			}
+		]
+	},
+	"2024" : {
+		"id" : 2024,
+		"name" : "财神送宝",
+		"description" : "掌管天下财富，亦可调动天下财富，财神送宝啦。自身生命降低{0}%，扣除敌方全体英杰{1}点怒气。我方全体英杰增加{2}点怒气。每升1级降低生命减少0.1%，敌方扣除怒气增加0.1，我方怒气增加0.1。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 15,
+						"type" : 0,
+						"value" : [ -20 ],
+						"growth" : [ 0.1 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 19,
+						"type" : 0,
+						"value" : [ -10 ],
+						"growth" : [ -0.1 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 19,
+						"type" : 0,
+						"value" : [ 10 ],
+						"growth" : [ 0.1 ]
+					}
+				]
+			}
+		]
+	},
+	"3024" : {
+		"id" : 3024,
+		"name" : "玄坛真君",
+		"description" : "统领座下四大财神，奉命执掌天下财富的金银财宝。受到攻击时，攻击来源致盲3回合。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 3024,
+						"type" : 3,
+						"value" : [ 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10036" : {
+		"id" : 10036,
+		"name" : "二十四诸天",
+		"description" : "随机攻击敌方一名英杰，造成物理攻击{0}%的伤害，且有60%几率再次攻击。消耗怒气70。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 70,
+		"priority" : 3,
+		"delaytime" : 5787,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 9,
+						"type" : 0,
+						"value" : [ 250, 60 ],
+						"growth" : [ 20 ]
+					}
+				]
+			}
+		]
+	},
+	"1025" : {
+		"id" : 1025,
+		"name" : "云海波涛",
+		"description" : "观察天上的云彩结合大海所领悟的一种攻杀之术。攻击敌方前排，造成法术攻击{0}%的伤害，且有30%几率破击。每升1级法术攻击伤害提高0.5%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 3122,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 2,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 140, 30, 0 ],
+						"growth" : [ 0.5 ]
+					}
+				]
+			}
+		]
+	},
+	"2025" : {
+		"id" : 2025,
+		"name" : "九曲黄河阵",
+		"description" : "此阵内按三才，藏天地之妙，中有惑仙丹，闭仙诀，能失仙之神，消仙之魂，陷仙之形，损仙之气，丧仙之原本，损仙之肢体。神仙入此而成凡，凡人入此而即绝。九曲曲中无直，曲尽造化之奇，抉尽神仙之秘，任他三教圣人，遭此也难逃脱。自身生命降低{0}%，攻击敌方全体，造成法术攻击{1}%的伤害，且有50%几率附加黄河标记3回合。附加黄河标记的英杰，回合结束时境界降低1至2阶，当英杰低于修士境界则直接死亡。每升1级降低生命减少0.1%，法术攻击伤害提高0.4%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 4536,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 15,
+						"type" : 0,
+						"value" : [ -20 ],
+						"growth" : [ 0.1 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 60, 0, 0 ],
+						"growth" : [ 0.4 ]
+					},
+					{
+						"--" : "//目标附加黄河标记，附加标记的英杰回合结束时境界降低1至2，当英杰境界<1，英杰死亡",
+						"id" : 87,
+						"type" : 3,
+						"value" : [ 50, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3025" : {
+		"id" : 3025,
+		"name" : "三霄娘娘",
+		"description" : "居住在海外三仙岛的三位仙子，与世无争，感情极为深厚。我方除自身以外的英杰死亡时，自身怒气增加30。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "//己方除目标以外的英杰死亡时，目标怒气增加",
+						"id" : 3025,
+						"type" : 3,
+						"value" : [ 30 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10037" : {
+		"id" : 10037,
+		"name" : "金蛟剪",
+		"description" : "随机攻击敌方一名英杰，造成物理攻击{0}%的伤害，且有{1}%几率触发致残攻击。消耗怒气60。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 60,
+		"priority" : 3,
+		"delaytime" : 4692,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 300, 0, 0 ],
+						"growth" : [ 50 ]
+					},
+					{
+						"--" : "//目标致残攻击的几率，致残攻击等于扣除50%生命，若扣完之后生命<=0，目标死亡",
+						"id" : 5,
+						"type" : 0,
+						"value" : [ 30 ],
+						"growth" : [ 10 ]
+					}
+				]
+			}
+		]
+	},
+	"1026" : {
+		"id" : 1026,
+		"name" : "碧海狂涛",
+		"description" : "观无尽海水之变化，或风平浪静，或狂涛汹涌，所领悟的攻杀之术。攻击敌方后排，造成法术攻击{0}%的伤害，且有30%几率暴击。每升1级法术攻击伤害提高0.5%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 2723,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 3,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 140, 0, 30 ],
+						"growth" : [ 0.5 ]
+					}
+				]
+			}
+		]
+	},
+	"2026" : {
+		"id" : 2026,
+		"name" : "大海无量",
+		"description" : "深度观想大海之广阔神秘，变化莫测，所领悟的仙法神通。攻击敌方全体，造成法术攻击{0}%的伤害，且有30%几率暴击。每升1级法术攻击伤害提高0.3%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 4086,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 170, 0, 30 ],
+						"growth" : [ 0.3 ]
+					}
+				]
+			}
+		]
+	},
+	"10038" : {
+		"id" : 10038,
+		"name" : "混元金斗",
+		"description" : "{0}%几率随机对敌方一名英杰附加放逐标记，附加放逐标记的英杰无法攻击的同时也不会被攻击。目标一方除目标以外的所有英杰死亡后，标记消失。场上最多只会存在一个放逐标记，多次释放只可重新附加标记。消耗怒气20。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 20,
+		"priority" : 3,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"--" : "//目标附加放逐标记，附加放逐标记的英杰无法攻击的同时也不会被攻击，注一，一方最多只有一个放逐标记，再次释放成功附加只会重置标记，注二，当目标一方英杰不足2人时，该标记消失，此外，该技能也无法释放",
+						"id" : 89,
+						"type" : 3,
+						"value" : [ 50 ],
+						"growth" : [ 10 ]
+					}
+				]
+			}
+		]
+	},
+	"1027" : {
+		"id" : 1027,
+		"name" : "裂海箭",
+		"description" : "一剑在手，可开衫，裂海，断水，破天。攻击敌方一列，造成法术攻击{0}%的伤害，且有30%几率降低20%法术防御，持续2回合。每升1级法术攻击伤害提高0.6%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 1975,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 4,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 160, 0, 0 ],
+						"growth" : [ 0.6 ]
+					},
+					{
+						"id" : 104,
+						"type" : 2,
+						"value" : [ 30, 20, 2 ],
+						"growth" : [ 0, 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2027" : {
+		"id" : 2027,
+		"name" : "琼枝玉叶",
+		"description" : "琼脂挺秀，玉叶资神，允厘监抚，仪形稚颂。为我方生命百分比最少的一名英杰恢复生命，恢复数值是法术攻击的{0}%，此外，技能释放后的前两个回合结束时仍会恢复一次。且增加20%法术防御，持续3回合。每升1级恢复数值百分比提高0.4%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 6,
+				"effect" : [
+					{
+						"id" : 41,
+						"type" : 0,
+						"value" : [ 100 ],
+						"growth" : [ 0.4 ]
+					},
+					{
+						"--" : "//回合结束时为目标恢复生命，恢复数值是自身法术攻击的百分比",
+						"id" : 206,
+						"type" : 1,
+						"value" : [ 100, 2 ],
+						"growth" : [ 0.4 ]
+					},
+					{
+						"id" : 14,
+						"type" : 1,
+						"value" : [ 20, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10039" : {
+		"id" : 10039,
+		"name" : "缚龙锁",
+		"description" : "攻击敌方随机一名英杰，造成法术攻击100%的伤害，且有{0}%几率封印目标4回合。消耗怒气20。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 20,
+		"priority" : 3,
+		"delaytime" : 4290,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 54,
+						"type" : 2,
+						"value" : [ 30, 4 ],
+						"growth" : [ 10 ]
+					}
+				]
+			}
+		]
+	},
+	"1028" : {
+		"id" : 1028,
+		"name" : "寿星赐福",
+		"description" : "阳寿奶是天定，但是寿星可以赐福天下人，让活着的人寿命更长久。为我方生命最低的一名英杰恢复生命，恢复数值是法术攻击的{0}%。每升1级恢复数值百分比提高1%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 1,
+		"priority" : 1,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 6,
+				"effect" : [
+					{
+						"id" : 41,
+						"type" : 0,
+						"value" : [ 150 ],
+						"growth" : [ 1 ]
+					}
+				]
+			}
+		]
+	},
+	"2028" : {
+		"id" : 2028,
+		"name" : "天地同寿",
+		"description" : "利用大神通普照天下，让我方全体延年益寿。为我方全体英杰恢复生命，恢复数值是法术攻击的{0}%。每升1级恢复数值百分比提高0.6%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 41,
+						"type" : 0,
+						"value" : [ 120 ],
+						"growth" : [ 0.6 ]
+					}
+				]
+			}
+		]
+	},
+	"3028" : {
+		"id" : 3028,
+		"name" : "长寿诀",
+		"description" : "南极真君，掌管人间寿命，自身修炼的长寿诀更是上古神通。自身生命增加20%。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "//目标生命属性增加",
+						"id" : 3028,
+						"type" : 3,
+						"value" : [ 20 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10040" : {
+		"id" : 10040,
+		"name" : "五火七翎扇",
+		"description" : "{0}%几率令敌方全体英杰封印3回合，麻痹3回合。消耗怒气60。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 60,
+		"priority" : 3,
+		"delaytime" : 7062,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 54,
+						"type" : 2,
+						"value" : [ 30, 3 ],
+						"growth" : [ 10 ]
+					},
+					{
+						"id" : 51,
+						"type" : 2,
+						"value" : [ 30, 3 ],
+						"growth" : [ 10 ]
+					}
+				]
+			}
+		]
+	},
+	"10041" : {
+		"id" : 10041,
+		"name" : "长生葫芦",
+		"description" : "随机复活我方已死亡的一名英杰，并且恢复生命{0}%，若我方没有已死亡的英杰，该技能无法使用。此外，若自身死亡时怒气足够释放该技能，自身死亡后立刻复活。消耗怒气80。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 80,
+		"priority" : 3,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 15,
+				"effect" : [
+					{
+						"--" : "//复活目标且恢复相应百分比的生命，若无复活的目标则自身无敌，注，无敌状态免疫所有伤害以及类型为2的boff",
+						"id" : 150,
+						"type" : 0,
+						"value" : [ 30 ],
+						"growth" : [ 10 ]
+					}
+				]
+			}
+		]
+	},
+	"10051" : {
+		"id" : 10051,
+		"name" : "番天印",
+		"description" : "攻击敌方前排单体，造成物理攻击{0}%的伤害。消耗怒气50。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 50,
+		"priority" : 3,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 400, 0, 0 ],
+						"growth" : [ 30 ]
+					}
+				]
+			}
+		]
+	},
+	"1029" : {
+		"id" : 1029,
+		"name" : "土龙裂山棍",
+		"description" : "摧枯拉朽，开山裂石，横扫千军，气势如龙。攻击敌方后排单体，造成物理攻击{0}%的伤害，若自身处于隐身状态下释放该技能，本次攻击必定暴击。每升1级物理攻击伤害提高1%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 3965,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 1,
+				"effect" : [
+					{
+						"--" : "//若自身处于隐身状态释放该技能，本次攻击必定暴击，注一，若被攻击的目标免疫暴击，则暴击无效，注二，本次攻击是物理攻击",
+						"id" : 26,
+						"type" : 0,
+						"value" : [ 180 ],
+						"growth" : [ 1 ]
+					}
+				]
+			}
+		]
+	},
+	"2029" : {
+		"id" : 2029,
+		"name" : "遁地术",
+		"description" : "修炼的看家本领，可遁地而行，令人防不胜防。自身物理攻击增加{0}%，持续2回合，且自身进入隐身状态。下回合攻击后自动现形。每升1级增加的物理攻击提高0.3%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 11,
+						"type" : 1,
+						"value" : [ 20, 2 ],
+						"growth" : [ 0.3 ]
+					},
+					{
+						"--" : "//目标进入隐身状态，隐身状态无法成为技能的释放目标",
+						"id" : 60,
+						"type" : 1,
+						"value" : [],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3029" : {
+		"id" : 3029,
+		"name" : "土府星君",
+		"description" : "掌管群星列宿，星辰之力加深。自身增加闪避率20%。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 1007,
+						"type" : 3,
+						"value" : [ 20 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10042" : {
+		"id" : 10042,
+		"name" : "捆仙绳",
+		"description" : "{0}%几率随机对敌方一名英杰定身4回合。消耗怒气30。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 30,
+		"priority" : 3,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 57,
+						"type" : 2,
+						"value" : [ 30, 4 ],
+						"growth" : [ 6 ]
+					}
+				]
+			}
+		]
+	},
+	"1030" : {
+		"id" : 1030,
+		"name" : "快马双刀斩",
+		"description" : "迅捷神速，出手如电，双刀联展，英气逼人。随机攻击敌方一名英杰，造成物理攻击{0}%的伤害，随机攻击两次，且有20%几率破击。每升1级物理攻击伤害提高0.6%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 2600,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 150, 20, 0 ],
+						"growth" : [ 0.6 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 150, 20, 0 ],
+						"growth" : [ 0.6 ]
+					}
+				]
+			}
+		]
+	},
+	"2030" : {
+		"id" : 2030,
+		"name" : "飒爽英姿",
+		"description" : "弯弓征战作男儿，梦里曾经与画眉。 几度思归还把酒，拂云堆上祝明妃。我方全体英杰物理攻击增加{0}%，持续3回合。每升1级增加的物理攻击提高0.3%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 11,
+						"type" : 1,
+						"value" : [ 10, 3 ],
+						"growth" : [ 0.3 ]
+					}
+				]
+			}
+		]
+	},
+	"3030" : {
+		"id" : 3030,
+		"name" : "六合星君",
+		"description" : "众星宿之一，虽不起眼，但星星之火也可燎原。自身存活时，为我方全体英杰增加20%物理攻击。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "//目标存活时未目标一方全体英杰增加物理攻击",
+						"id" : 3030,
+						"type" : 3,
+						"value" : [ 20 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10043" : {
+		"id" : 10043,
+		"name" : "五光石",
+		"description" : "随机攻击敌方一名英杰，造成物理攻击{0}%的伤害，随机攻击三次，并且无法闪避。消耗怒气30。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 30,
+		"priority" : 3,
+		"delaytime" : 4590,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 150, 0, 0 ],
+						"growth" : [ 16 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 150, 0, 0 ],
+						"growth" : [ 16 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 150, 0, 0 ],
+						"growth" : [ 16 ]
+					}
+				]
+			}
+		]
+	},
+	"1031" : {
+		"id" : 1031,
+		"name" : "虎头湛金枪",
+		"description" : "此枪乃由混铁精钢所著，长一丈五尺，枪头为镏金虎头形，内含白虎残魂，一枪杀出，声若虎啸，动若雷霆。攻击敌方一列，造成物理攻击{0}%的伤害，且目标流血二回合。每升1级物理攻击伤害提高0.6%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 2800,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 4,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 160, 0, 0 ],
+						"growth" : [ 0.6 ]
+					},
+					{
+						"id" : 201,
+						"type" : 2,
+						"value" : [ 100, 30, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2031" : {
+		"id" : 2031,
+		"name" : "灵气环绕",
+		"description" : "释放体内魔气，与身外灵气相容，形成护体气罩护持己身。自身免疫法术攻击伤害3回合，物理防御降低{0}%。每升一级物理防御降低减少0.3%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "“法术免疫”双引号里的内容是客户端需要显示的状态，顾名思义，免疫所有法术伤害",
+						"id" : 37,
+						"type" : 1,
+						"value" : [ 3 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 103,
+						"type" : 3,
+						"value" : [ 100, 40, 3 ],
+						"growth" : [ 0, -0.3 ]
+					}
+				]
+			}
+		]
+	},
+	"3031" : {
+		"id" : 3031,
+		"name" : "魔家四将",
+		"description" : "镇首家孟关的四兄弟，被封为四大天王，辅弼西方教典，立地水火风之相，护国安民，掌风调雨顺之权。自身存活时，我方全体英杰法攻增加15%。死亡后加成消失。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "//目标存活时未目标一方全体英杰增加法术攻击",
+						"id" : 3031,
+						"type" : 3,
+						"value" : [ 15 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10047" : {
+		"id" : 10047,
+		"name" : "青云剑",
+		"description" : "攻击敌方全体，造成物理攻击{0}%的伤害，且目标流血3回合。消耗怒气40。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 40,
+		"priority" : 3,
+		"delaytime" : 2718,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 150, 0, 0 ],
+						"growth" : [ 12 ]
+					},
+					{
+						"id" : 201,
+						"type" : 2,
+						"value" : [ 100, 30, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1032" : {
+		"id" : 1032,
+		"name" : "斗转星移",
+		"description" : "闲云潭影日悠悠，物转星移几度秋。降低敌方全体英杰法术攻击{0}%，增加我方全体英杰法术攻击{1}%，持续2回合。每升1级降低敌方全体英杰法术攻击提高0.1%，增加我方全体英杰法术攻击提高0.1%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 1,
+		"priority" : 1,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 102,
+						"type" : 2,
+						"value" : [ 100, 5, 2 ],
+						"growth" : [ 0, 0.1 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 12,
+						"type" : 1,
+						"value" : [ 5, 2 ],
+						"growth" : [ 0.1 ]
+					}
+				]
+			}
+		]
+	},
+	"2032" : {
+		"id" : 2032,
+		"name" : "元气枯竭",
+		"description" : "释放体内上古魔器，使其在敌方阵营形成魔气球笼。当魔气球笼存在时，球笼内的灵气将迅速枯竭。攻击敌方全体，造成法术攻击{0}%的伤害，且禁疗2回合。每升1级法术攻击伤害提高0.4%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 2095,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 80, 0, 0 ],
+						"growth" : [ 0.4 ]
+					},
+					{
+						"id" : 39,
+						"type" : 2,
+						"value" : [ 100, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10048" : {
+		"id" : 10048,
+		"name" : "混元伞",
+		"description" : "为我方全体英杰附加护盾，护盾可抵消{0}次非普通攻击的技能伤害。消耗怒气70。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 70,
+		"priority" : 3,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "可无视所有攻击敌方的技能，注，普工除外，数值里的3是无视次数，升级增加的次数若不>1则等于不增加次数",
+						"id" : 35,
+						"type" : 3,
+						"value" : [ 3 ],
+						"growth" : [ 0.6 ]
+					}
+				]
+			}
+		]
+	},
+	"1033" : {
+		"id" : 1033,
+		"name" : "乐司调",
+		"description" : "慈悲为怀，保护众生，护持国土。攻击敌方前排，造成法术攻击{0}%的伤害，且有30%几率令目标混乱2回合。每升一级法术攻击伤害提高0.5%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 2340,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 2,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 120, 0, 0 ],
+						"growth" : [ 0.5 ]
+					},
+					{
+						"--" : "混乱状态，效果和被动里的相同",
+						"id" : 50,
+						"type" : 2,
+						"value" : [ 30, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2033" : {
+		"id" : 2033,
+		"name" : "魔气护体",
+		"description" : "将自身修炼的上古魔气临时固话于体表，形成护体魔甲。自身免疫物理攻击伤害3回合，法术防御降低{0}%。每升一级法术防御降低减少0.3%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "“物理免疫”双引号里的内容是客户端需要显示的状态，顾名思义，免疫所有物理伤害",
+						"id" : 36,
+						"type" : 1,
+						"value" : [ 3 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 104,
+						"type" : 3,
+						"value" : [ 100, 40, 3 ],
+						"growth" : [ 0, -0.3 ]
+					}
+				]
+			}
+		]
+	},
+	"10049" : {
+		"id" : 10049,
+		"name" : "碧玉琵琶",
+		"description" : "攻击敌方全体，造成法术攻击{0}%的伤害，且有50%几率令目标混乱2回合。消耗怒气50。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 50,
+		"priority" : 3,
+		"delaytime" : 6222,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 150, 0, 0 ],
+						"growth" : [ 12 ]
+					},
+					{
+						"id" : 50,
+						"type" : 2,
+						"value" : [ 50, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1034" : {
+		"id" : 1034,
+		"name" : "赤龙锁",
+		"description" : "据记载，这是佛家度人之锁，形似赤龙，常盘于手中。正所谓我不入地狱，谁入地狱。为我方生命最少的英杰附加赤锁标记2回合，被标记的英杰物理防御降低{0}%，法术防御降低{1}%，受到的所有伤害由魔礼寿承受。每升1级物理防御降低减少0.2%，法术防御降低减少0.2%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 1,
+		"priority" : 1,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 6,
+				"effect" : [
+					{
+						"--" : "斥锁标记",
+						"id" : 90,
+						"type" : 3,
+						"value" : [ 20, 2 ],
+						"growth" : [ -0.2 ]
+					}
+				]
+			}
+		]
+	},
+	"2034" : {
+		"id" : 2034,
+		"name" : "邪气入体",
+		"description" : "以体内魔气为引，吸收四方恶念聚于身前，无知无觉，侵入目标体内。为敌方生命最高的英杰附加邪气标记3回合，被标记的英杰物理攻击增加{0}%法术攻击增加{1}%。标记消失后，该英杰被魅惑，直到战斗结束。每升1级增加的物理攻击减少0.2%，增加的法术攻击减少0.2%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 7,
+				"effect" : [
+					{
+						"--" : "邪气标记，效果值里的第一个值是增加的双攻，第二个值是持续回合",
+						"id" : 91,
+						"type" : 3,
+						"value" : [ 50, 3 ],
+						"growth" : [ -0.2 ]
+					}
+				]
+			}
+		]
+	},
+	"10050" : {
+		"id" : 10050,
+		"name" : "花狐貂",
+		"description" : "攻击敌方前排单体，造成物理攻击{0}%的吸血伤害，且有50%几率破击，60%几率再次攻击。消耗怒气50。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 50,
+		"priority" : 3,
+		"delaytime" : 5330,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 10,
+						"type" : 0,
+						"value" : [ 150, 50, 0 ],
+						"growth" : [ 10 ]
+					}
+				]
+			}
+		]
+	},
+	"1035" : {
+		"id" : 1035,
+		"name" : "方天画戟",
+		"description" : "在戟杆一端装有金属枪尖，一侧有月牙形利刃，通过两枚小枝与枪尖相连。可刺可砍,分为单耳和双耳。单耳一般叫青龙戟，双耳叫方天戟。攻击敌方前排，造成物理攻击{0}%的伤害。每升1级物理攻击伤害提高0.7%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 2800,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 2,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 130, 0, 0 ],
+						"growth" : [ 0.7 ]
+					}
+				]
+			}
+		]
+	},
+	"2035" : {
+		"id" : 2035,
+		"name" : "雌雄双剑",
+		"description" : "此剑乃是一阴一阳两把宝剑，一雌一雄，阴阳互补，双生并存。攻击敌方前排单体，造成物理攻击{0}%的二连击伤害，且自身附加双剑标记2回合。附加双剑标记时，自身释放的技能若造成伤害，则再伤害一次。每升一级物理攻击伤害提高0.3%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 2000,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 120, 0, 0 ],
+						"growth" : [ 0.3 ]
+					},
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 120, 0, 0 ],
+						"growth" : [ 0.3 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "双剑标记，目标被标记时，自身释放的技能若造成伤害则再多伤害一次",
+						"id" : 92,
+						"type" : 3,
+						"value" : [ 100, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3035" : {
+		"id" : 3035,
+		"name" : "真龙生机",
+		"description" : "具真龙之气，幼时曾以顶上红气阻女娲之驾，乃天道赋予殷商之最后生机。自身存活时，第一回合，我方50几率免疫首个目标为敌方的技能效果，此后每多一回合，免疫几率降低10%。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "第一回合起，己方首次受到目标类型为1的技能攻击有50%几率免疫该技能的效果，此后每多一回合几率-10%",
+						"id" : 3035,
+						"type" : 3,
+						"value" : [ 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10052" : {
+		"id" : 10052,
+		"name" : "番天印",
+		"description" : "攻击敌方前排单体，造成物理攻击{0}%的伤害。消耗怒气50。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 50,
+		"priority" : 3,
+		"delaytime" : 2600,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 400, 0, 0 ],
+						"growth" : [ 30 ]
+					}
+				]
+			}
+		]
+	},
+	"10053" : {
+		"id" : 10053,
+		"name" : "落魂钟",
+		"description" : "攻击敌方全体，{0}%几率附加夺魂标记2回合。消耗怒气40。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 40,
+		"priority" : 3,
+		"delaytime" : 3900,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 8,
+						"type" : 3,
+						"value" : [ 10, 2 ],
+						"growth" : [ 2 ]
+					}
+				]
+			}
+		]
+	},
+	"1036" : {
+		"id" : 1036,
+		"name" : "方天画戟",
+		"description" : "在戟杆一端装有金属枪尖，一侧有月牙形利刃，通过两枚小枝与枪尖相连。可刺可砍,分为单耳和双耳。单耳一般叫青龙戟，双耳叫方天戟。攻击敌方前排，造成物理攻击{0}%的伤害。每升1级物理攻击伤害提高0.7%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 2850,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 2,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 130, 0, 0 ],
+						"growth" : [ 0.7 ]
+					}
+				]
+			}
+		]
+	},
+	"2036" : {
+		"id" : 2036,
+		"name" : "水火锋",
+		"description" : "此物是随身护体之宝，挂于腰间上携带，形如铃铛。为自身附加一个护盾，护盾未被打破钱可吸收对自身造成的物理攻击伤害和法术攻击伤害，吸收数值是自身生命的{0}%。每升一级吸收数值提高0.2%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 47,
+						"type" : 1,
+						"value" : [ 20 ],
+						"growth" : [ 0.2 ]
+					}
+				]
+			}
+		]
+	},
+	"10054" : {
+		"id" : 10054,
+		"name" : "阴阳镜",
+		"description" : "随机照射一个除自身之外的英杰，若英杰是敌方，附加决死标记，被决死标记的英杰，死亡后无法复活，若英杰是我方，附加复生标记，被复生标记的英杰，死亡后{0}%生命复活，此外，若目标被照射两次，则标记消失。消耗怒气40。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 40,
+		"priority" : 3,
+		"act" : [
+			{
+				"target_type" : -1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "阴阳标记，参看描述，若有疑问，即时沟通",
+						"id" : 93,
+						"type" : 3,
+						"value" : [ 20 ],
+						"growth" : [ 6 ]
+					}
+				]
+			}
+		]
+	},
+	"10055" : {
+		"id" : 10055,
+		"name" : "八卦紫绶仙衣",
+		"description" : "为自身附加仙衣标记2回合。附加仙衣标记的英杰，物理攻击增加{0}%，并且免疫除普通攻击以外的所有技能效果。消耗怒气40。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 40,
+		"priority" : 3,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "仙衣标记，目标被标记时增加务工，配置里填的值就是增加和升级增加的务工百分比，此外，该标记只吃普工，其他除轻标记的技能外一切免疫，",
+						"id" : 94,
+						"type" : 3,
+						"value" : [ 10 ],
+						"growth" : [ 4 ]
+					}
+				]
+			}
+		]
+	},
+	"1037" : {
+		"id" : 1037,
+		"name" : "瑶池白光剑",
+		"description" : "母亲瑶池金母所赠，剑如一道白光，如影随形，让人逃无可逃。攻击敌方前排单体，造成法术攻击{0}%的伤害，且自身速度增加20%，持续2回合。每升1级法术攻击伤害提高1%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 2500,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 1 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 16,
+						"type" : 1,
+						"value" : [ 20, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2037" : {
+		"id" : 2037,
+		"name" : "二龙鸾飞剑",
+		"description" : "此乃二龙和鸾飞的双剑式，剑明如龙凤同声，震慑人心。剑影重重，虚实难辨。随机攻击敌方两名英杰，造成法术攻击{0}%的伤害，若两名英杰是男性，本次攻击暴击，若两名英杰性别不同，本次攻击伤害减半。每升1级法术攻击伤害提高0.6%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 4200,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 9,
+				"effect" : [
+					{
+						"--" : "两个目标性别是男性，攻击暴击，两个目标性别不同，攻击伤害减半，注意，必须攻击到两个目标才判断",
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 160, 0, 0 ],
+						"growth" : [ 0.6 ]
+					}
+				]
+			}
+		]
+	},
+	"3037" : {
+		"id" : 3037,
+		"name" : "红鸾星君",
+		"description" : "原为瑶池金母之女，曾居于天宫，因蟠桃会上失了礼数，被贬在凤凰山，后助武王伐纣有功，封红鸾星君，掌姻缘。自身攻击男性英杰，伤害增加15%。受到男性英杰攻击，伤害降低15%。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "自身攻击男性伤害增加，受到男性攻击伤害减少",
+						"id" : 3037,
+						"type" : 3,
+						"value" : [ 15 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10044" : {
+		"id" : 10044,
+		"name" : "雾露乾坤网",
+		"description" : "攻击敌方全体，造成法术攻击{0}%的伤害，且有{1}%几率令目标麻痹3回合。消耗怒气50。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 50,
+		"priority" : 3,
+		"delaytime" : 5600,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 120, 0, 0 ],
+						"growth" : [ 8 ]
+					},
+					{
+						"id" : 51,
+						"type" : 2,
+						"value" : [ 30, 3 ],
+						"growth" : [ 6 ]
+					}
+				]
+			}
+		]
+	},
+	"10045" : {
+		"id" : 10045,
+		"name" : "四海瓶",
+		"description" : "我方全体英杰附加四海瓶标记1回合，标记消失前，我方受到的伤害{0}%转化成生命为英杰回复生命值。消耗怒气40。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 40,
+		"priority" : 3,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"--" : "四海瓶标记，标记存在时，目标受到的攻击会按比例恢复目标的生命值",
+						"id" : 80,
+						"type" : 3,
+						"value" : [ 100, 1 ],
+						"growth" : [ 20 ]
+					}
+				]
+			}
+		]
+	},
+	"10046" : {
+		"id" : 10046,
+		"name" : "乾坤针",
+		"description" : "攻击敌方前排单体，造成法术攻击{0}%的伤害，若目标本回合无法行动，本次攻击触发即死效果。消耗怒气30。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 30,
+		"priority" : 3,
+		"delaytime" : 5200,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"--" : "该效果触发条件是目标本回合无法行动，遁龙桩，定身，眩晕，都会让目标本回合无法行动",
+						"id" : 27,
+						"type" : 0,
+						"value" : [ 50, 0, 0 ],
+						"growth" : [ 10 ]
+					}
+				]
+			}
+		]
+	},
+	"1038" : {
+		"id" : 1038,
+		"name" : "偃月刀",
+		"description" : "一刀话三影，道道如残月一闪，迅即且刚猛。随机攻击敌方三名英杰，造成法术攻击{0}%的伤害，且有20%几率破击。每升1级法术攻击提高0.4%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 1688,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 10,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 120, 20, 0 ],
+						"growth" : [ 0.4 ]
+					}
+				]
+			}
+		]
+	},
+	"2038" : {
+		"id" : 2038,
+		"name" : "遮天蔽日",
+		"description" : "已自身羽翼为法，将翎羽遮避整片天空，如梦似幻，极为美丽。在绚烂中暗藏无边法力。攻击敌方全体，{0}%令目标封印1回合。每升1级封印几率提高0.5%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 2725,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 54,
+						"type" : 2,
+						"value" : [ 50, 1 ],
+						"growth" : [ 0.5 ]
+					}
+				]
+			}
+		]
+	},
+	"3038" : {
+		"id" : 3038,
+		"name" : "孔雀真身",
+		"description" : "孔宣乃是世间第一支孔雀，原身为“瞠目细冠红孔雀”，体内含有凤凰血脉。是殷商的总兵官，先后镇守于三山关和金鸡岭。骑马持刀，及其神勇，曾一度逼太公高挂免战牌。后为准提道人所伏。自身附加10%闪避，每个回合闪避提高2%。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "自身增加闪避，每回合额外增加闪避",
+						"id" : 3038,
+						"type" : 3,
+						"value" : [ 10, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10056" : {
+		"id" : 10056,
+		"name" : "五色神光",
+		"description" : "自身损失{0}%生命，为敌方随机一名英杰附加五色神光标记之一，被标记的英杰将被放逐，当目标一方所有未被放逐的英杰死亡，所有颜色的神光标记消失，此外，若多次释放时释放相同颜色的标记，则本次释放无效，若目标一方集齐五色神光标记，则目标一方直接战败。消耗怒气30。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 30,
+		"priority" : 3,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 15,
+						"type" : 0,
+						"value" : [ -50 ],
+						"growth" : [ 4 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"--" : "五色神光标记，具体看技能说明，其他细节等你写的时候和你沟通",
+						"id" : 98,
+						"type" : 3,
+						"value" : [],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1039" : {
+		"id" : 1039,
+		"name" : "空即是色",
+		"description" : "色不异空，空不异色，色即是空，空即是色。随机为我方一名英杰增加{0}%法术攻击，并且附加空色标记3回合，被标记的英杰若成功闪避攻击，攻击来源魅惑3回合。每升一级增加的法术攻击提高0.2%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 1,
+		"priority" : 1,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 12,
+						"type" : 1,
+						"value" : [ 10, 3 ],
+						"growth" : [ 0.2 ]
+					},
+					{
+						"id" : 97,
+						"type" : 3,
+						"value" : [ 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2039" : {
+		"id" : 2039,
+		"name" : "色即是空",
+		"description" : "色不异空，空不异色，色即是空，空即是色。自身损失{0}%生命，清空场上所有标记。每升1级，损失生命减少0.2%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 15,
+						"type" : 0,
+						"value" : [ -30 ],
+						"growth" : [ 0.2 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 46,
+						"type" : 0,
+						"value" : [],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3039" : {
+		"id" : 3039,
+		"name" : "九命妖仙",
+		"description" : "本体乃是千年九头雉鸡精，轩辕三妖之一，排行第二。奉命断送商朝国运。因轩辕坟被比干、黄飞虎所烧，便以妲己义妹身份入宫，化名胡喜媚，成为纣王宠妃之一。前9回合的回合开始阶段，随机将敌方一名英杰某项属性的20%偷取为自身加成。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 3039,
+						"type" : 3,
+						"value" : [ 20 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10057" : {
+		"id" : 10057,
+		"name" : "如意羽衣",
+		"description" : "自身生命恢复{0}%，且附加如意羽衣标记2回合，如意羽衣标记下，受到的所有攻击都由敌方随机一名英杰承受。消耗怒气50。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 50,
+		"priority" : 3,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 15,
+						"type" : 0,
+						"value" : [ 5 ],
+						"growth" : [ 4 ]
+					},
+					{
+						"id" : 95,
+						"type" : 3,
+						"value" : [ 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1040" : {
+		"id" : 1040,
+		"name" : "寒玉掌",
+		"description" : "化冰寒之气于掌心，借寒雾掩盖，伺机重创敌手。攻击敌方生命最高的一名英杰，造成物理攻击{0}%的伤害，且有30%几率令目标虚弱2回合。每升1级物理攻击提高0.8%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 2200,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 7,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 160, 0, 0 ],
+						"growth" : [ 0.8 ]
+					},
+					{
+						"--" : "虚弱效果，目标处于虚弱效果，双防减半",
+						"id" : 38,
+						"type" : 2,
+						"value" : [ 30, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2040" : {
+		"id" : 2040,
+		"name" : "幻越拳",
+		"description" : "身若幻影，纵跃于敌阵之中。行处必现残影云雾，共有三式，其出天地变色，杀气四亿，见者本能胆寒。随机攻击敌方三明英杰，造成物理攻击{0}%的伤害，且有20%几率令目标虚弱2回合。每升1级物理攻击提高0.5%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 3500,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 10,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 150, 0, 0 ],
+						"growth" : [ 0.5 ]
+					},
+					{
+						"id" : 38,
+						"type" : 2,
+						"value" : [ 20, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3040" : {
+		"id" : 3040,
+		"name" : "真火焚身",
+		"description" : "层被姜子牙用三昧真火焚身示众，在纣王面前现出原形，妲己将玉石琵琶索去，声称要将其作为乐器为纣王弹奏乐曲。纣王不知其故，欣然应允。后，妲己将玉石琵琶放于摘星楼，汲取天地灵气，其目的就是使琵琶精五年之后恢复人形。回合结束时损失20%生命，每次死亡，下回合50%生命复活，每多复活一次，物理攻击额外增加10%。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "每个回合的回合结束生命损失20%，若不够损失，生命保留1点，死亡后下回合的回合开始50%生命复活，此外，每多复活一次，物理攻击多增加10%",
+						"id" : 3040,
+						"type" : 3,
+						"value" : [ 20, 50 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10058" : {
+		"id" : 10058,
+		"name" : "紫绶羽衣",
+		"description" : "为自身增加{0}%物理攻击，且附加紫绶羽衣标记2回合，紫绶羽衣标记下，受到攻击时，自身立刻释放一次寒玉掌。消耗怒气50。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 50,
+		"priority" : 3,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 11,
+						"type" : 1,
+						"value" : [ 20, 2 ],
+						"growth" : [ 5 ]
+					},
+					{
+						"--" : "紫绶雨衣标记，目标被标记时受到攻击，立刻释放一次寒玉掌，若目标受到攻击时死亡，则不释放",
+						"id" : 96,
+						"type" : 3,
+						"value" : [],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1041" : {
+		"id" : 1041,
+		"name" : "神机妙算",
+		"description" : "洞察了一丝天基的神秘高深术法，不但可以推算吉凶，还可以料敌先机。自身损失{0}%生命，攻击敌方前排单体，魅惑目标2回合，且降低其30%速度。每升1级，损失生命减少0.1%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 2445,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 15,
+						"type" : 0,
+						"value" : [ -20 ],
+						"growth" : [ 0.1 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 55,
+						"type" : 2,
+						"value" : [ 100, 2 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 16,
+						"type" : 2,
+						"value" : [ -30, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2041" : {
+		"id" : 2041,
+		"name" : "日月刀",
+		"description" : "流传在民间的一种奇异兵器,全长六尺，两端各有相同长度的月牙形刀刃。刀背上部各有三个小铁环，舞动起来沙沙作响。刀柄为坚硬木料所制，握手处在刀柄中段，上扎彩带，并有两个突出的月牙形利刀。利刃后为握手处，使练时，两手均在月牙形利刃下握住刀柄，握法有左阴右阳、右阴左阳和双阴法三种，此兵器前后可用，变化多端。随机攻击敌方两名英杰，造成物理攻击160%的伤害。且降低目标{0}%双工3回合。每升一级降低双攻提高0.2%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 1760,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 9,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 160, 0, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 101,
+						"type" : 2,
+						"value" : [ 100, 10, 3 ],
+						"growth" : [ 0, 0.2 ]
+					},
+					{
+						"id" : 102,
+						"type" : 2,
+						"value" : [ 100, 10, 3 ],
+						"growth" : [ 0, 0.2 ]
+					}
+				]
+			}
+		]
+	},
+	"3041" : {
+		"id" : 3041,
+		"name" : "桃花星君",
+		"description" : "孤城死守为成汤，今日身亡实可伤。全节全忠名不朽，女中贞烈万年扬。自身存活时，我方全体英杰物理攻击增加10%，速度增加10%。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 3041,
+						"type" : 3,
+						"value" : [ 10, 10 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10059" : {
+		"id" : 10059,
+		"name" : "太阳神针",
+		"description" : "自身增加20%物理攻击，持续3回合。攻击敌方全体，造成物理攻击{0}%的伤害。且有{1}%几率令目标致盲2回合。消耗怒气50。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 50,
+		"priority" : 3,
+		"delaytime" : 3627,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 11,
+						"type" : 1,
+						"value" : [ 20, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 120, 0, 0 ],
+						"growth" : [ 10 ]
+					},
+					{
+						"id" : 20,
+						"type" : 2,
+						"value" : [ 50, 2 ],
+						"growth" : [ 10 ]
+					}
+				]
+			}
+		]
+	},
+	"1042" : {
+		"id" : 1042,
+		"name" : "形天印",
+		"description" : "又名列瘟印、散发瘟病的毒印，投掷攻击伤人。攻击敌方后排单体，造成法术攻击{0}%的伤害，且目标中毒2回合，降低双防20%持续3回合。每升1级法术攻击伤害提高0.5%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 1,
+		"delaytime" : 2210,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 1,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 0.5 ]
+					},
+					{
+						"id" : 204,
+						"type" : 2,
+						"value" : [ 100, 15, 2 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 103,
+						"type" : 2,
+						"value" : [ 100, 20, 3 ],
+						"growth" : [ 0, 0 ]
+					},
+					{
+						"id" : 104,
+						"type" : 2,
+						"value" : [ 100, 20, 3 ],
+						"growth" : [ 0, 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2042" : {
+		"id" : 2042,
+		"name" : "散温丹",
+		"description" : "此丹毒性极强，非修为高深者，难以抵挡。攻击敌方前排，造成法术攻击{0}%的伤害，且目标中毒2回合。降低双攻15%，持续3回合。每升1级法术攻击伤害提高0.6%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 2090,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 2,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 90, 0, 0 ],
+						"growth" : [ 0.6 ]
+					},
+					{
+						"id" : 204,
+						"type" : 2,
+						"value" : [ 100, 15, 2 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 101,
+						"type" : 2,
+						"value" : [ 100, 15, 3 ],
+						"growth" : [ 0, 0 ]
+					},
+					{
+						"id" : 102,
+						"type" : 2,
+						"value" : [ 100, 15, 3 ],
+						"growth" : [ 0, 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3042" : {
+		"id" : 3042,
+		"name" : "瘟癀阵",
+		"description" : "吕悦曾在穿云关摆下温黄镇，使周兵奄奄一息，百日难进一寸。杨认下山后，以五火七禽扇将其烧为灰烬。太公风神时将其风为主掌天下瘟疫的“瘟癀昊天大帝”。率领瘟部六位正神，施行时症。自身存活时，我方全体英杰双防减少5%。减少一半敌方对我方释放的标记累效果触发几率。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 3042,
+						"type" : 3,
+						"value" : [ 5 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10060" : {
+		"id" : 10060,
+		"name" : "瘟癀宝伞",
+		"description" : "攻击敌方全体，造成法术攻击{0}%的伤害，且目标中毒2回合。降低{1}%速度，持续3回合。消耗怒气40。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 40,
+		"priority" : 3,
+		"delaytime" : 2560,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 90, 0, 0 ],
+						"growth" : [ 6 ]
+					},
+					{
+						"id" : 204,
+						"type" : 2,
+						"value" : [ 100, 15, 2 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 16,
+						"type" : 2,
+						"value" : [ -5, 3 ],
+						"growth" : [ -2 ]
+					}
+				]
+			}
+		]
+	},
+	"1043" : {
+		"id" : 1043,
+		"name" : "定光琉璃",
+		"description" : "相传其出生之时，身边一切光明如灯，后以此为法，得其大神通。攻击敌方生命最高的一名英杰，造成法术攻击{0}%的伤害。且我方全体生命恢复5%。每升1级法术攻击伤害提高1%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 1600,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 7,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 1 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 15,
+						"type" : 0,
+						"value" : [ 5 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2043" : {
+		"id" : 2043,
+		"name" : "万劫不磨",
+		"description" : "以己身为媒介，与天地之灵产生感应,使己方重弟子不受风神大劫影响。自身损失{0}%生命，我方全体英杰无视除物理和法术伤害以外的所有效果，增加双防50%，持续3回合。每升1级损失生命减少0.2%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 15,
+						"type" : 0,
+						"value" : [ -20 ],
+						"growth" : [ 0.2 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 999,
+						"type" : 1,
+						"value" : [ 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3043" : {
+		"id" : 3043,
+		"name" : "燃灯道场",
+		"description" : "燃灯道人乃元始天尊众弟子之首，是阐教副教主。相传居于灵鹫山元觉洞。被玉虚十二仙尊称为前辈导师。在武王伐纣期间多次相助，曾破十绝阵，又闯九曲黄河阵。风神结束后，自觉与西方教派有缘，后改换门庭。在战斗期间，自身境界不受任何技能影响。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 3043,
+						"type" : 3,
+						"value" : [],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10061" : {
+		"id" : 10061,
+		"name" : "琉璃灯",
+		"description" : "自身物免3回合，魔免3回合，定身3回合。回合结束时，恢复{0}%生命，持续3回合。消耗怒气40。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 40,
+		"priority" : 3,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 36,
+						"type" : 1,
+						"value" : [ 3 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 37,
+						"type" : 1,
+						"value" : [ 3 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 57,
+						"type" : 2,
+						"value" : [ 100, 3 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 203,
+						"type" : 1,
+						"value" : [ 10, 3 ],
+						"growth" : [ 2 ]
+					}
+				]
+			}
+		]
+	},
+	"10062" : {
+		"id" : 10062,
+		"name" : "乾坤尺",
+		"description" : "攻击敌方前排单体，造成法术攻击{0}%的二连击伤害，且有60%几率令目标眩晕2回合。消耗怒气50。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 50,
+		"priority" : 3,
+		"delaytime" : 4150,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 150, 0, 0 ],
+						"growth" : [ 10 ]
+					},
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 150, 0, 0 ],
+						"growth" : [ 10 ]
+					},
+					{
+						"id" : 52,
+						"type" : 2,
+						"value" : [ 60, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10063" : {
+		"id" : 10063,
+		"name" : "紫金钵盂",
+		"description" : "攻击敌方生命最少的一名英杰，造成法术攻击{0}%的吸血伤害。消耗怒气40。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 40,
+		"priority" : 3,
+		"delaytime" : 3000,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 6,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 20 ]
+					}
+				]
+			}
+		]
+	},
+	"1044" : {
+		"id" : 1044,
+		"name" : "风影拳",
+		"description" : "利用风之力加持在手臂上所打出的一拳，迅疾且力强。攻击敌方前排单体，造成物理攻击{0}%的伤害，且提高自身30%速度2回合。每升一级物理攻击伤害提高0.8%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 1680,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 0.8 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 16,
+						"type" : 1,
+						"value" : [ 30, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2044" : {
+		"id" : 2044,
+		"name" : "仗义出手",
+		"description" : "义字当先，鼎立相助。相助我方后排英杰，降低{0}%双防2回合，提高{1}点怒气。每升1级，降低双防减少0.2%，提高怒气增加0.3。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 3,
+				"effect" : [
+					{
+						"id" : 13,
+						"type" : 2,
+						"value" : [ -30, 2 ],
+						"growth" : [ 0.2 ]
+					},
+					{
+						"id" : 14,
+						"type" : 1,
+						"value" : [ -30, 2 ],
+						"growth" : [ 0.2 ]
+					},
+					{
+						"id" : 19,
+						"type" : 0,
+						"value" : [ 20 ],
+						"growth" : [ 0.3 ]
+					}
+				]
+			}
+		]
+	},
+	"3044" : {
+		"id" : 3044,
+		"name" : "助风之神",
+		"description" : "十里金城驱黑雾，三仙瑶岛运神飙。自身速度降低10%，物理攻击提高10%，且每回合提高10%物理攻击。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 3044,
+						"type" : 3,
+						"value" : [],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10064" : {
+		"id" : 10064,
+		"name" : "黑风袋",
+		"description" : "攻击敌方全体，造成法术攻击200%的破击伤害，且有{0}%几率令目标虚弱2回合。消耗怒气50。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 50,
+		"priority" : 3,
+		"delaytime" : 2450,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 200, 100, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 38,
+						"type" : 2,
+						"value" : [ 20, 2 ],
+						"growth" : [ 6 ]
+					}
+				]
+			}
+		]
+	},
+	"1045" : {
+		"id" : 1045,
+		"name" : "云影闪",
+		"description" : "感悟云之力加持到手臂所形成的斩击。攻击敌方前排单体，造成法术攻击{0}%的伤害，且自身提高30%速度2回合。每升一级法术攻击伤害提高0.8%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 1350,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 0.8 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 16,
+						"type" : 1,
+						"value" : [ 30, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2045" : {
+		"id" : 2045,
+		"name" : "莽撞偷袭",
+		"description" : "层不自量力的偷袭过元始天尊，却无果。偷袭敌方后排英杰，目标提高{0}%双防2回合，降低{1}点怒气。每升1级，提高双防降低0.2%，降低怒气增加0.3。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 3,
+				"effect" : [
+					{
+						"id" : 13,
+						"type" : 1,
+						"value" : [ 30, 2 ],
+						"growth" : [ -0.2 ]
+					},
+					{
+						"id" : 14,
+						"type" : 1,
+						"value" : [ 30, 2 ],
+						"growth" : [ -0.2 ]
+					},
+					{
+						"id" : 19,
+						"type" : 0,
+						"value" : [ -20 ],
+						"growth" : [ -0.3 ]
+					}
+				]
+			}
+		]
+	},
+	"3045" : {
+		"id" : 3045,
+		"name" : "星云之神",
+		"description" : "洞府神仙此是家，麻姑曾驻五云车。峰前三尺寒泉水，犹有白莲开旧花。自身速度降低10%，法术攻击提高10%，且每回合提高10%法术攻击。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 3045,
+						"type" : 3,
+						"value" : [],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10065" : {
+		"id" : 10065,
+		"name" : "戳目珠",
+		"description" : "攻击敌方生命最高的一名英杰，造成物理攻击{0}%的暴击伤害，且目标致盲4回合。消耗怒气40。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 40,
+		"priority" : 3,
+		"delaytime" : 1820,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 7,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 200, 0, 100 ],
+						"growth" : [ 30 ]
+					},
+					{
+						"id" : 20,
+						"type" : 2,
+						"value" : [ 100, 4 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1046" : {
+		"id" : 1046,
+		"name" : "金刚降魔杵",
+		"description" : "一端为金刚杵，另一端为铁制三棱杵，中段有三佛像，一作笑状、一作怒状，一作骂状。此法器通常为修降伏法所用，用以降伏魔怨。攻击敌方前排单体，造成物理攻击{0}%的伤害，且有30%几率暴击。每升1级物理攻击伤害提高0.8%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 2600,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 180, 0, 30 ],
+						"growth" : [ 0.8 ]
+					}
+				]
+			}
+		]
+	},
+	"2046" : {
+		"id" : 2046,
+		"name" : "教化诱心咒",
+		"description" : "为教化而念之咒，可把内容急速传于敌人内心，使人不得不接受。攻击敌方全体，{0}%几率令目标眩晕1回合。每升一级眩晕几率提高0.8%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 52,
+						"type" : 2,
+						"value" : [ 20, 1 ],
+						"growth" : [ 0.8 ]
+					}
+				]
+			}
+		]
+	},
+	"3046" : {
+		"id" : 3046,
+		"name" : "哼哈二将",
+		"description" : "大雄宝殿山门内两边的两尊大菩萨，为大力士与大武士模样，上身裸露，体魄健壮，睁眼鼓鼻，神态威严，怒视凡间。自身存活时，我方全体英杰增加30%物理防御和法术防御。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "我方全体英杰双防增加，需要注意的是，该英杰必须存活",
+						"id" : 3046,
+						"type" : 3,
+						"value" : [ 30 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10066" : {
+		"id" : 10066,
+		"name" : "华盖之戾",
+		"description" : "攻击敌方前排，{0}%几率令目标致盲3回合，且敌方前排单体有{1}%几率触发必杀。消耗怒气60。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 60,
+		"priority" : 3,
+		"delaytime" : 3000,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 2,
+				"effect" : [
+					{
+						"id" : 20,
+						"type" : 2,
+						"value" : [ 30, 3 ],
+						"growth" : [ 10 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 4,
+						"type" : 0,
+						"value" : [ 10 ],
+						"growth" : [ 4 ]
+					}
+				]
+			}
+		]
+	},
+	"1047" : {
+		"id" : 1047,
+		"name" : "金刚降魔杵",
+		"description" : "一端为金刚杵，另一端为铁制三棱杵，中段有三佛像，一作笑状、一作怒状，一作骂状。此法器通常为修降伏法所用，用以降伏魔怨。攻击敌方前排单体，造成物理攻击{0}%的伤害，且有30%几率破击。每升1级物理攻击伤害提高0.8%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 2600,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 180, 30, 0 ],
+						"growth" : [ 0.8 ]
+					}
+				]
+			}
+		]
+	},
+	"2047" : {
+		"id" : 2047,
+		"name" : "护宝静心经",
+		"description" : "为了传教和保护法宝念诵的经文，可使人去除杂念与贪欲，心静如水。攻击敌方全体，{0}%几率令目标冷静2回合。每升一级冷静几率提高0.8%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 56,
+						"type" : 2,
+						"value" : [ 20, 2 ],
+						"growth" : [ 0.8 ]
+					}
+				]
+			}
+		]
+	},
+	"10067" : {
+		"id" : 10067,
+		"name" : "丹田之威",
+		"description" : "攻击敌方前排，{0}%几率令目标虚弱2回合，且敌方前排单体有{1}%几率触发必杀。消耗怒气60。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 60,
+		"priority" : 3,
+		"delaytime" : 3700,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 2,
+				"effect" : [
+					{
+						"id" : 38,
+						"type" : 2,
+						"value" : [ 20, 2 ],
+						"growth" : [ 6 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 4,
+						"type" : 0,
+						"value" : [ 10 ],
+						"growth" : [ 4 ]
+					}
+				]
+			}
+		]
+	},
+	"1048" : {
+		"id" : 1048,
+		"name" : "绵绵梵音",
+		"description" : "此法由西方教圣人所创，后事名唤定心真言，由于没有特殊法宝配合，顾只能短暂控制对手。攻击敌方全体，{0}%魅惑目标2回合。每升一级魅惑几率增加0.2%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 1370,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 55,
+						"type" : 2,
+						"value" : [ 5, 2 ],
+						"growth" : [ 0.2 ]
+					}
+				]
+			}
+		]
+	},
+	"2048" : {
+		"id" : 2048,
+		"name" : "慈航普度",
+		"description" : "菩萨以慈悲之心度人，如航船之济众，使脱离生死苦海。自身速度降低{0}%，为我方全体英杰恢复生命，恢复数值是法术攻击的60%和生命的20%。每升一级速度降低减少0.3%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 16,
+						"type" : 2,
+						"value" : [ -50, 2 ],
+						"growth" : [ 0.3 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 41,
+						"type" : 0,
+						"value" : [ 60 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"--" : "//回血效果的令一种版本，这种是取自身的生命百分比。",
+						"id" : 48,
+						"type" : 0,
+						"value" : [ 20 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3048" : {
+		"id" : 3048,
+		"name" : "慈航大士",
+		"description" : "欲普度世间男女。尝以丹药及甘露水济人。自身存活时，我方全体英杰每回合恢复10%生命。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "//每回合回合结束时我方全体恢复生命，需要注意的是，必须该英杰存活",
+						"id" : 3048,
+						"type" : 3,
+						"value" : [ 10 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10068" : {
+		"id" : 10068,
+		"name" : "玉净瓶",
+		"description" : "我方全体英杰双攻增加{0}%，持续2回合，且附加回春3回合。消耗怒气70。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 70,
+		"priority" : 3,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 11,
+						"type" : 1,
+						"value" : [ 10, 2 ],
+						"growth" : [ 4 ]
+					},
+					{
+						"id" : 12,
+						"type" : 1,
+						"value" : [ 10, 2 ],
+						"growth" : [ 4 ]
+					},
+					{
+						"--" : "//“净瓶标记”若成功附加，英杰需要有相应显示，该效果的作用和回春效果相同",
+						"id" : 203,
+						"type" : 3,
+						"value" : [ 35, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10069" : {
+		"id" : 10069,
+		"name" : "清净琉璃瓶",
+		"description" : "{0}%几率为敌方前排单体附加清静标记，持续5回合。消耗怒气50。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 50,
+		"priority" : 3,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"--" : "//“清静标记”该标记若成功附加，英杰需要有相应显示，该标记的效果是隐身效果加定身效果，此外，若该标记没被其他技能清除，自然消失，英杰将损失生命，损失比例是拥有该技能英杰的法术攻击百分比，具体参数是效果值的第二段参数",
+						"id" : 59,
+						"type" : 3,
+						"value" : [ 30, 700, 5 ],
+						"growth" : [ 6 ]
+					}
+				]
+			}
+		]
+	},
+	"10070" : {
+		"id" : 10070,
+		"name" : "紫金铃",
+		"description" : "攻击敌方全体，被攻击的英杰损失40%生命，且有{0}几率眩晕2回合。消耗怒气60。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 60,
+		"priority" : 3,
+		"delaytime" : 1570,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 52,
+						"type" : 2,
+						"value" : [ 10, 2 ],
+						"growth" : [ 4 ]
+					},
+					{
+						"id" : 28,
+						"type" : 0,
+						"value" : [ 40 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1049" : {
+		"id" : 1049,
+		"name" : "垂手白光",
+		"description" : "用手一指，指上放出一道白光，约有一二丈高，可抵御攻击，令术法消弭于无形。我方前排英杰免疫{0}次敌方技能。每升一级免疫次数增加0.01。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 1,
+		"priority" : 1,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 40,
+						"type" : 3,
+						"value" : [ 1 ],
+						"growth" : [ 0.01 ]
+					}
+				]
+			}
+		]
+	},
+	"2049" : {
+		"id" : 2049,
+		"name" : "符箓雷法",
+		"description" : "手挥麈尾，念念有词。顿时，狂风大作，尘沙飞扬，雷鸣电闪，风雨交加。攻击敌方全体，造成法术攻击{0}%的伤害。每升一级法术攻击提高0.8%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 2300,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 0.8 ]
+					}
+				]
+			}
+		]
+	},
+	"3049" : {
+		"id" : 3049,
+		"name" : "为父之心",
+		"description" : "“一日为师，终生为父”，太乙真人把这句话诠释得淋漓尽致，哪吒的名字、灵珠转世、莲花化身、三头八臂都出自他的手笔，身边法宝众多，尽付于高徒哪吒，他以“护短”出名，是好师父的典型，这使他培养出一个横跨佛道两界、名扬天下的厉害徒弟。我方除自身以外的英杰受到敌方技能攻击时，太乙真人有10%几率反击敌方一次。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "//我方除自身英杰以外每受到一次攻击累技能的攻击，太乙真人都有几率反击一次，需要注意的是，反击的时候用本回合可使用的普通攻击反击，且用完不消耗怒气或不进入冷却，也就是相当于没用过，此外，太乙真人必须存活才能反击"
+					}
+				]
+			}
+		]
+	},
+	"10071" : {
+		"id" : 10071,
+		"name" : "九龙神火罩",
+		"description" : "攻击敌方全体，造成法术攻击{0}%的伤害。并且受到火焰灼烧伤害。消耗怒气80。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 80,
+		"priority" : 3,
+		"delaytime" : 4500,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 20 ]
+					},
+					{
+						"id" : 28,
+						"type" : 0,
+						"value" : [ 30 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1050" : {
+		"id" : 1050,
+		"name" : "龟灵剑",
+		"description" : "万载灵气凝聚而成的宝剑。攻击敌方前排，造成物理攻击{0}%的破击伤害。每升一级物理攻击伤害提高0.3%",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 2000,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 2,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 90, 100, 0 ],
+						"growth" : [ 0.3 ]
+					}
+				]
+			}
+		]
+	},
+	"2050" : {
+		"id" : 2050,
+		"name" : "羽翼之力",
+		"description" : "仓颉氏造字而龟文有羽翼之形时化成人形的力量，用于防御。我方全体英杰双防增加{0}%，持续三回合。且驱散场上所有负面状态。每升一级双防提高0.2%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"--" : "增加双防百分比，记得没有单独增加双防的效果类型，如果你觉得用以前的方便，那就改成和以前的方式相同。",
+						"id" : 13,
+						"type" : 1,
+						"value" : [ 30, 3 ],
+						"growth" : [ 0.2 ]
+					},
+					{
+						"--" : "增加双防百分比，记得没有单独增加双防的效果类型，如果你觉得用以前的方便，那就改成和以前的方式相同。",
+						"id" : 14,
+						"type" : 1,
+						"value" : [ 30, 3 ],
+						"growth" : [ 0.2 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "按类型清除全场状态标记 value 填写 effect的 type",
+						"id" : 105,
+						"type" : 0,
+						"value" : [ 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3050" : {
+		"id" : 3050,
+		"name" : "万载灵壳",
+		"description" : "万载灵龟的龟壳幻化而成，可将龟壳的防御覆盖全场。自身存活时，我方全体英杰受到的所有伤害减少20%。死亡后加成消失。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "和3001的技能类似，区别是那个只给他自己加，这个给所有成员加且死亡后加成消失。",
+						"id" : 1,
+						"type" : 3,
+						"value" : [],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10072" : {
+		"id" : 10072,
+		"name" : "日月珠",
+		"description" : "{0}%几率为我方全体英杰附加日月标记，持续二回合。消耗怒气40。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 40,
+		"priority" : 3,
+		"delaytime" : 3500,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"--" : "附加日月标记的英杰免疫所有攻击目标是敌方的技能，且有50%几率反弹敌方攻击，反弹比例为50%，反弹可以看2001技能。value[生效概率,回合,]",
+						"id" : 100,
+						"type" : 3,
+						"value" : [ 30, 2 ],
+						"growth" : [ 6 ]
+					}
+				]
+			}
+		]
+	},
+	"1051" : {
+		"id" : 1051,
+		"name" : "金须剑",
+		"description" : "鳌鱼金须幻化而成的宝剑。攻击敌方后排，造成法术攻击{0}%的破击伤害。每升一级法术伤害提高0.3%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 1800,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 3,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 90, 100, 0 ],
+						"growth" : [ 0.3 ]
+					}
+				]
+			}
+		]
+	},
+	"2051" : {
+		"id" : 2051,
+		"name" : "旗开得胜",
+		"description" : "借助太极阵之力，打头阵，可连败多人，使敌人无可奈何。我方全体英杰双攻增加{0}%，持续三回合。且驱散场上所有正面状态。每升一级双攻提高0.2%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "按类型清除全场状态标记 value 填写 effect的 type",
+						"id" : 105,
+						"type" : 0,
+						"value" : [ 1 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"--" : "增加双防百分比，记得没有单独增加双防的效果类型，如果你觉得用以前的方便，那就改成和以前的方式相同。",
+						"id" : 11,
+						"type" : 1,
+						"value" : [ 10, 3 ],
+						"growth" : [ 0.2 ]
+					},
+					{
+						"--" : "增加双防百分比，记得没有单独增加双防的效果类型，如果你觉得用以前的方便，那就改成和以前的方式相同。",
+						"id" : 12,
+						"type" : 1,
+						"value" : [ 10, 3 ],
+						"growth" : [ 0.2 ]
+					}
+				]
+			}
+		]
+	},
+	"3051" : {
+		"id" : 3051,
+		"name" : "无欲则刚",
+		"description" : "无视外界诱惑，全力攻击。自身存活时，我方全体英杰攻击伤害增加15%。死亡后加成消失。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "和3050类似，都是给全体加，那个是伤害减少，这个是伤害增加且死亡后加成消失。"
+					}
+				]
+			}
+		]
+	},
+	"10073" : {
+		"id" : 10073,
+		"name" : "混元锤",
+		"description" : "攻击敌方后排，造成法术攻击220%的伤害。且有{0}%几率令目标眩晕二回合。消耗怒气60。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 60,
+		"priority" : 3,
+		"delaytime" : 1900,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 3,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 220, 0, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 52,
+						"type" : 2,
+						"value" : [ 40, 2 ],
+						"growth" : [ 12 ]
+					}
+				]
+			}
+		]
+	},
+	"1052" : {
+		"id" : 1052,
+		"name" : "乌烟斩",
+		"description" : "与独角乌烟兽合体，其快如急风，仿佛一阵乌烟，似飞云掣电，猛力一斩顺势发出。随机攻击敌方一名英杰，造成物理攻击{0}%的伤害，随机攻击五次。每升一级物理攻击伤害提高0.2%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 1688,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 0.2 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 0.2 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 0.2 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 0.2 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 0.2 ]
+					}
+				]
+			}
+		]
+	},
+	"2052" : {
+		"id" : 2052,
+		"name" : "遁地术",
+		"description" : "修炼的看家本领，可遁地而行，日行1500里，令人防不胜防。自身速度增加{0}%，持续三回合。且自身进入隐身状态，下回合攻击后自动现形。每升一级速度增加提高0.2%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 16,
+						"type" : 1,
+						"value" : [ 10, 3 ],
+						"growth" : [ 0.2 ]
+					},
+					{
+						"id" : 60,
+						"type" : 1,
+						"value" : [],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3052" : {
+		"id" : 3052,
+		"name" : "搅海翻江",
+		"description" : "刀法如虎狼之猛，仿佛有搅海翻江般的势头。自身物理攻击增加50%。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "给自己加物理攻击。",
+						"id" : 11,
+						"type" : 1,
+						"value" : [ 50 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10074" : {
+		"id" : 10074,
+		"name" : "七煞夺魄刀",
+		"description" : "攻击敌方后排单体，造成物理攻击{0}%的伤害。且有{1}%几率附加夺魂标记1回合，附加夺魂标记的英杰，本回合内再次受到攻击则死亡。消耗怒气60。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 60,
+		"priority" : 3,
+		"delaytime" : 2870,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 1,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 220, 0, 0 ],
+						"growth" : [ 12 ]
+					},
+					{
+						"id" : 8,
+						"type" : 3,
+						"value" : [ 50, 1 ],
+						"growth" : [ 6 ]
+					}
+				]
+			}
+		]
+	},
+	"1053" : {
+		"id" : 1053,
+		"name" : "雷电镜",
+		"description" : "为攻击时照明，以便全力攻击。攻击敌方前排单体，造成法术攻击{0}%的伤害。且有50%几率令目标定身二回合。每升一级法术攻击伤害提高0.6%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 1220,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 80, 0, 0 ],
+						"growth" : [ 0.6 ]
+					},
+					{
+						"id" : 57,
+						"type" : 2,
+						"value" : [ 50, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2053" : {
+		"id" : 2053,
+		"name" : "金光阵",
+		"description" : "内夺日月之精，藏天地之气，中有二十一面宝镜，用二十一根高杆，每一面悬在高杆顶上，一镜上有一套。倘若入阵，将套拽起，雷声震动镜子，金光射出，照住其身，立刻化为脓血，难以逃脱。攻击敌方全体，造成法术攻击{0}%的伤害，且麻痹目标二回合。每升一级法术攻击伤害提高0.3%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 1440,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 150, 0, 0 ],
+						"growth" : [ 0.3 ]
+					},
+					{
+						"id" : 51,
+						"type" : 2,
+						"value" : [ 100, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3053" : {
+		"id" : 3053,
+		"name" : "运光秀天",
+		"description" : "两首运光，撕裂天空，照亮大地，使世间罪恶无处遁形。自身攻击不会被闪避。且为我方全体英杰增加10%法术攻击，此后每回合法术攻击增加2%，死亡后加成消失。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "自身攻击不会被闪避没有被动技能可以参考，后面的效果参考3011及可，区别是3011加的是物理攻击，这个加的是法术的。",
+						"id" : 22,
+						"type" : 3,
+						"value" : [ 10, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10075" : {
+		"id" : 10075,
+		"name" : "金光宝镜",
+		"description" : "我方英杰受到目标为敌方的技能攻击时，倒置{0}次该技能的攻击目标。消耗怒气60。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 60,
+		"priority" : 3,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"--" : "倒置的效果可以参考被魅惑，但和魅惑不同，具体效果是我方英杰被目标为敌方的技能攻击到的时候，目标为敌方的技能会改变为令一方，一个技能算一次。",
+						"id" : 1023,
+						"type" : 0,
+						"value" : [ 1 ],
+						"growth" : [ 0.4 ]
+					}
+				]
+			}
+		]
+	},
+	"1054" : {
+		"id" : 1054,
+		"name" : "银煞枪",
+		"description" : "上阵不沾尘世界，回来一阵血腥飞，武器虽是凡品却威猛无比。攻击敌方前排单体，造成物理攻击{1_1_1_1_1_1}%的伤害，额外降低目标{1_2_1_1_2_1}点怒气。每升1级物理攻击伤害提高0.5%，额外降低0.1点怒气。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 1450,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 210, 0, 0 ],
+						"growth" : [ 0.5 ]
+					},
+					{
+						"id" : 19,
+						"type" : 2,
+						"value" : [ -10 ],
+						"growth" : [ -0.1 ]
+					}
+				]
+			}
+		]
+	},
+	"2054" : {
+		"id" : 2054,
+		"name" : "银装锏",
+		"description" : "银装锏，宝攒玉靶，金叶厢成，绿绒绳穿就护手，熟铜抹就光辉。攻击敌方前排，造成物理攻击{1_1_1_1_1_1}%的伤害，附加流血伤害，且目标静疗{1_3_2_1_3_2}回合，技能每升一级，物理伤害增加0.3%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 2510,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 2,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 150, 0, 0 ],
+						"growth" : [ 0.3 ]
+					},
+					{
+						"id" : 201,
+						"type" : 2,
+						"value" : [ 100, 30, 1 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 39,
+						"type" : 2,
+						"value" : [ 100, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3054" : {
+		"id" : 3054,
+		"name" : "天罡星君",
+		"description" : "为国捐躯赴战场，丹心可并日争光。自身的任何攻击都有10%的几率破击，每回合额外增加2%破击几率。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 30541,
+						"type" : 1,
+						"value" : [ 10, 0.2, 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10076" : {
+		"id" : 10076,
+		"name" : "血滴子",
+		"description" : "燃烧周身血液与其搏命一战，减少自身{1_1_1_1_1_1}%生命，提升自身{1_2_1_1_2_1}%物理攻击{1_2_2_1_2_2}回合。法宝每升一品，自身生命减少比例降低5%，物理伤害增加5%，消耗50怒气。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 50,
+		"priority" : 3,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 15,
+						"type" : 2,
+						"value" : [ -30 ],
+						"growth" : [ 5 ]
+					},
+					{
+						"id" : 11,
+						"type" : 1,
+						"value" : [ 10, 3 ],
+						"growth" : [ 5 ]
+					}
+				]
+			}
+		]
+	},
+	"4901" : {
+		"id" : 4901,
+		"name" : "甲壳护盾",
+		"description" : "蓄力时间5。用我坚硬的外壳护你周全。给我方生命最低的目标提升{1_1_1_1_1_1}%物理防御持续{1_1_2_1_1_2}回合和{1_2_1_1_2_1}%的法术防御持续{1_2_2_1_2_2}回合，技能每升一级物理防御提升0.5%，法术防御提升0.2%。",
+		"type" : 3,
+		"loopstart" : 0,
+		"cooldown" : 5,
+		"priority" : 3,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 6,
+				"effect" : [
+					{
+						"id" : 13,
+						"type" : 1,
+						"value" : [ 50, 2 ],
+						"growth" : [ 0.5 ]
+					},
+					{
+						"id" : 14,
+						"type" : 1,
+						"value" : [ 30, 2 ],
+						"growth" : [ 0.2 ]
+					}
+				]
+			}
+		]
+	},
+	"1901" : {
+		"id" : 1901,
+		"name" : "七粒仙豆",
+		"description" : "可随机幻化出一至3个金身法像来协助战斗，幻化的法像可存留2回合。本方英杰全部行动完毕后法像会自动发起攻击敌方速度最高的英杰，造成物理攻击{1_1_1_1_1_1}%的二连击物理伤害，且有50%几率破击，有{1_3_1_1_3_1}%概率麻痹{1_3_2_1_3_2}回合。技能每升一级，造成的物理伤害提升0.6%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 1,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 16,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 90, 50, 0 ],
+						"growth" : [ 0.6 ]
+					},
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 90, 50, 0 ],
+						"growth" : [ 0.6 ]
+					},
+					{
+						"id" : 51,
+						"type" : 2,
+						"value" : [ 30, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2901" : {
+		"id" : 2901,
+		"name" : "泰山压顶",
+		"description" : "可汲取法宝之力，劈山破石，使众多修仙者难以抵挡。驱散敌方所有正面状态和正面效果，攻击敌方全体，造成物理攻击{1_1_1_1_1_1}%的伤害，且有50%几率破击，技能每提升一级，造成的物理伤害提升1%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 2600,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 160, 50, 0 ],
+						"growth" : [ 1 ]
+					},
+					{
+						"id" : 29011,
+						"type" : 2,
+						"value" : [ 100, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 29012,
+						"type" : 2,
+						"value" : [ 100, 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3901" : {
+		"id" : 3901,
+		"name" : "宝旗护主",
+		"description" : "向玄都大法师借来离地焰光旗，向接引道人借来青莲宝色旗，用于保护本方英杰。前6回合，奇数回合引动青莲宝色旗，本方英杰不会被魅惑，且恢复我方全体10%生命。偶数回合引动离地焰光旗，本方英杰不会被麻痹，且临时提升我方全体5%双攻。6回合后，同时引动青莲宝色旗和离地焰光旗，本方英杰不会被魅惑和麻痹，且每回合恢复我方全体10%生命和临时提升5%双攻。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 39011,
+						"type" : 1,
+						"value" : [ 1, 1, 6 ]
+					},
+					{
+						"id" : 39011,
+						"type" : 1,
+						"value" : [ 0, 7, 20 ]
+					},
+					{
+						"id" : 39012,
+						"type" : 1,
+						"value" : [ 2, 1, 6 ]
+					},
+					{
+						"id" : 39012,
+						"type" : 1,
+						"value" : [ 0, 7, 20 ]
+					},
+					{
+						"id" : 39013,
+						"type" : 1,
+						"value" : [ 1, 1, 6, 10 ]
+					},
+					{
+						"id" : 39013,
+						"type" : 1,
+						"value" : [ 0, 7, 20, 10 ]
+					},
+					{
+						"id" : 39014,
+						"type" : 1,
+						"value" : [ 2, 1, 6, 5, 1 ]
+					},
+					{
+						"id" : 39014,
+						"type" : 1,
+						"value" : [ 0, 7, 20, 5, 1 ]
+					}
+				]
+			}
+		]
+	},
+	"10077" : {
+		"id" : 10077,
+		"name" : "番天印",
+		"description" : "攻击敌方速度最高的一名英杰，造成物理攻击{1_1_1_1_1_1}%的二连击物理伤害，且有50%几率破击，眩晕{1_3_2_1_3_2}回合，法宝每提升1品，造成的物理伤害增加30%，消耗50怒气。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 50,
+		"priority" : 3,
+		"delaytime" : 2300,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 16,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 350, 50, 0 ],
+						"growth" : [ 30 ]
+					},
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 350, 50, 0 ],
+						"growth" : [ 30 ]
+					},
+					{
+						"id" : 52,
+						"type" : 2,
+						"value" : [ 100, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10078" : {
+		"id" : 10078,
+		"name" : "雌雄剑",
+		"description" : "随机攻击敌方两名英杰，造成物理攻击{1_1_1_1_1_1}%的二连击物理伤害，且有50%几率破击，若两名英杰性别不同则伤害翻倍且破击，法宝每提升一品，造成的物理伤害增加20%，消耗50怒气。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 50,
+		"priority" : 3,
+		"delaytime" : 4300,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 9,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 300, 100, 0 ],
+						"growth" : [ 20 ]
+					},
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 300, 100, 0 ],
+						"growth" : [ 20 ]
+					}
+				]
+			}
+		]
+	},
+	"10079" : {
+		"id" : 10079,
+		"name" : "扫霞衣",
+		"description" : "为我方全体附加扫霞标记，标记持续期间攻击必中，标记持续3回合，增加自身{2_1_1_2_1_1}%物攻，持续{2_1_2_2_1_2}回合，法宝每升一品，为自身增加的物攻提升8%，消耗40怒气。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 40,
+		"priority" : 3,
+		"delaytime" : 3600,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 100791,
+						"type" : 1,
+						"value" : [ 100, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 11,
+						"type" : 1,
+						"value" : [ 40, 3 ],
+						"growth" : [ 8 ]
+					}
+				]
+			}
+		]
+	},
+	"4902" : {
+		"id" : 4902,
+		"name" : "凤凰火雨",
+		"description" : "蓄力时间3。火中可涅槃，落地可焚魂。对敌方全体造成{1_1_1_1_1_1}%的法术伤害，技能每升一级，造成的法术伤害提升0.5%。",
+		"type" : 3,
+		"loopstart" : 0,
+		"cooldown" : 3,
+		"priority" : 3,
+		"delaytime" : 1500,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 0.5 ]
+					}
+				]
+			}
+		]
+	},
+	"1902" : {
+		"id" : 1902,
+		"name" : "炼石补天",
+		"description" : "女娲炼石以补苍天，对敌方随机三个英杰造成{1_1_1_1_1_1}%法术伤害，驱散目标身上的所有增益效果，并全部附加到己方随机一名英杰身上。每升一级法术伤害提高0.8%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 2000,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 10,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 0.8 ]
+					},
+					{
+						"id" : 19021,
+						"type" : 2,
+						"value" : [ 100, 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2902" : {
+		"id" : 2902,
+		"name" : "抟土造人",
+		"description" : "女娲抟黄土为人，随机复活一名己方死亡英杰，同时打破生死的界限，使其进入【永生幻境】，不会受到任何伤害，并每回合恢复女娲法术攻击的{1_1_1_1_1_1}%生命值，持续{1_1_2_1_1_2}回合。每升一级生命恢复提高0.5%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 15,
+				"effect" : [
+					{
+						"id" : 29021,
+						"type" : 2,
+						"value" : [ 30, 3 ],
+						"growth" : [ 0.5 ]
+					}
+				]
+			}
+		]
+	},
+	"3902" : {
+		"id" : 3902,
+		"name" : "创世女神",
+		"description" : "女娲不但是补天救世的英雄和抟土造人的女神，还是一个创造万物的自然之神，神通广大化生万物，因此又被人称为大地之母。自身生命增加20%，速度增加10%。进入战场的瞬间，女娲会给我方所有英杰创造出一个替身，代替主人牺牲一次。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 16,
+						"type" : 1,
+						"value" : [ 10, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 3028,
+						"type" : 3,
+						"value" : [ 20 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 39021,
+						"type" : 2,
+						"value" : [ 1 ]
+					}
+				]
+			}
+		]
+	},
+	"10080" : {
+		"id" : 10080,
+		"name" : "天蛇杖",
+		"description" : "随机攻击敌方一名英杰，造成物理攻击{1_1_1_1_1_1}%的三连击物理伤害，且有50%几率破击，中毒伤害{1_4_3_1_4_3}回合，法宝每提升1品，造成的物理伤害增加80%，消耗50怒气。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 50,
+		"priority" : 3,
+		"delaytime" : 2000,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 100, 50, 0 ],
+						"growth" : [ 80 ]
+					},
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 100, 50, 0 ],
+						"growth" : [ 80 ]
+					},
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 100, 50, 0 ],
+						"growth" : [ 80 ]
+					},
+					{
+						"id" : 204,
+						"type" : 2,
+						"value" : [ 100, 20, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"4903" : {
+		"id" : 4903,
+		"name" : "凤鸣天音",
+		"description" : "蓄力时间5。凤鸣传千里，天音绕耳旁。对敌方全体造成{1_1_1_1_1_1}%法术伤害，{1_2_1_1_2_1}%概率使其魅惑{1_2_2_1_2_2}回合。技能每升一级法术伤害提升0.7%。",
+		"type" : 3,
+		"loopstart" : 0,
+		"cooldown" : 5,
+		"priority" : 3,
+		"delaytime" : 1600,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 50, 0, 0 ],
+						"growth" : [ 0.7 ]
+					},
+					{
+						"id" : 55,
+						"type" : 2,
+						"value" : [ 15, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1903" : {
+		"id" : 1903,
+		"name" : "飞金剑法",
+		"description" : "金光一道随风起，弹指及至千万里，上赶鲲鹏追日月，杀敌斩将如屠蚁。攻击敌方速度最快的1名英杰，造成{1_1_1_1_1_1}%法术伤害，且有50%几率破击，附加流血伤害{1_2_3_1_2_3}回合，且有{1_3_1_1_3_1}%概率眩晕{1_3_2_1_3_2}回合，。每升一级法术伤害提高1.6%，眩晕概率提高0.1%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 3200,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 16,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 200, 50, 0 ],
+						"growth" : [ 1.6 ]
+					},
+					{
+						"id" : 201,
+						"type" : 2,
+						"value" : [ 100, 30, 3 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 52,
+						"type" : 2,
+						"value" : [ 50, 2 ],
+						"growth" : [ 0.1 ]
+					}
+				]
+			}
+		]
+	},
+	"2903" : {
+		"id" : 2903,
+		"name" : "龙虎幻影",
+		"description" : "同声相应，同气相求，云从龙，风从虎，圣人作而万物覩。随机攻击敌方1名英杰，造成法术攻击{1_1_1_1_1_1}%的伤害，随机攻击两次，且有50%几率破击，若两次攻击为同1目标，则第2次攻击必破击。每升1级法术攻击伤害提高1.5%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 3000,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 29031,
+						"type" : 0,
+						"value" : [ 180, 100, 0 ],
+						"growth" : [ 1.5 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 29031,
+						"type" : 0,
+						"value" : [ 180, 100, 0 ],
+						"growth" : [ 1.5 ]
+					}
+				]
+			}
+		]
+	},
+	"3903" : {
+		"id" : 3903,
+		"name" : "斗姆元君",
+		"description" : "斗为之魄，水为之精，主生人身。相传其膝下有九子，其中七子为北斗七星，故又被称为众星之母。自身受七星庇佑，受到的伤害均减半，可免受坐骑反击。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 39031,
+						"type" : 2,
+						"value" : [ 1 ]
+					}
+				]
+			}
+		]
+	},
+	"10081" : {
+		"id" : 10081,
+		"name" : "四象神光",
+		"description" : "随机攻击敌方四名英杰，造成{1_1_1_1_1_1}%的法术伤害，且有{1_2_1_1_2_1}%几率使其封印{1_2_2_1_2_2}回合，法宝每提升1品，造成的法术伤害增加60%，消耗50怒气。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 50,
+		"priority" : 3,
+		"delaytime" : 2700,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 17,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 200, 0, 0 ],
+						"growth" : [ 60 ]
+					},
+					{
+						"id" : 54,
+						"type" : 2,
+						"value" : [ 50, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"4904" : {
+		"id" : 4904,
+		"name" : "飞沙走石",
+		"description" : "蓄力时间5。沙漠之王，不惧风沙。对敌方全体造成{1_1_1_1_1_1}%物理伤害，{1_2_1_1_2_1}%概率使其致盲{1_2_2_1_2_2}回合。技能每升一级物理伤害提升0.7%。",
+		"type" : 3,
+		"loopstart" : 0,
+		"cooldown" : 5,
+		"priority" : 3,
+		"delaytime" : 1200,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 50, 0, 0 ],
+						"growth" : [ 0.7 ]
+					},
+					{
+						"id" : 20,
+						"type" : 2,
+						"value" : [ 15, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1904" : {
+		"id" : 1904,
+		"name" : "太阿宝剑",
+		"description" : "只一拔剑出鞘，便能使一团磅礴剑气激射而出，霎时飞沙走石，遮天蔽日，似有猛兽咆哮其中。攻击敌方前排单体，造成法术攻击{1_1_1_1_1_1}%的伤害，附加火焰灼烧伤害，且有{1_2_1_1_2_1}%概率令目标眩晕{1_2_2_1_2_2}回合，技能每升一级，法术伤害增加2%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 1700,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 150, 0, 0 ],
+						"growth" : [ 2 ]
+					},
+					{
+						"id" : 52,
+						"type" : 2,
+						"value" : [ 30, 2 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 28,
+						"type" : 0,
+						"value" : [ 30 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2904" : {
+		"id" : 2904,
+		"name" : "三味之火",
+		"description" : "三千火龙兵放出的三味火，可以焚烧掉凡间的一切东西。攻击敌方全体，造成法术攻击{1_1_1_1_1_1}%的伤害，且附加火焰灼烧伤害，并降低敌方全体{1_3_1_1_3_1}%速度，持续{1_3_2_1_3_2}回合，技能每升一级，法术伤害增加1.2%，速度降低增加0.1%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 2300,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 110, 0, 0 ],
+						"growth" : [ 1.2 ]
+					},
+					{
+						"id" : 28,
+						"type" : 0,
+						"value" : [ 30 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 16,
+						"type" : 2,
+						"value" : [ -10, 3 ],
+						"growth" : [ -0.1 ]
+					}
+				]
+			}
+		]
+	},
+	"3904" : {
+		"id" : 3904,
+		"name" : "霞光护体",
+		"description" : "金霞冠散发出的神光，波及十余丈远近，使其难以睁眼。受到攻击时，50%概率致盲攻击来源2回合，50%概率混乱攻击来源2回合，自身闪避概率提升10%。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 50,
+						"type" : 2,
+						"value" : [ 50, 2 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 17,
+						"type" : 1,
+						"value" : [ 10, 20 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 20,
+						"type" : 2,
+						"value" : [ 50, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10082" : {
+		"id" : 10082,
+		"name" : "金霞冠",
+		"description" : "攻击敌方全体，造成法术攻击{1_1_1_1_1_1}%的伤害，并有{1_2_1_1_2_1}%的概率致盲敌方{1_2_2_1_2_2}回合，法宝每升一品，法术攻击伤害提升30%，致盲概率提升10%,消耗40怒气。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 40,
+		"priority" : 3,
+		"delaytime" : 3700,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 160, 0, 0 ],
+						"growth" : [ 30 ]
+					},
+					{
+						"id" : 20,
+						"type" : 2,
+						"value" : [ 30, 3 ],
+						"growth" : [ 10 ]
+					}
+				]
+			}
+		]
+	},
+	"4905" : {
+		"id" : 4905,
+		"name" : "玉清神雷",
+		"description" : "蓄力时间5。造孽者，当受五雷轰顶。随机对敌方一名英杰造成{1_1_1_1_1_1}%物理伤害，且有{1_2_1_1_2_1}%概率使其封印{1_2_2_1_2_2}回合，技能每升一级物理伤害提升1%，封印概率提升0.2%。",
+		"type" : 3,
+		"loopstart" : 0,
+		"cooldown" : 5,
+		"priority" : 3,
+		"delaytime" : 2000,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 199, 0, 0 ],
+						"growth" : [ 1 ]
+					},
+					{
+						"id" : 54,
+						"type" : 2,
+						"value" : [ 15, 2 ],
+						"growth" : [ 0.2 ]
+					}
+				]
+			}
+		]
+	},
+	"1905" : {
+		"id" : 1905,
+		"name" : "玉清开天",
+		"description" : "虚斧化实，破虚空，开天地，无人可敌。攻击敌方前排，造成{1_1_1_1_1_1}%的物理伤害，且有{1_2_1_1_2_1}%几率使其眩晕{1_2_2_1_2_2}回合，技能每升1级物理伤害提升1.7%，眩晕概率提升0.3%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 1,
+		"delaytime" : 3300,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 2,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 1.7 ]
+					},
+					{
+						"id" : 52,
+						"type" : 2,
+						"value" : [ 30, 2 ],
+						"growth" : [ 0.3 ]
+					}
+				]
+			}
+		]
+	},
+	"2905" : {
+		"id" : 2905,
+		"name" : "昆仑化虚",
+		"description" : "阴阳交错，虚虚实实，真真假假，使其难以捕捉。提升我方所有英杰{2_2_1_2_2_1}%双防，持续{2_2_2_2_2_2}回合，提高{2_1_1_2_1_1}%速度，持续{2_1_2_2_1_2}回合，对敌方全体造成{1_1_1_1_1_1}%的物理伤害，且有{1_2_1_1_2_1}%概率使其致盲{1_2_2_1_2_2}回合，技能每升一级物理伤害提升1.6%，双防提升0.2%，速度提升0.1%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 2300,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 120, 0, 0 ],
+						"growth" : [ 1.6 ]
+					},
+					{
+						"id" : 20,
+						"type" : 2,
+						"value" : [ 50, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 16,
+						"type" : 1,
+						"value" : [ 5, 2 ],
+						"growth" : [ 0.1 ]
+					},
+					{
+						"id" : 13,
+						"type" : 1,
+						"value" : [ 10, 2 ],
+						"growth" : [ 0.2 ]
+					},
+					{
+						"id" : 14,
+						"type" : 1,
+						"value" : [ 10, 2 ],
+						"growth" : [ 0.2 ]
+					}
+				]
+			}
+		]
+	},
+	"3905" : {
+		"id" : 3905,
+		"name" : "大罗仙圣",
+		"description" : "三清论道，元始守开天辟地之力，道法通天，妙境无人能解。自身存活时，我方全体英杰双攻提升15%，且自身受到攻击时有30%概率豁免本次伤害。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 11,
+						"type" : 1,
+						"value" : [ 15, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 12,
+						"type" : 1,
+						"value" : [ 15, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 39052,
+						"type" : 1,
+						"value" : [ 30, 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"10083" : {
+		"id" : 10083,
+		"name" : "庆云氙灯",
+		"description" : "驱散我方群体所有负面状态且降低敌方群体{2_1_1_2_1_1}%怒气，随机给我方一名英杰附加{3_1_1_3_1_1}回合圣光守护，有圣光守护的英杰可豁免所有伤害。法宝每升一品，降低怒气提升5%，圣光守护持续回合数加1,消耗50怒气。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 50,
+		"priority" : 3,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 105,
+						"type" : 0,
+						"value" : [ 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 29,
+						"type" : 0,
+						"value" : [ -25 ],
+						"growth" : [ -5 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 100832,
+						"type" : 2,
+						"value" : [ 1 ],
+						"growth" : [ 1 ]
+					}
+				]
+			}
+		]
+	},
+	"4906" : {
+		"id" : 4906,
+		"name" : "八景龙轮",
+		"description" : "蓄力时间3。此为金鳞赤尾的灵鱼，游动时周身泛青绿、赤、白、玄、黄五色光晕，催动技能时化身为九首龙鱼神躯，每首口衔不同神物，周身浮现八卦光轮，踏遍天道八极。对敌方全体造成{1_1_1_1_1_1}%法术伤害，恢复我方{2_1_1_2_1_1}%生命。技能每升一级法术伤害提升1.5%，生命恢复提升0.1%",
+		"type" : 3,
+		"loopstart" : 0,
+		"cooldown" : 3,
+		"priority" : 3,
+		"delaytime" : 3300,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 50, 0, 0 ],
+						"growth" : [ 1.5 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 15,
+						"type" : 0,
+						"value" : [ 5 ],
+						"growth" : [ 0.1 ]
+					}
+				]
+			}
+		]
+	},
+	"1906" : {
+		"id" : 1906,
+		"name" : "九宝流云扇",
+		"description" : "扇起流云，火现连天。攻击敌方全体，造成{1_1_1_1_1_1}%的法术伤害，且有{1_2_2_1_2_2}%几率附加灼烧伤害，持续{1_2_3_1_2_3}回合，技能每升一级，法术伤害增加1.3%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 2200,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 129, 0, 0 ],
+						"growth" : [ 1.3 ]
+					},
+					{
+						"id" : 283,
+						"type" : 0,
+						"value" : [ 30, 30, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2906" : {
+		"id" : 2906,
+		"name" : "焰火红莲",
+		"description" : "火扇起，莲花开，红霞流云破万灾。随机攻击敌方1名英杰，造成法术攻击{1_1_1_1_1_1}%的伤害，有{1_1_3_1_1_3}%几率暴击，附加灼烧伤害{1_2_3_1_2_3}回合，技能每升一级，法术伤害增加1.5%。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 2000,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 199, 0, 100 ],
+						"growth" : [ 1.5 ]
+					},
+					{
+						"id" : 283,
+						"type" : 0,
+						"value" : [ 30, 100, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3906" : {
+		"id" : 3906,
+		"name" : "蟠桃仙泽",
+		"description" : "道生所像，道气长存，群仙之首，仙泽庇佑。瑶池金母周身萦绕蟠桃仙力，庇佑我方全体英杰不受侵害，自身法术攻击提升15%，法术防御提升10%。瑶池金母存活时，己方全体英杰每回合恢复10%生命值，免疫中毒、魅惑、混乱效果。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 1004,
+						"type" : 3,
+						"value" : [ 10 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 22,
+						"type" : 3,
+						"value" : [ 15, 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 15,
+						"type" : 3,
+						"value" : [ 10 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 39061,
+						"type" : 3
+					}
+				]
+			}
+		]
+	},
+	"10084" : {
+		"id" : 10084,
+		"name" : "金光贯日",
+			"description" : "瑶池金母掷出九曜流金簪，攻击敌方一列，造成法术攻击{1_1_1_1_1_1}%的伤害，并有{1_1_2_1_1_2}%的概率破击，法宝每升一品，法术攻击伤害提升60%，破击概率提升5%,消耗50怒气。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 50,
+		"priority" : 3,
+		"delaytime" : 3000,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 4,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 200, 30, 0 ],
+						"growth" : [ 60, 5 ]
+					}
+				]
+			}
+		]
+	},
+	"2313" : {
+		"id" : 2313,
+		"name" : "五行盾法",
+		"description" : "木火土金水，行变化之盾法，不知诀窍者，只能五选其一破解。修炼高深可闪避天下绝大多数的攻击。自身有{0}%几率闪避敌方攻击，持续3回合。每升1级闪避几率提高0.5%。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"1" : "//目标闪避几率增加。",
+						"id" : 17,
+						"type" : 4,
+						"value" : [ 30, 3 ],
+						"growth" : [ 0.5 ]
+					}
+				]
+			}
+		]
+	},
+	"1301" : {
+		"id" : 1301,
+		"name" : "怒之焰",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 20,
+		"priority" : 1,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 31,
+						"type" : 4,
+						"value" : [ 40, 20 ],
+						"growth" : [ 0.6 ]
+					}
+				]
+			}
+		]
+	},
+	"2301" : {
+		"id" : 2301,
+		"name" : "狂怒五连斩",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1302" : {
+		"id" : 1302,
+		"name" : "苦海无边",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 1,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 120, 0, 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2302" : {
+		"id" : 2302,
+		"name" : "回头是岸",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 55,
+						"type" : 2,
+						"value" : [ 30, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2303" : {
+		"id" : 2303,
+		"name" : "四灵阵",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 3,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 11,
+						"type" : 4,
+						"value" : [ 30, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2304" : {
+		"id" : 2304,
+		"name" : "四灵阵",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 3,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 12,
+						"type" : 4,
+						"value" : [ 30, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2305" : {
+		"id" : 2305,
+		"name" : "四灵阵",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 3,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 16,
+						"type" : 4,
+						"value" : [ 30, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2306" : {
+		"id" : 2306,
+		"name" : "四灵阵",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 3,
+		"cooldown" : 3,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 39,
+						"type" : 2,
+						"value" : [ 100, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1307" : {
+		"id" : 1307,
+		"name" : "五色护体神光",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 1,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 17,
+						"type" : 4,
+						"value" : [ 30, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2307" : {
+		"id" : 2307,
+		"name" : "五色杀戮神光",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 120, 0, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 20,
+						"type" : 2,
+						"value" : [ 100, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1308" : {
+		"id" : 1308,
+		"name" : "穷途末路",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 8,
+		"cooldown" : 0,
+		"priority" : 1,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 8,
+						"type" : 4,
+						"value" : [ 100, 1 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2308" : {
+		"id" : 2308,
+		"name" : "化血飞刀",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 120, 0, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 5,
+						"type" : 0,
+						"value" : [ 50 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2309" : {
+		"id" : 2309,
+		"name" : "陷仙阵",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 55,
+						"type" : 2,
+						"value" : [ 50, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2310" : {
+		"id" : 2310,
+		"name" : "绝仙阵",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 54,
+						"type" : 2,
+						"value" : [ 100, 2 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 51,
+						"type" : 2,
+						"value" : [ 100, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2311" : {
+		"id" : 2311,
+		"name" : "戮仙阵",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 120, 0, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 201,
+						"type" : 2,
+						"value" : [ 100, 15, 1 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2312" : {
+		"id" : 2312,
+		"name" : "诛仙阵",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 4,
+						"type" : 0,
+						"value" : [ 100 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1313" : {
+		"id" : 1313,
+		"name" : "瘟疫扩散",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 1,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 103,
+						"type" : 2,
+						"value" : [ 100, 30, 3 ],
+						"growth" : [ 0, 0 ]
+					},
+					{
+						"id" : 104,
+						"type" : 2,
+						"value" : [ 100, 30, 3 ],
+						"growth" : [ 0, 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1314" : {
+		"id" : 1314,
+		"name" : "八卦耀光",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 1,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 20,
+						"type" : 2,
+						"value" : [ 100, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1315" : {
+		"id" : 1315,
+		"name" : "瘟癀阵",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 0,
+		"priority" : 1,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 204,
+						"type" : 2,
+						"value" : [ 100, 10, 1 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2315" : {
+		"id" : 2315,
+		"name" : "百日之难",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 20,
+		"priority" : 1,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 89,
+						"type" : 3,
+						"value" : [ 100 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1316" : {
+		"id" : 1316,
+		"name" : "青龙破",
+		"description" : "攻击敌方前排单体，造成法术攻击260%的伤害。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 1,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 260, 0, 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2316" : {
+		"id" : 2316,
+		"name" : "青龙吐息",
+		"description" : "攻击敌方全体，造成法术攻击180%的伤害。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 1,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3316" : {
+		"id" : 3316,
+		"name" : "青龙之怒",
+		"description" : "每回合法术攻击增加20%。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "初始法术攻击属性提高20%此后每回合叠加20%",
+						"id" : 3316,
+						"type" : 3,
+						"value" : [ 20 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1317" : {
+		"id" : 1317,
+		"name" : "白虎爪",
+		"description" : "攻击敌方前排单体，造成物理攻击260%的伤害。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 1,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 0,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 260, 0, 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2317" : {
+		"id" : 2317,
+		"name" : "白虎咆哮",
+		"description" : "攻击敌方全体，造成物理攻击180%的伤害。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 1,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3317" : {
+		"id" : 3317,
+		"name" : "白虎之怒",
+		"description" : "每回合物理攻击增加20%。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"--" : "初始物理攻击属性提高20%此后每回合叠加20%",
+						"id" : 3317,
+						"type" : 3,
+						"value" : [ 20 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1318" : {
+		"id" : 1318,
+		"name" : "朱雀焰斩",
+		"description" : "攻击敌方全体，造成物理攻击180%的伤害。且附加火焰灼烧伤害，注，火焰灼烧伤害将扣除目标30%生命。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 1,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"--" : "灼烧伤害效果是扣除总生命的指定百分比，战报输出格式“受到<伤害数>点火焰灼烧伤害”",
+						"id" : 28,
+						"type" : 0,
+						"value" : [ 30 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2318" : {
+		"id" : 2318,
+		"name" : "朱雀火雨",
+		"description" : "攻击敌方全体，造成法术攻击180%的伤害。且附加火焰灼烧伤害。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 1,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 28,
+						"type" : 0,
+						"value" : [ 30 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3318" : {
+		"id" : 3318,
+		"name" : "朱雀守护",
+		"description" : "自身不会被破击。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 3021,
+						"type" : 3,
+						"value" : [ 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1319" : {
+		"id" : 1319,
+		"name" : "玄武冲撞",
+		"description" : "攻击敌方全体，造成物理攻击和法术攻击90%的破击伤害。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 1,
+		"priority" : 1,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 90, 100, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 90, 100, 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2319" : {
+		"id" : 2319,
+		"name" : "玄武盾",
+		"description" : "自身附加80%反弹，持续3回合。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 31,
+						"type" : 0,
+						"value" : [ 80, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3319" : {
+		"id" : 3319,
+		"name" : "玄武守护",
+		"description" : "自身不会被破击。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 3021,
+						"type" : 3,
+						"value" : [ 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1320" : {
+		"id" : 1320,
+		"name" : "万仙混沌之气",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 1,
+		"priority" : 1,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 50,
+						"type" : 2,
+						"value" : [ 30, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2320" : {
+		"id" : 2320,
+		"name" : "万仙祝福神光",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 11,
+						"type" : 4,
+						"value" : [ 15, 3 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 12,
+						"type" : 4,
+						"value" : [ 15, 3 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 13,
+						"type" : 4,
+						"value" : [ 15, 3 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 14,
+						"type" : 4,
+						"value" : [ 15, 3 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 15,
+						"type" : 4,
+						"value" : [ 15 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 16,
+						"type" : 4,
+						"value" : [ 15, 3 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 17,
+						"type" : 4,
+						"value" : [ 15, 3 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 19,
+						"type" : 4,
+						"value" : [ 15 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 22,
+						"type" : 4,
+						"value" : [ 200, 3 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 32,
+						"type" : 4,
+						"value" : [ 30, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1321" : {
+		"id" : 1321,
+		"name" : "圣人之威",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 2,
+		"priority" : 1,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 15,
+						"type" : 4,
+						"value" : [ -20 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 60, 0, 0 ],
+						"growth" : [ 0.4 ]
+					},
+					{
+						"id" : 87,
+						"type" : 3,
+						"value" : [ 50, 1 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2321" : {
+		"id" : 2321,
+		"name" : "入魔杀戮之剑",
+		"description" : "",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 52,
+						"type" : 2,
+						"value" : [ 30, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 51,
+						"type" : 2,
+						"value" : [ 30, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 53,
+						"type" : 2,
+						"value" : [ 30, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 54,
+						"type" : 2,
+						"value" : [ 30, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 50,
+						"type" : 2,
+						"value" : [ 30, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 55,
+						"type" : 2,
+						"value" : [ 30, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 56,
+						"type" : 2,
+						"value" : [ 30, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 201,
+						"type" : 2,
+						"value" : [ 30, 15, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 204,
+						"type" : 2,
+						"value" : [ 30, 5, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 20,
+						"type" : 2,
+						"value" : [ 30, 5, 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1401" : {
+		"id" : 1401,
+		"name" : "天魔霸体",
+		"description" : "魔气纵横，屠戮天下。我方全体英杰物理攻击增加{0}%，持续3回合。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 11,
+						"type" : 1,
+						"value" : [ 10, 3 ],
+						"growth" : [ 0.3 ]
+					}
+				]
+			}
+		]
+	},
+	"1402" : {
+		"id" : 1402,
+		"name" : "十方云动",
+		"description" : "攻击敌方全体，造成物理攻击180%的伤害。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 1,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 52,
+						"type" : 2,
+						"value" : [ 50, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1403" : {
+		"id" : 1403,
+		"name" : "九幽魔焰",
+		"description" : "攻击敌方全体，造成法术攻击150%的伤害。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 1,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 180, 0, 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1404" : {
+		"id" : 1404,
+		"name" : "天魔解体",
+		"description" : "攻击敌方全体，造成法术攻击150%的伤害。",
+		"type" : 0,
+		"loopstart" : 6,
+		"cooldown" : 5,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 15,
+						"type" : 0,
+						"value" : [ -99 ],
+						"growth" : [ 0 ]
+					}
+				]
+			},
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 250, 50, 50 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3186" : {
+		"id" : 3186,
+		"name" : "水火不侵",
+		"description" : "免疫法术攻击伤害",
+		"type" : 2,
+		"loopstart" : 6,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 37,
+						"type" : 1,
+						"value" : [ -1 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2186" : {
+		"id" : 2186,
+		"name" : "饕餮盛宴",
+		"description" : "攻击敌方全体，吞噬敌方英杰{0}%至{1}%的生命",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 106,
+						"type" : 1,
+						"value" : [ 0, 100 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1186" : {
+		"id" : 1186,
+		"name" : "无物不吞",
+		"description" : "攻击敌方全体，吞噬敌方英杰物理攻击上限的{0}%至{1}%占为己用。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 107,
+						"type" : 1,
+						"value" : [ 0, 30 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3187" : {
+		"id" : 3187,
+		"name" : "穷凶极恶",
+		"description" : "免疫女性英杰伤害，并将敌方阵营最高攻击属性值复制为自身物理攻击，最高防御属性复制为自身双防。",
+		"type" : 2,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 108,
+						"type" : 1,
+						"value" : [ -1 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 110,
+						"type" : 1,
+						"value" : [ 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2187" : {
+		"id" : 2187,
+		"name" : "凶神恶煞",
+		"description" : "攻击敌方全体，造成物理攻击{0}%的伤害。且有{1_2_1_1_2_1}%几率令目标处于夺魂状态{1_2_2_1_2_1}回合。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 8,
+						"type" : 3,
+						"value" : [ 15, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1187" : {
+		"id" : 1187,
+		"name" : "恶贯满盈",
+		"description" : "攻击敌方全体，造成物理攻击{0}%的伤害。且敌方每有一名英杰处于夺魂状态，致死攻击几率增加{1_2_1_1_2_1}%。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 150, 0, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 4,
+						"type" : 0,
+						"value" : [ 30 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3188" : {
+		"id" : 3188,
+		"name" : "金刚不坏",
+		"description" : "免疫物理攻击伤害。",
+		"type" : 2,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 36,
+						"type" : 1,
+						"value" : [ -1 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2188" : {
+		"id" : 2188,
+		"name" : "冥顽不灵",
+		"description" : "自身附加冥顽不灵标记{0}回合。附加标记的英杰被攻击时，与伤害来源评分本次伤害。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 111,
+						"type" : 1,
+						"value" : [ 3 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1188" : {
+		"id" : 1188,
+		"name" : "桀骜不驯",
+		"description" : "攻击敌方全体，造成被攻击英杰最高攻击{0}00%至{1}00%的物理攻击伤害。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"-" : "判断被攻击的英杰双攻，取较高的那一项，作为本次的物理攻击值，最后在算加成，加成随机比例是100%，200%……500%。",
+						"id" : 112,
+						"type" : 1,
+						"value" : [ 1, 5 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"3189" : {
+		"id" : 3189,
+		"name" : "混沌无极",
+		"description" : "免疫男性英杰伤害，并将敌方阵营最高攻击属性值复制为自身法术攻击，最高防御属性复制为自身双防。",
+		"type" : 2,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 109,
+						"type" : 1,
+						"value" : [ -1 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 110,
+						"type" : 1,
+						"value" : [ 1 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"2189" : {
+		"id" : 2189,
+		"name" : "混沌两仪",
+		"description" : "攻击敌方全体，造成法术攻击100%的伤害。且有{0}%几率令目标魅惑{1_1_2}回合。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 55,
+						"type" : 2,
+						"value" : [ 20, 3 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 100, 0, 0 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1189" : {
+		"id" : 1189,
+		"name" : "混沌始终",
+		"description" : "攻击敌方全体，造成法术攻击150%的伤害，且目标混乱2回合。",
+		"type" : 0,
+		"loopstart" : 2,
+		"cooldown" : 2,
+		"priority" : 2,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 150, 0, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"--" : "混乱状态，效果和被动里的相同",
+						"id" : 50,
+						"type" : 2,
+						"value" : [ 100, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"1190" : {
+		"id" : 1190,
+		"name" : "破天爪",
+		"description" : "随机攻击一名英杰，造成230%的物理伤害，且有50%几率破击，50%几率再次攻击。",
+		"type" : 0,
+		"loopstart" : 0,
+		"cooldown" : 1,
+		"priority" : 1,
+		"delaytime" : 4000,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 8,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 230, 50, 0 ],
+						"growth" : [ 1 ]
+					},
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 230, 50, 0 ],
+						"growth" : [ 1 ]
+					}
+				]
+			}
+		]
+	},
+	"2190" : {
+		"id" : 2190,
+		"name" : "九天雷动",
+		"description" : "攻击敌方全体，造成160%的法术伤害，且有30%几率附加夺魂标记2回合。",
+		"type" : 0,
+		"loopstart" : 1,
+		"cooldown" : 2,
+		"priority" : 2,
+		"delaytime" : 4100,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 5,
+				"effect" : [
+					{
+						"id" : 2,
+						"type" : 0,
+						"value" : [ 160, 0, 0 ],
+						"growth" : [ 1 ]
+					},
+					{
+						"id" : 8,
+						"type" : 3,
+						"value" : [ 30, 2 ],
+						"growth" : [ 0.2 ]
+					}
+				]
+			}
+		]
+	},
+	"3190" : {
+		"id" : 3190,
+		"name" : "无法无天",
+		"description" : "自身受到伤害时，反弹60%伤害给攻击来源，且有30%几率令伤害来源混乱2回合。",
+		"type" : 2,
+		"loopstart" : 0,
+		"cooldown" : 0,
+		"priority" : 0,
+		"act" : [
+			{
+				"target_type" : 1,
+				"target_way" : 11,
+				"effect" : [
+					{
+						"id" : 31,
+						"type" : 1,
+						"value" : [ 60, 0 ],
+						"growth" : [ 0 ]
+					},
+					{
+						"id" : 50,
+						"type" : 2,
+						"value" : [ 30, 2 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	},
+	"100190" : {
+		"id" : 100190,
+		"name" : "穿天神矛",
+		"description" : "攻击敌方一列，造成200%的物理破击伤害，且对其造成2回合流血伤害。",
+		"type" : 1,
+		"loopstart" : 0,
+		"cooldown" : 10,
+		"priority" : 3,
+		"delaytime" : 4700,
+		"act" : [
+			{
+				"target_type" : 0,
+				"target_way" : 4,
+				"effect" : [
+					{
+						"id" : 1,
+						"type" : 0,
+						"value" : [ 200, 100, 0 ],
+						"growth" : [ 20 ]
+					},
+					{
+						"id" : 201,
+						"type" : 2,
+						"value" : [ 100, 30, 1 ],
+						"growth" : [ 0 ]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,187 @@
+{
+    "5014": {
+        "name": "人级特权周卡",
+        "1":"每日领取50仙石",
+        "reward": [
+            {
+                "item_id": 5,
+                "num": 50
+            }
+        ],
+        "2":"剧情挑战次数增",
+        "fsStageExtraTimes": 6,
+        "3":"汽运挑战次数增加",
+        "qyStageExtraTimes": 2,
+        "4":"圣兽挑战次数增加",
+        "saintTimes":0,
+        "5":"竞技天梯、世界天梯挑战次数增加",
+        "rankChallengeExtraTimes":1,
+        "6":"竞技天梯、世界天梯挑战次数增加",
+        "jjBugTimes":1,
+        "7":"天命仙石重置次数增加",
+        "arenaRerollTimes":1,
+        "8":"竞技天梯、世界天梯免冷却增加",
+        "jjNoWaitTimes":1,
+        "9":"仙友每日免费拜访次数增加",
+        "freeFindExtraTimes": 1,
+         "10":"每日交换星魂增加",
+        "extraSsSwitchTimes": 1,
+        "11":"仙草阁、灵兽园、元灵矿增产 %",
+        "extraHomeLand":20,
+        "12":"洞天灵宝收益增加%",
+        "extraDongtian":20,
+        "13":"每日充值奖励增加 每日仙缘消费奖励增加  %",
+        "extraDalyCostMulti":10,
+        "14":"剧情和汽运有超级扫荡功能",
+        "canClear":1,
+        "15":"私有交易特权",
+        "fwtransactions":0,
+        "privilegelevel":1,
+        "16":"每日特权卡签到奖励",
+        "checkInReward":[
+            {
+                "item_id": 3000,
+                "num": 3
+            }
+        ],
+        "checkIn100Reward":[
+
+        ],
+        "challengeDongtian":0
+    },
+    "5015": {
+        "name": "地级特权周卡",
+        "1":"每日领取50仙石",
+        "reward": [
+            {
+                "item_id": 4,
+                "num": 30
+            },
+            {
+                "item_id": 5,
+                "num": 120
+            }
+        ],
+        "2":"剧情挑战次数增",
+        "fsStageExtraTimes": 12,
+        "3":"汽运挑战次数增加",
+        "qyStageExtraTimes": 4,
+        "4":"圣兽挑战次数增加",
+        "saintTimes":2,
+        "5":"竞技天梯、世界天梯挑战次数增加",
+        "rankChallengeExtraTimes":2,
+        "6":"竞技天梯、世界天梯挑战次数增加",
+        "jjBugTimes":2,
+        "7":"天命仙石重置次数增加",
+        "arenaRerollTimes":2,
+        "8":"竞技天梯、世界天梯免冷却增加",
+        "jjNoWaitTimes":2,
+        "9":"仙友每日免费拜访次数增加",
+        "freeFindExtraTimes": 2,
+         "10":"每日交换星魂增加",
+        "extraSsSwitchTimes": 2,
+        "16":"北海平乱次数增加",
+        "expeditionResetTimes":1,
+        "17":"南疆凶兽次数增加",
+        "extraSouthTimes":1,
+        "18":"真命竞技场挑战次数增加",
+        "arenaRealtimes":0,
+        "11":"仙草阁、灵兽园、元灵矿增产 %",
+        "extraHomeLand":40,
+        "12":"洞天灵宝收益增加%",
+        "extraDongtian":40,
+        "13":"每日充值奖励增加 每日仙缘消费奖励增加  %",
+        "extraDalyCostMulti":30,
+        "extraDalyXSCostMulti":30,
+        "extraRankMulti":20,
+        "14":"剧情和汽运有超级扫荡功能",
+        "canClear":1,
+        "15":"私有交易特权",
+        "fwtransactions":1,
+        "privilegelevel":1,
+        "checkInReward":[
+            {
+                "item_id": 3000,
+                "num": 6
+            }
+        ],
+        "checkIn100Reward":[
+            {
+                "item_id": 3000,
+                "num": 3
+            }
+        ],
+        "challengeDongtian":1,
+        "arenaSignUpAuto":1,
+        "runeStrengthen":1
+    },
+    "5016": {
+        "name": "天级特权周卡",
+        "1":"每日领取50仙石",
+        "reward": [
+            {
+                "item_id": 4,
+                "num": 60
+            },
+            {
+                "item_id": 5,
+                "num": 210
+            }
+        ],
+        "2":"剧情挑战次数增",
+        "fsStageExtraTimes": 18,
+        "3":"汽运挑战次数增加",
+        "qyStageExtraTimes": 6,
+        "4":"圣兽挑战次数增加",
+        "saintTimes":3,
+        "5":"竞技天梯、世界天梯挑战次数增加",
+        "rankChallengeExtraTimes":3,
+        "6":"竞技天梯、世界天梯挑战购买次数增加",
+        "jjBugTimes":3,
+        "7":"天命仙石重置次数增加",
+        "arenaRerollTimes":3,
+        "8":"竞技天梯、世界天梯免冷却增加",
+        "jjNoWaitTimes":3,
+        "9":"仙友每日免费拜访次数增加",
+        "freeFindExtraTimes": 3,
+         "10":"每日交换星魂增加",
+        "extraSsSwitchTimes": 3,
+        "16":"北海平乱次数增加",
+        "expeditionResetTimes":2,
+        "17":"南疆凶兽次数增加",
+        "extraSouthTimes":2,
+        "18":"真命竞技场挑战次数增加",
+        "arenaRealtimes":1,
+        "11":"仙草阁、灵兽园、元灵矿增产 %",
+        "extraHomeLand":70,
+        "12":"洞天灵宝收益增加%",
+        "extraDongtian":70,
+        "13":"每日充值奖励增加 每日仙缘消费奖励增加  %",
+        "extraDalyCostMulti":50,
+        "extraDalyXSCostMulti":50,
+        "extraRankMulti":50,
+        "14":"剧情和汽运有超级扫荡功能",
+        "canClear":1,
+        "15":"私有交易特权",
+        "fwtransactions":1,
+        "privilegelevel":1,
+        "checkInReward":[
+            {
+                "item_id": 3000,
+                "num": 6
+            }
+        ],
+        "checkIn100Reward":[
+            {
+                "item_id": 3000,
+                "num": 6
+            }
+        ],
+        "challengeDongtian":1,
+        "arenaSignUpAuto":1,
+        "arenaRSignUpAuto":1,
+        "runeStrengthen":1,
+        "holyRuneStrengthen":1,
+        "dgStageExtraTimes":1
+    }
+}

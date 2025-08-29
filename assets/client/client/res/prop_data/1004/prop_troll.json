@@ -1,0 +1,24 @@
+{
+	"1" : {
+		"stage_id" : 1,
+		"stage_name" : "通天巨魔",
+		"name" : "TowerTroll",
+		"limit_round" : 20,
+		"weeks":[1,2,3,4,5,6,7,0],
+		"wave_group_1" : {
+			"2" : {
+				"hero_id" : 100190,
+				"lv" : 120,
+				"star" : 5,
+				"grade" : 150,
+				"jingjie" : 12,
+				"skill_lv" : 100,
+				"equip_lv" : 910,
+				"fabao_cur" : 0,
+				"fabao_grade" : 5,
+				"fabao_lv" : 100,
+				"horse_lv" : 100
+			}
+		}
+	}
+}

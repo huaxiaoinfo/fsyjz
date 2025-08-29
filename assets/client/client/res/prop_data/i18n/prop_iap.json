@@ -1,0 +1,109 @@
+{
+    "com.huaxiao.fengshen": [
+        {
+            "name": "1预存金",
+            "price": 1,
+            "productId": "fsqyz_1"
+        },
+        {
+            "name": "6预存金",
+            "price": 6,
+            "productId": "fsqyz_6"
+        },
+        {
+            "name": "7预存金",
+            "price": 7,
+            "productId": "fsqyz_7"
+        },
+        {
+            "name": "14预存金",
+            "price": 14,
+            "productId": "fsqyz_14"
+        },
+        {
+            "name": "15预存金",
+            "price": 15,
+            "productId": "fsqyz_15"
+        },
+        {
+            "name": "19预存金",
+            "price": 19,
+            "productId": "fsqyz_19"
+        },
+        {
+            "name": "21预存金",
+            "price": 21,
+            "productId": "fsqyz_21"
+        },
+        {
+            "name": "25预存金",
+            "price": 25,
+            "productId": "fsqyz_25"
+        },
+        {
+            "name": "28预存金",
+            "price": 28,
+            "productId": "fsqyz_28"
+        },
+        {
+            "name": "29预存金",
+            "price": 29,
+            "productId": "fsqyz_29"
+        },
+        {
+            "name": "30预存金",
+            "price": 30,
+            "productId": "fsqyz_30"
+        },
+        {
+            "name": "33预存金",
+            "price": 33,
+            "productId": "fsqyz_33"
+        },
+        {
+            "name": "36预存金",
+            "price": 36,
+            "productId": "fsqyz_36"
+        },
+        {
+            "name": "39预存金",
+            "price": 39,
+            "productId": "fsqyz_39"
+        },
+        {
+            "name": "66预存金",
+            "price": 66,
+            "productId": "fsqyz_66"
+        },
+        {
+            "name": "68预存金",
+            "price": 68,
+            "productId": "fsqyz_68"
+        },
+        {
+            "name": "78预存金",
+            "price": 78,
+            "productId": "fsqyz_78"
+        },
+        {
+            "name": "99预存金",
+            "price": 99,
+            "productId": "fsqyz_99"
+        },
+        {
+            "name": "258预存金",
+            "price": 258,
+            "productId": "fsqyz_258"
+        },
+        {
+            "name": "288预存金",
+            "price": 288,
+            "productId": "fsqyz_288"
+        },
+        {
+            "name": "648预存金",
+            "price": 648,
+            "productId": "fsqyz_648"
+        }
+    ]
+}
