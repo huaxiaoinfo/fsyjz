@@ -9,17 +9,25 @@
 		<title>Conferred Gods</title>
 		<link rel="stylesheet" type="text/css" href="../style.css" />
 		<script type="text/javascript">
+         function downloadFile(url, fileName) {
+           const link = document.createElement('a');
+           link.href = url;
+           link.download = fileName;
+           document.body.appendChild(link);
+           link.click();
+           document.body.removeChild(link);
+         }
 			function downIos()
 			{
                 window.open("https://testflight.apple.com/join/9h9SusEf");
 			}
 			function downAndroid()
 			{
-                window.open("https://github.com/huaxiaoinfo/fsyjz/releases/download/v0.0.1/FenShen-paypal-release.apk");
+               downloadFile("https://github.com/huaxiaoinfo/fsyjz/releases/download/v0.0.1/FenShen-paypal-release.apk","FenShen-paypal-release.apk");
 			}
          function downAndroid32()
          {
-                window.open("https://github.com/huaxiaoinfo/fsyjz/releases/download/v0.0.1/FenShen-paypal-32.apk");
+                downloadFile("https://github.com/huaxiaoinfo/fsyjz/releases/download/v0.0.1/FenShen-paypal-32.apk","FenShen-paypal-32.apk");
          }
 		</script>
 	</head>
