@@ -1,0 +1,12 @@
+{
+	"1" : {
+		"description" : "对敌人造成{0}点物理伤害",
+		"type" : 1,
+		"action_id" : 1,
+		"target_type" : 0,
+		"target_way" : 0,
+		"level_up_disp" : "单体物理伤害+{0}",
+		"value" : [ 100 ],
+		"growth" : [ 1 ]
+	}
+}

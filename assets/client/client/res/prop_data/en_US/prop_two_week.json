@@ -1,0 +1,13 @@
+{
+	"2800" : {
+		"name" : "Cumulative Recharge Rank",
+		"end_time" : "August 14, 2025",
+		"1" : "1st: Rewards equal to 100% of the recharge amount in yuanbao, 100% in Heavenly Dao Essence, 100% in Great Dao Essence, 100% in Xianshi, and a 2-month gift pack.",
+		"2" : "2nd: Rewards equal to 70% of the recharge amount in yuanbao, 70% in Heavenly Dao Essence, 70% in Great Dao Essence, 70% in Xianshi, and a 2-month gift pack.",
+		"3" : "3rd: Rewards equal to 50% of the recharge amount in yuanbao, 50% in Heavenly Dao Essence, 50% in Great Dao Essence, 50% in Xianshi, and a 2-month gift pack.",
+		"4" : "4th-5th: Rewards equal to 40% of the recharge amount in yuanbao, 40% in Heavenly Dao Essence, 40% in Great Dao Essence, 40% in Xianshi, and a 1-month gift pack.",
+		"6" : "6th-10th: Rewards equal to 30% of the recharge amount in yuanbao, 30% in Heavenly Dao Essence, 30% in Great Dao Essence, 30% in Xianshi, and 2 weekly gift packs.",
+		"11" : "11st-20th: Rewards equal to 20% of the recharge amount in yuanbao, 20% in Heavenly Dao Essence, 20% in Great Dao Essence, 20% in Xianshi, 1 weekly gift pack, and 1 daily resource pack.",
+		"21" : "21st-100th: Rewards equal to 10% of the recharge amount in yuanbao, 10% in Heavenly Dao Essence, 10% in Great Dao Essence, 10% in Xianshi, and 1 weekly gift pack."
+	}
+}

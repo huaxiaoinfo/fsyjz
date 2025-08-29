@@ -1,0 +1,197 @@
+{
+	"1" : {
+		"guide_id" : 1,
+		"reward" : [
+			{
+				"item_id" : 101,
+				"num" : 1
+			}
+		]
+	},
+	"3" : {
+		"guide_id" : 3,
+		"reward" : [
+			{
+				"item_id" : 201,
+				"num" : 1
+			},
+			{
+				"item_id" : 2011,
+				"num" : 1
+			},
+			{
+				"item_id" : 3011,
+				"num" : 1
+			},
+			{
+				"item_id" : 4001,
+				"num" : 1
+			},
+			{
+				"item_id" : 6,
+				"num" : 2000
+			}
+		]
+	},
+	"7" : {
+		"guide_id" : 7,
+		"reward" : [
+			{
+				"item_id" : 8,
+				"num" : 20
+			},
+			{
+				"item_id" : 5,
+				"num" : 10
+			}
+		]
+	},
+	"10" : {
+		"guide_id" : 10,
+		"reward" : [
+			{
+				"item_id" : 3032,
+				"num" : 1
+			},
+			{
+				"item_id" : 103,
+				"num" : 1
+			}
+		]
+	},
+	"11" : {
+		"guide_id" : 11,
+		"reward" : [
+			{
+				"item_id" : 6,
+				"num" : 50000
+			}
+		]
+	},
+	"13" : {
+		"guide_id" : 13,
+		"reward" : [
+			{
+				"item_id" : 4000,
+				"num" : 10
+			},
+			{
+				"item_id" : 3021,
+				"num" : 1
+			}
+		]
+	},
+	"16" : {
+		"guide_id" : 16,
+		"reward" : [
+			{
+				"item_id" : 3001,
+				"num" : 300
+			},
+			{
+				"item_id" : 8,
+				"num" : 100
+			},
+			{
+				"item_id" : 5,
+				"num" : 100
+			}
+		]
+	},
+	"20" : {
+		"guide_id" : 20,
+		"reward" : [
+			{
+				"item_id" : 2011,
+				"num" : 50
+			}
+		]
+	},
+	"23" : {
+		"guide_id" : 23,
+		"reward" : [
+			{
+				"item_id" : 8,
+				"num" : 500
+			},
+			{
+				"item_id" : 102,
+				"num" : 1
+			}
+		]
+	},
+	"25" : {
+		"guide_id" : 25,
+		"reward" : [
+			{
+				"item_id" : 2011,
+				"num" : 100
+			},
+			{
+				"item_id" : 6,
+				"num" : 100000
+			}
+		]
+	},
+	"26" : {
+		"guide_id" : 26,
+		"reward" : [
+			{
+				"item_id" : 3021,
+				"num" : 15
+			}
+		]
+	},
+	"27" : {
+		"guide_id" : 27,
+		"reward" : [
+			{
+				"item_id" : 8,
+				"num" : 1000
+			}
+		]
+	},
+	"28" : {
+		"guide_id" : 28,
+		"reward" : [
+			{
+				"item_id" : 4000,
+				"num" : 500
+			},
+			{
+				"item_id" : 6,
+				"num" : 100000
+			}
+		]
+	},
+	"30" : {
+		"guide_id" : 30,
+		"reward" : [
+			{
+				"item_id" : 3061,
+				"num" : 1
+			},
+			{
+				"item_id" : 3062,
+				"num" : 10
+			},
+			{
+				"item_id" : 3066,
+				"num" : 10
+			},
+			{
+				"item_id" : 6,
+				"num" : 500000
+			}
+		]
+	},
+	"32" : {
+		"guide_id" : 32,
+		"reward" : [
+			{
+				"item_id" : 21,
+				"num" : 5000
+			}
+		]
+	}
+}

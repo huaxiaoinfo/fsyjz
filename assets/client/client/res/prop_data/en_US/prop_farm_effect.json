@@ -1,0 +1,3355 @@
+{
+	"1" : {
+		"11" : {
+			"upgrade" : [
+				{
+					"cost" : 3081,
+					"num" : 1
+				},
+				{
+					"cost" : 8,
+					"num" : 5000
+				}
+			]
+		},
+		"12" : {
+			"upgrade" : [
+				{
+					"cost" : 3081,
+					"num" : 1
+				},
+				{
+					"cost" : 8,
+					"num" : 5000
+				}
+			]
+		},
+		"13" : {
+			"upgrade" : [
+				{
+					"cost" : 3081,
+					"num" : 1
+				},
+				{
+					"cost" : 8,
+					"num" : 5000
+				}
+			]
+		},
+		"14" : {
+			"upgrade" : [
+				{
+					"cost" : 3081,
+					"num" : 1
+				},
+				{
+					"cost" : 8,
+					"num" : 5000
+				}
+			]
+		},
+		"15" : {
+			"upgrade" : [
+				{
+					"cost" : 3082,
+					"num" : 1
+				},
+				{
+					"cost" : 8,
+					"num" : 10000
+				}
+			]
+		},
+		"21" : {
+			"upgrade" : [
+				{
+					"cost" : 3082,
+					"num" : 1
+				},
+				{
+					"cost" : 8,
+					"num" : 10000
+				}
+			]
+		},
+		"22" : {
+			"upgrade" : [
+				{
+					"cost" : 3082,
+					"num" : 1
+				},
+				{
+					"cost" : 8,
+					"num" : 10000
+				}
+			]
+		},
+		"23" : {
+			"upgrade" : [
+				{
+					"cost" : 3082,
+					"num" : 1
+				},
+				{
+					"cost" : 8,
+					"num" : 10000
+				}
+			]
+		},
+		"24" : {
+			"upgrade" : [
+				{
+					"cost" : 3082,
+					"num" : 1
+				},
+				{
+					"cost" : 8,
+					"num" : 10000
+				}
+			]
+		},
+		"25" : {
+			"upgrade" : [
+				{
+					"cost" : 3083,
+					"num" : 1
+				},
+				{
+					"cost" : 8,
+					"num" : 15000
+				}
+			]
+		},
+		"31" : {
+			"upgrade" : [
+				{
+					"cost" : 3083,
+					"num" : 1
+				},
+				{
+					"cost" : 8,
+					"num" : 15000
+				}
+			]
+		},
+		"32" : {
+			"upgrade" : [
+				{
+					"cost" : 3083,
+					"num" : 1
+				},
+				{
+					"cost" : 8,
+					"num" : 15000
+				}
+			]
+		},
+		"33" : {
+			"upgrade" : [
+				{
+					"cost" : 3083,
+					"num" : 1
+				},
+				{
+					"cost" : 8,
+					"num" : 15000
+				}
+			]
+		},
+		"34" : {
+			"upgrade" : [
+				{
+					"cost" : 3083,
+					"num" : 1
+				},
+				{
+					"cost" : 8,
+					"num" : 15000
+				}
+			]
+		},
+		"35" : {
+			"upgrade" : [
+				{
+					"cost" : 3084,
+					"num" : 1
+				},
+				{
+					"cost" : 8,
+					"num" : 20000
+				}
+			]
+		},
+		"41" : {
+			"upgrade" : [
+				{
+					"cost" : 3084,
+					"num" : 1
+				},
+				{
+					"cost" : 8,
+					"num" : 20000
+				}
+			]
+		},
+		"42" : {
+			"upgrade" : [
+				{
+					"cost" : 3084,
+					"num" : 1
+				},
+				{
+					"cost" : 8,
+					"num" : 20000
+				}
+			]
+		},
+		"43" : {
+			"upgrade" : [
+				{
+					"cost" : 3084,
+					"num" : 1
+				},
+				{
+					"cost" : 8,
+					"num" : 20000
+				}
+			]
+		},
+		"44" : {
+			"upgrade" : [
+				{
+					"cost" : 3084,
+					"num" : 1
+				},
+				{
+					"cost" : 8,
+					"num" : 20000
+				}
+			]
+		},
+		"45" : {
+			"upgrade" : [
+				{
+					"cost" : -1,
+					"num" : -1
+				},
+				{
+					"cost" : -1,
+					"num" : -1
+				}
+			]
+		}
+	},
+	"2" : {
+		"1" : {
+			"range_id" : [ 3101, 3106 ]
+		},
+		"2" : {
+			"range_id" : [ 3107, 3112 ]
+		},
+		"3" : {
+			"range_id" : [ 3113, 3118 ]
+		},
+		"4" : {
+			"range_id" : [ 3119, 3124 ]
+		},
+		"5" : {
+			"range_id" : [ 3125, 3130 ]
+		}
+	},
+	"3" : {
+		"--" : "0除草或清理粪便，1捉虫或拍打苍蝇，2施肥或喂口粮，3放杂草或放粪便，4放虫子或放苍蝇",
+		"1" : [
+			{
+				"item_id" : 3085,
+				"num" : 1
+			},
+			{
+				"item_id" : 3086,
+				"num" : 1
+			},
+			{
+				"item_id" : 3089,
+				"num" : -1
+			},
+			{
+				"item_id" : 3085,
+				"num" : -1
+			},
+			{
+				"item_id" : 3086,
+				"num" : -1
+			}
+		],
+		"2" : [
+			{
+				"item_id" : 3087,
+				"num" : 1
+			},
+			{
+				"item_id" : 3088,
+				"num" : 1
+			},
+			{
+				"item_id" : 3090,
+				"num" : -1
+			},
+			{
+				"item_id" : 3087,
+				"num" : -1
+			},
+			{
+				"item_id" : 3088,
+				"num" : -1
+			}
+		],
+		"3" : [
+			{
+				"item_id" : 3091,
+				"num" : 1
+			}
+		]
+	},
+	"4" : {
+		"1" : {
+			"3201" : {
+				"id" : 3201,
+				"--1" : "种植或养殖成功播放的音效",
+				"support_ogg" : "farm_19",
+				"--2" : "收货和偷窃成功播放的音效",
+				"receive_ogg" : "farm_20",
+				"--3" : "类型1为仙草阁，类型2为灵兽园",
+				"type" : 1,
+				"--4" : "家园等级必须大于等于多少才能种植或放养",
+				"farm_lv" : 1,
+				"--5" : "成熟后收货的物品id",
+				"get_id" : 3401,
+				"--6" : "成熟时间",
+				"mature_time" : 7200,
+				"--7" : "发生负面事件的时间",
+				"disaster_time" : 3600,
+				"--8" : "一次种植或养殖，其他玩家最多可投放的同一灾害数",
+				"put_disaster" : 3,
+				"--9" : "负面时间加1，健康值减",
+				"disaster_health" : 10,
+				"--10" : "健康值最多可扣减，注意，先减当前，后减最大",
+				"disaster_most_health" : 70,
+				"--11" : "初始健康值，也是最大健康值",
+				"health" : 100,
+				"--12" : "一点健康值等于多少可收货的物品数",
+				"health_proportion" : 1,
+				"--13" : "不触发保底时，一次偷窃最少可偷取，若触发保底，无论本次随机到多少，都要给对方留个保底数",
+				"steal_min" : 3,
+				"--14" : "不触发保底时，一次偷窃最多可偷取，若触发保底，无论本次随机到多少，都要给对方留个保底数",
+				"steal_max" : 10,
+				"--15" : "偷窃保底数量",
+				"steal_least" : 30
+			},
+			"3202" : {
+				"id" : 3202,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3402,
+				"mature_time" : 14400,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30
+			},
+			"3203" : {
+				"id" : 3203,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 2,
+				"get_id" : 3403,
+				"mature_time" : 14400,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30
+			},
+			"3204" : {
+				"id" : 3204,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 2,
+				"get_id" : 3404,
+				"mature_time" : 28800,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30
+			},
+			"3205" : {
+				"id" : 3205,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 3,
+				"get_id" : 3405,
+				"mature_time" : 21600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30
+			},
+			"3206" : {
+				"id" : 3206,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 3,
+				"get_id" : 3406,
+				"mature_time" : 43200,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30
+			},
+			"3207" : {
+				"id" : 3207,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 4,
+				"get_id" : 3407,
+				"mature_time" : 28800,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30
+			},
+			"3208" : {
+				"id" : 3208,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 4,
+				"get_id" : 3408,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30
+			},
+			"3209" : {
+				"id" : 3209,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3409,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2849 ]
+			},
+			"3210" : {
+				"id" : 3210,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3410,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2849 ]
+			},
+			"3211" : {
+				"id" : 3211,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3411,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2849 ]
+			},
+			"3212" : {
+				"id" : 3212,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3412,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2849 ]
+			},
+			"3213" : {
+				"id" : 3213,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3413,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2849 ]
+			},
+			"3214" : {
+				"id" : 3214,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3414,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2749 ]
+			},
+			"3215" : {
+				"id" : 3215,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 5,
+				"get_id" : 3415,
+				"mature_time" : 28800,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30
+			},
+			"3216" : {
+				"id" : 3216,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 5,
+				"get_id" : 3416,
+				"mature_time" : 28800,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30
+			},
+			"3217" : {
+				"id" : 3217,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 5,
+				"get_id" : 3417,
+				"mature_time" : 28800,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30
+			},
+			"3218" : {
+				"id" : 3218,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3418,
+				"mature_time" : 32400,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30
+			},
+			"3219" : {
+				"id" : 3219,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 5,
+				"get_id" : 3419,
+				"mature_time" : 28800,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30
+			},
+			"3220" : {
+				"id" : 3220,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3420,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2865 ]
+			},
+			"3221" : {
+				"id" : 3221,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3421,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2879 ]
+			},
+			"3222" : {
+				"id" : 3222,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3422,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2779 ]
+			},
+			"3223" : {
+				"id" : 3223,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3423,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2731 ]
+			},
+			"3224" : {
+				"id" : 3224,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3424,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2731 ]
+			},
+			"3225" : {
+				"id" : 3225,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3425,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2736 ]
+			},
+			"3226" : {
+				"id" : 3226,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3426,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2736 ]
+			},
+			"3227" : {
+				"id" : 3227,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3427,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2736 ]
+			},
+			"3228" : {
+				"id" : 3228,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3428,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2819 ]
+			},
+			"3229" : {
+				"id" : 3229,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3429,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2807 ]
+			},
+			"3230" : {
+				"id" : 3230,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3430,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2759 ]
+			},
+			"3231" : {
+				"id" : 3231,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3431,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2815 ]
+			},
+			"3232" : {
+				"id" : 3232,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3432,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2815 ]
+			},
+			"3233" : {
+				"id" : 3233,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3433,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2771 ]
+			},
+			"3234" : {
+				"id" : 3234,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3434,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2771 ]
+			},
+			"3235" : {
+				"id" : 3235,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3435,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2783 ]
+			},
+			"3236" : {
+				"id" : 3236,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3436,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2799 ]
+			},
+			"3238" : {
+				"id" : 3238,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3438,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2886, 2887 ]
+			},
+			"3239" : {
+				"id" : 3239,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3439,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2840 ]
+			},
+			"3237" : {
+				"id" : 3237,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3437,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2891 ]
+			},
+			"3240" : {
+				"id" : 3240,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3440,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2903, 2904 ]
+			},
+			"3241" : {
+				"id" : 3241,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3441,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2856 ]
+			},
+			"3242" : {
+				"id" : 3242,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3442,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2857 ]
+			},
+			"3243" : {
+				"id" : 3243,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3443,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2868, 2869 ]
+			},
+			"3244" : {
+				"id" : 3244,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3444,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2868, 2869 ]
+			},
+			"3245" : {
+				"id" : 3245,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3445,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2868, 2869 ]
+			},
+			"3246" : {
+				"id" : 3246,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3446,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2868, 2869 ]
+			},
+			"3247" : {
+				"id" : 3247,
+				"support_ogg" : "farm_19",
+				"receive_ogg" : "farm_20",
+				"type" : 1,
+				"farm_lv" : 1,
+				"get_id" : 3447,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2868, 2869 ]
+			}
+		},
+		"2" : {
+			"3301" : {
+				"id" : 3301,
+				"support_ogg" : "farm_21",
+				"receive_ogg" : "farm_22",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3501,
+				"mature_time" : 7200,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30
+			},
+			"3302" : {
+				"id" : 3302,
+				"support_ogg" : "farm_23",
+				"receive_ogg" : "farm_24",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3502,
+				"mature_time" : 14400,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30
+			},
+			"3303" : {
+				"id" : 3303,
+				"support_ogg" : "farm_25",
+				"receive_ogg" : "farm_26",
+				"type" : 2,
+				"farm_lv" : 2,
+				"get_id" : 3503,
+				"mature_time" : 14400,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30
+			},
+			"3304" : {
+				"id" : 3304,
+				"support_ogg" : "farm_27",
+				"receive_ogg" : "farm_28",
+				"type" : 2,
+				"farm_lv" : 2,
+				"get_id" : 3504,
+				"mature_time" : 28800,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30
+			},
+			"3305" : {
+				"id" : 3305,
+				"support_ogg" : "farm_29",
+				"receive_ogg" : "farm_30",
+				"type" : 2,
+				"farm_lv" : 3,
+				"get_id" : 3505,
+				"mature_time" : 21600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30
+			},
+			"3306" : {
+				"id" : 3306,
+				"support_ogg" : "farm_31",
+				"receive_ogg" : "farm_32",
+				"type" : 2,
+				"farm_lv" : 3,
+				"get_id" : 3506,
+				"mature_time" : 43200,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30
+			},
+			"3307" : {
+				"id" : 3307,
+				"support_ogg" : "farm_33",
+				"receive_ogg" : "farm_34",
+				"type" : 2,
+				"farm_lv" : 4,
+				"get_id" : 3507,
+				"mature_time" : 28800,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30
+			},
+			"3308" : {
+				"id" : 3308,
+				"support_ogg" : "farm_35",
+				"receive_ogg" : "farm_36",
+				"type" : 2,
+				"farm_lv" : 4,
+				"get_id" : 3508,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30
+			},
+			"3309" : {
+				"id" : 3309,
+				"support_ogg" : "farm_38",
+				"receive_ogg" : "farm_39",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3509,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2849 ]
+			},
+			"3310" : {
+				"id" : 3310,
+				"support_ogg" : "farm_38",
+				"receive_ogg" : "farm_39",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3510,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2849 ]
+			},
+			"3311" : {
+				"id" : 3311,
+				"support_ogg" : "farm_38",
+				"receive_ogg" : "farm_39",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3511,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2849 ]
+			},
+			"3312" : {
+				"id" : 3312,
+				"support_ogg" : "farm_38",
+				"receive_ogg" : "farm_39",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3512,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2849 ]
+			},
+			"3313" : {
+				"id" : 3313,
+				"support_ogg" : "farm_38",
+				"receive_ogg" : "farm_39",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3513,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2849 ]
+			},
+			"3314" : {
+				"id" : 3314,
+				"support_ogg" : "farm_21",
+				"receive_ogg" : "farm_22",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3514,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2868, 2869 ]
+			},
+			"3315" : {
+				"id" : 3315,
+				"support_ogg" : "farm_25",
+				"receive_ogg" : "farm_26",
+				"type" : 2,
+				"farm_lv" : 5,
+				"get_id" : 3515,
+				"mature_time" : 28800,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30
+			},
+			"3316" : {
+				"id" : 3316,
+				"support_ogg" : "farm_27",
+				"receive_ogg" : "farm_28",
+				"type" : 2,
+				"farm_lv" : 5,
+				"get_id" : 3516,
+				"mature_time" : 28800,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30
+			},
+			"3317" : {
+				"id" : 3317,
+				"support_ogg" : "farm_27",
+				"receive_ogg" : "farm_28",
+				"type" : 2,
+				"farm_lv" : 5,
+				"get_id" : 3517,
+				"mature_time" : 28800,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30
+			},
+			"3318" : {
+				"id" : 3318,
+				"support_ogg" : "farm_23",
+				"receive_ogg" : "farm_28",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3518,
+				"mature_time" : 32400,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30
+			},
+			"3319" : {
+				"id" : 3319,
+				"support_ogg" : "farm_27",
+				"receive_ogg" : "farm_28",
+				"type" : 2,
+				"farm_lv" : 5,
+				"get_id" : 3519,
+				"mature_time" : 28800,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30
+			},
+			"3320" : {
+				"id" : 3320,
+				"support_ogg" : "farm_25",
+				"receive_ogg" : "farm_26",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3520,
+				"mature_time" : 54000,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2719 ]
+			},
+			"3321" : {
+				"id" : 3321,
+				"support_ogg" : "farm_27",
+				"receive_ogg" : "farm_28",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3521,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2879 ]
+			},
+			"3322" : {
+				"id" : 3322,
+				"support_ogg" : "farm_27",
+				"receive_ogg" : "farm_28",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3522,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2779 ]
+			},
+			"3323" : {
+				"id" : 3323,
+				"support_ogg" : "farm_21",
+				"receive_ogg" : "farm_22",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3523,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2819 ]
+			},
+			"3324" : {
+				"id" : 3324,
+				"support_ogg" : "farm_35",
+				"receive_ogg" : "farm_36",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3524,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2865 ]
+			},
+			"3325" : {
+				"id" : 3325,
+				"support_ogg" : "farm_31",
+				"receive_ogg" : "farm_32",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3525,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2868, 2869 ]
+			},
+			"3326" : {
+				"id" : 3326,
+				"support_ogg" : "farm_21",
+				"receive_ogg" : "farm_22",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3526,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2795 ]
+			},
+			"3327" : {
+				"id" : 3327,
+				"support_ogg" : "farm_35",
+				"receive_ogg" : "farm_36",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3527,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2795 ]
+			},
+			"3328" : {
+				"id" : 3328,
+				"support_ogg" : "farm_21",
+				"receive_ogg" : "farm_22",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3528,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2807 ]
+			},
+			"3329" : {
+				"id" : 3329,
+				"support_ogg" : "farm_35",
+				"receive_ogg" : "farm_36",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3529,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2807 ]
+			},
+			"3330" : {
+				"id" : 3330,
+				"support_ogg" : "farm_21",
+				"receive_ogg" : "farm_22",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3530,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2759 ]
+			},
+			"3331" : {
+				"id" : 3331,
+				"support_ogg" : "farm_31",
+				"receive_ogg" : "farm_32",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3531,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2771 ]
+			},
+			"3332" : {
+				"id" : 3332,
+				"support_ogg" : "farm_29",
+				"receive_ogg" : "farm_30",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3532,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2783 ]
+			},
+			"3333" : {
+				"id" : 3333,
+				"support_ogg" : "farm_27",
+				"receive_ogg" : "farm_28",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3533,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2783 ]
+			},
+			"3334" : {
+				"id" : 3334,
+				"support_ogg" : "farm_21",
+				"receive_ogg" : "farm_22",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3534,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2799 ]
+			},
+			"3335" : {
+				"id" : 3335,
+				"support_ogg" : "farm_27",
+				"receive_ogg" : "farm_28",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3535,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2873, 2874 ]
+			},
+			"3336" : {
+				"id" : 3336,
+				"support_ogg" : "farm_21",
+				"receive_ogg" : "farm_22",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3536,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2873, 2874 ]
+			},
+			"3337" : {
+				"id" : 3337,
+				"support_ogg" : "farm_25",
+				"receive_ogg" : "farm_26",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3537,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2873, 2874 ]
+			},
+			"3338" : {
+				"id" : 3338,
+				"support_ogg" : "farm_27",
+				"receive_ogg" : "farm_28",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3538,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2886, 2887 ]
+			},
+			"3339" : {
+				"id" : 3339,
+				"support_ogg" : "farm_27",
+				"receive_ogg" : "farm_28",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3539,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2891 ]
+			},
+			"3340" : {
+				"id" : 3340,
+				"support_ogg" : "farm_27",
+				"receive_ogg" : "farm_28",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3540,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2903, 2904 ]
+			},
+			"3341" : {
+				"id" : 3341,
+				"support_ogg" : "farm_27",
+				"receive_ogg" : "farm_28",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3541,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2856 ]
+			},
+			"3342" : {
+				"id" : 3342,
+				"support_ogg" : "farm_27",
+				"receive_ogg" : "farm_28",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3542,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2857 ]
+			},
+			"3343" : {
+				"id" : 3343,
+				"support_ogg" : "farm_27",
+				"receive_ogg" : "farm_28",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3543,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2868, 2869 ]
+			},
+			"3344" : {
+				"id" : 3344,
+				"support_ogg" : "farm_27",
+				"receive_ogg" : "farm_28",
+				"type" : 2,
+				"farm_lv" : 1,
+				"get_id" : 3544,
+				"mature_time" : 57600,
+				"disaster_time" : 3600,
+				"put_disaster" : 3,
+				"disaster_health" : 10,
+				"disaster_most_health" : 70,
+				"health" : 100,
+				"health_proportion" : 1,
+				"steal_min" : 3,
+				"steal_max" : 10,
+				"steal_least" : 30,
+				"allow_week" : [ 2868, 2869 ]
+			}
+		}
+	},
+	"--5" : "加工坊",
+	"5" : {
+		"1" : {
+			"--1" : "加工产出的物品id",
+			"processing_id" : 3089,
+			"--2" : "加工产出的物品数量",
+			"num" : 1,
+			"--3" : "和商城一样",
+			"times_limit" : 0,
+			"--4" : "和商城一样",
+			"cycle" : 0,
+			"--5" : "加工配方",
+			"formula" : [
+				{
+					"item_id" : 3087,
+					"num" : 10
+				},
+				{
+					"item_id" : 3088,
+					"num" : 10
+				},
+				{
+					"item_id" : 6,
+					"num" : 10000
+				}
+			]
+		},
+		"2" : {
+			"processing_id" : 3090,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3085,
+					"num" : 10
+				},
+				{
+					"item_id" : 3086,
+					"num" : 10
+				},
+				{
+					"item_id" : 6,
+					"num" : 10000
+				}
+			]
+		},
+		"3" : {
+			"processing_id" : 3091,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3001,
+					"num" : 10
+				},
+				{
+					"item_id" : 3021,
+					"num" : 10
+				},
+				{
+					"item_id" : 5,
+					"num" : 20
+				}
+			]
+		},
+		"4" : {
+			"processing_id" : 3000,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 2013,
+					"num" : 5
+				},
+				{
+					"item_id" : 3014,
+					"num" : 5
+				},
+				{
+					"item_id" : 3099,
+					"num" : 1
+				}
+			]
+		},
+		"5" : {
+			"processing_id" : 3066,
+			"num" : 5,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3401,
+					"num" : 20
+				},
+				{
+					"item_id" : 3402,
+					"num" : 20
+				}
+			]
+		},
+		"6" : {
+			"processing_id" : 3067,
+			"num" : 5,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3403,
+					"num" : 5
+				},
+				{
+					"item_id" : 3404,
+					"num" : 5
+				}
+			]
+		},
+		"7" : {
+			"processing_id" : 3068,
+			"num" : 5,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3405,
+					"num" : 2
+				},
+				{
+					"item_id" : 3406,
+					"num" : 2
+				}
+			]
+		},
+		"8" : {
+			"processing_id" : 3069,
+			"num" : 5,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3407,
+					"num" : 1
+				},
+				{
+					"item_id" : 3408,
+					"num" : 1
+				}
+			]
+		},
+		"9" : {
+			"processing_id" : 3062,
+			"num" : 5,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3501,
+					"num" : 20
+				},
+				{
+					"item_id" : 3502,
+					"num" : 20
+				}
+			]
+		},
+		"10" : {
+			"processing_id" : 3063,
+			"num" : 5,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3503,
+					"num" : 5
+				},
+				{
+					"item_id" : 3504,
+					"num" : 5
+				}
+			]
+		},
+		"11" : {
+			"processing_id" : 3064,
+			"num" : 5,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3505,
+					"num" : 2
+				},
+				{
+					"item_id" : 3506,
+					"num" : 2
+				}
+			]
+		},
+		"12" : {
+			"processing_id" : 3065,
+			"num" : 5,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3507,
+					"num" : 1
+				},
+				{
+					"item_id" : 3508,
+					"num" : 1
+				}
+			]
+		},
+		"13" : {
+			"processing_id" : 3013,
+			"num" : 5,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 6,
+					"num" : 2000
+				},
+				{
+					"item_id" : 3014,
+					"num" : 1
+				}
+			]
+		},
+		"14" : {
+			"processing_id" : 3014,
+			"num" : 5,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 6,
+					"num" : 10000
+				},
+				{
+					"item_id" : 3015,
+					"num" : 1
+				}
+			]
+		},
+		"15" : {
+			"processing_id" : 3007,
+			"num" : 2,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 6,
+					"num" : 5000
+				},
+				{
+					"item_id" : 3008,
+					"num" : 1
+				}
+			]
+		},
+		"16" : {
+			"processing_id" : 3008,
+			"num" : 2,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 6,
+					"num" : 10000
+				},
+				{
+					"item_id" : 3009,
+					"num" : 1
+				}
+			]
+		},
+		"17" : {
+			"processing_id" : 3023,
+			"num" : 5,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 6,
+					"num" : 100000
+				},
+				{
+					"item_id" : 3024,
+					"num" : 1
+				}
+			]
+		},
+		"18" : {
+			"processing_id" : 3024,
+			"num" : 5,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 6,
+					"num" : 500000
+				},
+				{
+					"item_id" : 3025,
+					"num" : 1
+				}
+			]
+		},
+		"19" : {
+			"processing_id" : 2013,
+			"num" : 4,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 6,
+					"num" : 10000
+				},
+				{
+					"item_id" : 2014,
+					"num" : 1
+				}
+			]
+		},
+		"20" : {
+			"processing_id" : 3010,
+			"num" : 800,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3697,
+					"num" : 1
+				},
+				{
+					"item_id" : 3016,
+					"num" : 1
+				}
+			]
+		},
+		"21" : {
+			"processing_id" : 2424,
+			"num" : 5,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3697,
+					"num" : 1
+				},
+				{
+					"item_id" : 3699,
+					"num" : 1
+				}
+			]
+		},
+		"22" : {
+			"processing_id" : 3009,
+			"num" : 800,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3697,
+					"num" : 1
+				},
+				{
+					"item_id" : 3700,
+					"num" : 1
+				}
+			]
+		},
+		"23" : {
+			"processing_id" : 2425,
+			"num" : 5,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3697,
+					"num" : 1
+				},
+				{
+					"item_id" : 3701,
+					"num" : 1
+				}
+			]
+		},
+		"24" : {
+			"processing_id" : 3015,
+			"num" : 2588,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3697,
+					"num" : 1
+				},
+				{
+					"item_id" : 3702,
+					"num" : 1
+				}
+			]
+		},
+		"25" : {
+			"processing_id" : 2426,
+			"num" : 5,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3697,
+					"num" : 1
+				},
+				{
+					"item_id" : 3703,
+					"num" : 1
+				}
+			]
+		},
+		"26" : {
+			"processing_id" : 2295,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 5,
+					"num" : 19900
+				},
+				{
+					"item_id" : 3712,
+					"num" : 1
+				}
+			]
+		},
+		"27" : {
+			"processing_id" : 13011,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3011,
+					"num" : 50
+				},
+				{
+					"item_id" : 3000,
+					"num" : 1
+				}
+			]
+		},
+		"28" : {
+			"processing_id" : 13012,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3012,
+					"num" : 60
+				},
+				{
+					"item_id" : 3000,
+					"num" : 1
+				}
+			]
+		},
+		"29" : {
+			"processing_id" : 13013,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3013,
+					"num" : 72
+				},
+				{
+					"item_id" : 3000,
+					"num" : 1
+				}
+			]
+		},
+		"30" : {
+			"processing_id" : 13014,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3014,
+					"num" : 86
+				},
+				{
+					"item_id" : 3000,
+					"num" : 1
+				}
+			]
+		},
+		"31" : {
+			"processing_id" : 13015,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3015,
+					"num" : 102
+				},
+				{
+					"item_id" : 3000,
+					"num" : 1
+				}
+			]
+		},
+		"32" : {
+			"processing_id" : 13021,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3021,
+					"num" : 10
+				},
+				{
+					"item_id" : 3071,
+					"num" : 1
+				}
+			]
+		},
+		"33" : {
+			"processing_id" : 13022,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3022,
+					"num" : 12
+				},
+				{
+					"item_id" : 3071,
+					"num" : 1
+				}
+			]
+		},
+		"34" : {
+			"processing_id" : 13023,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3023,
+					"num" : 15
+				},
+				{
+					"item_id" : 3071,
+					"num" : 1
+				}
+			]
+		},
+		"35" : {
+			"processing_id" : 13024,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3024,
+					"num" : 18
+				},
+				{
+					"item_id" : 3071,
+					"num" : 1
+				}
+			]
+		},
+		"36" : {
+			"processing_id" : 13025,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3025,
+					"num" : 22
+				},
+				{
+					"item_id" : 3071,
+					"num" : 1
+				}
+			]
+		},
+		"37" : {
+			"processing_id" : 13062,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3062,
+					"num" : 50
+				},
+				{
+					"item_id" : 3060,
+					"num" : 1
+				}
+			]
+		},
+		"38" : {
+			"processing_id" : 13063,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3063,
+					"num" : 270
+				},
+				{
+					"item_id" : 3060,
+					"num" : 1
+				}
+			]
+		},
+		"39" : {
+			"processing_id" : 13064,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3064,
+					"num" : 660
+				},
+				{
+					"item_id" : 3060,
+					"num" : 1
+				}
+			]
+		},
+		"40" : {
+			"processing_id" : 13065,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3065,
+					"num" : 1280
+				},
+				{
+					"item_id" : 3060,
+					"num" : 1
+				}
+			]
+		},
+		"41" : {
+			"processing_id" : 13066,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3066,
+					"num" : 50
+				},
+				{
+					"item_id" : 3060,
+					"num" : 1
+				}
+			]
+		},
+		"42" : {
+			"processing_id" : 13067,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3067,
+					"num" : 270
+				},
+				{
+					"item_id" : 3060,
+					"num" : 1
+				}
+			]
+		},
+		"43" : {
+			"processing_id" : 13068,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3068,
+					"num" : 660
+				},
+				{
+					"item_id" : 3060,
+					"num" : 1
+				}
+			]
+		},
+		"44" : {
+			"processing_id" : 13069,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3069,
+					"num" : 1280
+				},
+				{
+					"item_id" : 3060,
+					"num" : 1
+				}
+			]
+		},
+		"45" : {
+			"processing_id" : 13001,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3001,
+					"num" : 1
+				},
+				{
+					"item_id" : 3010,
+					"num" : 1
+				}
+			]
+		},
+		"46" : {
+			"processing_id" : 13002,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3002,
+					"num" : 1
+				},
+				{
+					"item_id" : 3010,
+					"num" : 1
+				}
+			]
+		},
+		"47" : {
+			"processing_id" : 13003,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3003,
+					"num" : 1
+				},
+				{
+					"item_id" : 3010,
+					"num" : 1
+				}
+			]
+		},
+		"48" : {
+			"processing_id" : 13004,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3004,
+					"num" : 1
+				},
+				{
+					"item_id" : 3010,
+					"num" : 1
+				}
+			]
+		},
+		"49" : {
+			"processing_id" : 13005,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3005,
+					"num" : 1
+				},
+				{
+					"item_id" : 3010,
+					"num" : 1
+				}
+			]
+		},
+		"50" : {
+			"processing_id" : 13006,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3006,
+					"num" : 1
+				},
+				{
+					"item_id" : 3010,
+					"num" : 1
+				}
+			]
+		},
+		"51" : {
+			"processing_id" : 13007,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3007,
+					"num" : 1
+				},
+				{
+					"item_id" : 3010,
+					"num" : 1
+				}
+			]
+		},
+		"52" : {
+			"processing_id" : 13008,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3008,
+					"num" : 1
+				},
+				{
+					"item_id" : 3010,
+					"num" : 1
+				}
+			]
+		},
+		"53" : {
+			"processing_id" : 13009,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3009,
+					"num" : 1
+				},
+				{
+					"item_id" : 3010,
+					"num" : 1
+				}
+			]
+		},
+		"54" : {
+			"processing_id" : 3027,
+			"num" : 5,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 2021,
+					"num" : 50
+				},
+				{
+					"item_id" : 3026,
+					"num" : 1
+				}
+			]
+		},
+		"55" : {
+			"processing_id" : 2086,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 4000,
+					"num" : 100
+				},
+				{
+					"item_id" : 3053,
+					"num" : 50
+				},
+				{
+					"item_id" : 3054,
+					"num" : 30
+				},
+				{
+					"item_id" : 3055,
+					"num" : 15
+				},
+				{
+					"item_id" : 2085,
+					"num" : 10
+				}
+			]
+		},
+		"56" : {
+			"processing_id" : 3028,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3061,
+					"num" : 10
+				},
+				{
+					"item_id" : 3017,
+					"num" : 1
+				},
+				{
+					"item_id" : 3018,
+					"num" : 1
+				},
+				{
+					"item_id" : 3019,
+					"num" : 1
+				},
+				{
+					"item_id" : 3020,
+					"num" : 1
+				}
+			]
+		},
+		"57" : {
+			"processing_id" : 2020,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 49001,
+					"num" : 3
+				},
+				{
+					"item_id" : 3026,
+					"num" : 1
+				}
+			]
+		},
+		"58" : {
+			"processing_id" : 2020,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 49002,
+					"num" : 3
+				},
+				{
+					"item_id" : 3026,
+					"num" : 1
+				}
+			]
+		},
+		"59" : {
+			"processing_id" : 2020,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 49003,
+					"num" : 3
+				},
+				{
+					"item_id" : 3026,
+					"num" : 1
+				}
+			]
+		},
+		"60" : {
+			"processing_id" : 2020,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 49004,
+					"num" : 3
+				},
+				{
+					"item_id" : 3026,
+					"num" : 1
+				}
+			]
+		},
+		"61" : {
+			"processing_id" : 2020,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 49005,
+					"num" : 3
+				},
+				{
+					"item_id" : 3026,
+					"num" : 1
+				}
+			]
+		},
+		"62" : {
+			"processing_id" : 3042,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3041,
+					"num" : 1
+				},
+				{
+					"item_id" : 3071,
+					"num" : 1
+				},
+				{
+					"item_id" : 3059,
+					"num" : 10
+				},
+				{
+					"item_id" : 3029,
+					"num" : 5
+				},
+				{
+					"item_id" : 3060,
+					"num" : 5
+				}
+			]
+		},
+		"63" : {
+			"processing_id" : 3043,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3042,
+					"num" : 1
+				},
+				{
+					"item_id" : 3071,
+					"num" : 1
+				},
+				{
+					"item_id" : 3059,
+					"num" : 30
+				},
+				{
+					"item_id" : 3029,
+					"num" : 15
+				},
+				{
+					"item_id" : 3060,
+					"num" : 15
+				}
+			]
+		},
+		"64" : {
+			"processing_id" : 3044,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3043,
+					"num" : 1
+				},
+				{
+					"item_id" : 3071,
+					"num" : 1
+				},
+				{
+					"item_id" : 3059,
+					"num" : 50
+				},
+				{
+					"item_id" : 3029,
+					"num" : 25
+				},
+				{
+					"item_id" : 3060,
+					"num" : 25
+				}
+			]
+		},
+		"65" : {
+			"processing_id" : 3045,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3044,
+					"num" : 1
+				},
+				{
+					"item_id" : 3071,
+					"num" : 1
+				},
+				{
+					"item_id" : 3059,
+					"num" : 70
+				},
+				{
+					"item_id" : 3029,
+					"num" : 35
+				},
+				{
+					"item_id" : 3060,
+					"num" : 35
+				}
+			]
+		},
+		"66" : {
+			"processing_id" : 3046,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3045,
+					"num" : 1
+				},
+				{
+					"item_id" : 3071,
+					"num" : 1
+				},
+				{
+					"item_id" : 3059,
+					"num" : 90
+				},
+				{
+					"item_id" : 3029,
+					"num" : 45
+				},
+				{
+					"item_id" : 3060,
+					"num" : 45
+				}
+			]
+		},
+		"67" : {
+			"processing_id" : 3047,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3046,
+					"num" : 1
+				},
+				{
+					"item_id" : 3071,
+					"num" : 1
+				},
+				{
+					"item_id" : 3059,
+					"num" : 110
+				},
+				{
+					"item_id" : 3029,
+					"num" : 55
+				},
+				{
+					"item_id" : 3060,
+					"num" : 55
+				}
+			]
+		},
+		"71" : {
+			"processing_id" : 2380,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3440,
+					"num" : 50
+				},
+				{
+					"item_id" : 3540,
+					"num" : 50
+				}
+			]
+		},
+		"72" : {
+			"processing_id" : 2381,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 3440,
+					"num" : 200
+				},
+				{
+					"item_id" : 3540,
+					"num" : 200
+				},
+				{
+					"item_id" : 3862,
+					"num" : 1
+				}
+			]
+		},
+		"73" : {
+			"processing_id" : 2377,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 2380,
+					"num" : 10
+				},
+				{
+					"item_id" : 5,
+					"num" : 10
+				}
+			]
+		},
+		"74" : {
+			"processing_id" : 2378,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 2381,
+					"num" : 10
+				},
+				{
+					"item_id" : 3026,
+					"num" : 10
+				}
+			]
+		},
+		"75" : {
+			"processing_id" : 2379,
+			"num" : 1,
+			"times_limit" : 0,
+			"cycle" : 0,
+			"formula" : [
+				{
+					"item_id" : 2380,
+					"num" : 30
+				},
+				{
+					"item_id" : 2381,
+					"num" : 15
+				},
+				{
+					"item_id" : 3059,
+					"num" : 10
+				}
+			]
+		}
+	},
+	"6" : {
+		"--1" : "挖矿相关",
+		"1" : {
+			"--1" : "挖矿初始最大时间，注意，童工不可以增加",
+			"max_time" : 28800,
+			"--2" : "奴隶互动间隔，注一，刚抓捕成功或抢夺成功就可以互动一次，注二，童工不能互动",
+			"interactive_interval_time" : 10800,
+			"--3" : "奴隶初始怨气值",
+			"defect_num" : 5,
+			"--4" : "奴隶每隔多长时间增加一次怨气以及增加的数量",
+			"anary_internal" : [ 3600, 5 ],
+			"--5" : "奴隶每隔多长时间判断一次是否逃跑，逃跑成功则立即结算收益，注一，怨气值有多少，逃跑成功率就是多少，注二，最终结算的时候不执行逃跑判断,注三，判断逃跑时需先加上每小时增加的怨气值",
+			"internal" : 3600
+		},
+		"--2" : "调教",
+		"2" : {
+			"--1" : "调教消耗物品",
+			"get" : {
+				"item_id" : 3091,
+				"num" : 1
+			},
+			"--2" : "调教后结果",
+			"result" : {
+				"--1" : "增加挖矿最大时间",
+				"jobs_time" : 7200,
+				"--2" : "怨气值减少，注一，结果只有这两种，注二，怨气值可减到负数",
+				"defect_num" : [ -20, -10 ]
+			}
+		},
+		"--3" : "偷矿相关",
+		"3" : {
+			"--1" : "最多能偷多少次，注意，同一人仍然只能偷一次",
+			"steal_times" : 3,
+			"--2" : "偷一次可以偷到的百分比，注意，50%几率成功获得，50%赔偿同等数量，如果自身无法赔偿同等数量，偷矿时直接不让偷",
+			"percent" : 25
+		}
+	}
+}

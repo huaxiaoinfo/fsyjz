@@ -1,0 +1,1103 @@
+{
+	"2800" : {
+		"stage" : {
+			"all" : {
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [ 0, 1, 6, 8 ],
+					"ban_id" : []
+				}
+			}
+		},
+		"dongtian" : {
+			"multi" : 2
+		}
+	},
+	"2801" : {
+		"saint" : {
+			"multi" : 2
+		},
+		"rank" : {
+			"multi" : 2
+		}
+	},
+	"2802" : {
+		"stage" : {
+			"all" : {
+				"timesMulti" : 2,
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 9,
+							"multi" : 5
+						},
+						{
+							"limit" : 12,
+							"multi" : 4
+						},
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [],
+					"ban_id" : [ 0, 1, 6, 8 ]
+				}
+			}
+		},
+		"vein" : {
+			"multi" : 2,
+			"extraDrop" : [
+				{
+					"hour" : 2,
+					"item_id" : 3748,
+					"num" : 2
+				}
+			]
+		}
+	},
+	"2803" : {
+		"farm" : {
+			"multi" : 2
+		},
+		"beihai" : {
+			"multi" : 2
+		}
+	},
+	"2804" : {
+		"stage" : {
+			"all" : {
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [ 0, 1, 6, 8 ],
+					"ban_id" : []
+				}
+			}
+		},
+		"dongtian" : {
+			"multi" : 2
+		},
+		"daily_charge_rank" : true
+	},
+	"2805" : {
+		"saint" : {
+			"multi" : 2
+		},
+		"rank" : {
+			"multi" : 2
+		},
+		"daily_charge_rank" : true
+	},
+	"2806" : {
+		"stage" : {
+			"all" : {
+				"timesMulti" : 2,
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 9,
+							"multi" : 5
+						},
+						{
+							"limit" : 12,
+							"multi" : 4
+						},
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [],
+					"ban_id" : [ 0, 1, 6, 8 ]
+				}
+			}
+		},
+		"vein" : {
+			"multi" : 2,
+			"extraDrop" : [
+				{
+					"hour" : 2,
+					"item_id" : 3768,
+					"num" : 2
+				}
+			]
+		}
+	},
+	"2807" : {
+		"farm" : {
+			"multi" : 2
+		},
+		"beihai" : {
+			"multi" : 2
+		}
+	},
+	"2808" : {
+		"stage" : {
+			"all" : {
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [ 0, 1, 6, 8 ],
+					"ban_id" : []
+				}
+			}
+		},
+		"dongtian" : {
+			"multi" : 2
+		}
+	},
+	"2809" : {
+		"saint" : {
+			"multi" : 2
+		},
+		"rank" : {
+			"multi" : 2
+		}
+	},
+	"2810" : {
+		"stage" : {
+			"all" : {
+				"timesMulti" : 2,
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 9,
+							"multi" : 5
+						},
+						{
+							"limit" : 12,
+							"multi" : 4
+						},
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [],
+					"ban_id" : [ 0, 1, 6, 8 ]
+				}
+			}
+		},
+		"vein" : {
+			"multi" : 2,
+			"extraDrop" : [
+				{
+					"hour" : 2,
+					"item_id" : 3787,
+					"num" : 2
+				}
+			]
+		}
+	},
+	"2811" : {
+		"farm" : {
+			"multi" : 2
+		},
+		"beihai" : {
+			"multi" : 2
+		}
+	},
+	"2812" : {
+		"stage" : {
+			"all" : {
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [ 0, 1, 6, 8 ],
+					"ban_id" : []
+				}
+			}
+		},
+		"dongtian" : {
+			"multi" : 2
+		}
+	},
+	"2813" : {
+		"saint" : {
+			"multi" : 2
+		},
+		"rank" : {
+			"multi" : 2
+		}
+	},
+	"2814" : {
+		"stage" : {
+			"all" : {
+				"timesMulti" : 2,
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 9,
+							"multi" : 5
+						},
+						{
+							"limit" : 12,
+							"multi" : 4
+						},
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [],
+					"ban_id" : [ 0, 1, 6, 8 ]
+				}
+			}
+		},
+		"vein" : {
+			"multi" : 2,
+			"extraDrop" : [
+				{
+					"hour" : 2,
+					"item_id" : 3795,
+					"num" : 2
+				}
+			]
+		}
+	},
+	"2815" : {
+		"farm" : {
+			"multi" : 2
+		},
+		"beihai" : {
+			"multi" : 2
+		}
+	},
+	"2816" : {
+		"stage" : {
+			"all" : {
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [ 0, 1, 6, 8 ],
+					"ban_id" : []
+				}
+			}
+		},
+		"dongtian" : {
+			"multi" : 2
+		},
+		"daily_charge_rank" : true
+	},
+	"2817" : {
+		"saint" : {
+			"multi" : 2
+		},
+		"rank" : {
+			"multi" : 2
+		},
+		"daily_charge_rank" : true
+	},
+	"2818" : {
+		"stage" : {
+			"all" : {
+				"timesMulti" : 2,
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 9,
+							"multi" : 5
+						},
+						{
+							"limit" : 12,
+							"multi" : 4
+						},
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [],
+					"ban_id" : [ 0, 1, 6, 8 ]
+				}
+			}
+		},
+		"vein" : {
+			"multi" : 2,
+			"extraDrop" : [
+				{
+					"hour" : 2,
+					"item_id" : 3646,
+					"num" : 2
+				}
+			]
+		}
+	},
+	"2819" : {
+		"farm" : {
+			"multi" : 2
+		},
+		"beihai" : {
+			"multi" : 2
+		}
+	},
+	"2820" : {
+		"stage" : {
+			"all" : {
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [ 0, 1, 6, 8 ],
+					"ban_id" : []
+				}
+			}
+		},
+		"dongtian" : {
+			"multi" : 2
+		}
+	},
+	"2821" : {
+		"saint" : {
+			"multi" : 2
+		},
+		"rank" : {
+			"multi" : 2
+		}
+	},
+	"2848" : {
+		"vein" : {
+			"multi" : 2,
+			"extraDrop" : [
+				{
+					"hour" : 2,
+					"item_id" : 3863,
+					"num" : 2
+				}
+			]
+		},
+		"farm" : {
+			"multi" : 2
+		},
+		"dongtian" : {
+			"multi" : 2
+		},
+		"rank" : {
+			"multi" : 2
+		}
+	},
+	"2847" : {
+		"dongtian" : {
+			"multi" : 2
+		},
+		"beihai" : {
+			"multi" : 2
+		}
+	},
+	"2844" : {
+		"dongtian" : {
+			"multi" : 2
+		},
+		"farm" : {
+			"multi" : 2
+		}
+	},
+	"2845" : {
+		"rank" : {
+			"multi" : 2
+		},
+		"farm" : {
+			"multi" : 1
+		}
+	},
+	"2838" : {
+		"vein" : {
+			"multi" : 2,
+			"extraDrop" : [
+				{
+					"hour" : 2,
+					"item_id" : 3859,
+					"num" : 4
+				}
+			]
+		}
+	},
+	"2839" : {
+		"farm" : {
+			"multi" : 2
+		},
+		"rank" : {
+			"multi" : 2
+		}
+	},
+	"2849" : {
+		"stage" : {
+			"all" : {
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [ 0, 1, 6, 8 ],
+					"ban_id" : []
+				}
+			}
+		},
+		"dongtian" : {
+			"multi" : 2
+		},
+		"farm" : {
+			"multi" : 2
+		}
+	},
+	"2850" : {
+		"stage" : {
+			"all" : {
+				"timesMulti" : 2,
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [],
+					"ban_id" : []
+				}
+			}
+		},
+		"dongtian" : {
+			"multi" : 2
+		},
+		"farm" : {
+			"multi" : 2
+		}
+	},
+	"2851" : {
+		"saint" : {
+			"multi" : 2
+		},
+		"dongtian" : {
+			"multi" : 2
+		},
+		"farm" : {
+			"multi" : 2
+		}
+	},
+	"2852" : {
+		"beihai" : {
+			"multi" : 2
+		},
+		"dongtian" : {
+			"multi" : 2
+		},
+		"farm" : {
+			"multi" : 2
+		}
+	},
+	"2853" : {
+		"rank" : {
+			"multi" : 2
+		},
+		"dongtian" : {
+			"multi" : 1
+		},
+		"farm" : {
+			"multi" : 2
+		}
+	},
+	"2854" : {
+		"vein" : {
+			"multi" : 2,
+			"extraDrop" : [
+				{
+					"hour" : 2,
+					"item_id" : 3864,
+					"num" : 2
+				}
+			]
+		},
+		"stage" : {
+			"all" : {
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [ 0, 1, 6, 8 ],
+					"ban_id" : []
+				}
+			}
+		},
+		"farm" : {
+			"multi" : 2
+		}
+	},
+	"2855" : {
+		"saint" : {
+			"multi" : 2
+		},
+		"dongtian" : {
+			"multi" : 1
+		},
+		"farm" : {
+			"multi" : 2
+		}
+	},
+	"2856" : {
+		"stage" : {
+			"all" : {
+				"timesMulti" : 2,
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [],
+					"ban_id" : [ 0, 1, 6, 8 ]
+				}
+			}
+		},
+		"dongtian" : {
+			"multi" : 2
+		},
+		"farm" : {
+			"multi" : 2
+		}
+	},
+	"2857" : {
+		"rank" : {
+			"multi" : 2
+		},
+		"farm" : {
+			"multi" : 2
+		}
+	},
+	"2858" : {
+		"stage" : {
+			"all" : {
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [ 0, 1, 6, 8 ],
+					"ban_id" : []
+				}
+			}
+		},
+		"saint" : {
+			"multi" : 2
+		}
+	},
+	"2859" : {
+		"farm" : {
+			"multi" : 2
+		}
+	},
+	"2860" : {
+		"beihai" : {
+			"multi" : 2
+		}
+	},
+	"2861" : {
+		"vein" : {
+			"multi" : 2,
+			"extraDrop" : [
+				{
+					"hour" : 2,
+					"item_id" : 3709,
+					"num" : 2
+				}
+			]
+		}
+	},
+	"2863" : {
+		"stage" : {
+			"all" : {
+				"timesMulti" : 2,
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [],
+					"ban_id" : [ 0, 1, 6, 8 ]
+				}
+			}
+		},
+		"rank" : {
+			"multi" : 2
+		}
+	},
+	"2864" : {
+		"saint" : {
+			"multi" : 2
+		}
+	},
+	"2865" : {
+		"beihai" : {
+			"multi" : 2
+		},
+		"farm" : {
+			"multi" : 2
+		}
+	},
+	"2866" : {
+		"stage" : {
+			"all" : {
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [ 0, 1, 6, 8 ],
+					"ban_id" : []
+				}
+			}
+		}
+	},
+	"2867" : {
+		"vein" : {
+			"multi" : 2,
+			"extraDrop" : [
+				{
+					"hour" : 2,
+					"item_id" : 3671,
+					"num" : 2
+				}
+			]
+		}
+	},
+	"2868" : {
+		"stage" : {
+			"all" : {
+				"timesMulti" : 2,
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [],
+					"ban_id" : [ 0, 1, 6, 8 ]
+				}
+			}
+		},
+		"farm" : {
+			"multi" : 2
+		}
+	},
+	"2869" : {
+		"saint" : {
+			"multi" : 2
+		},
+		"farm" : {
+			"multi" : 2
+		}
+	},
+	"2871" : {
+		"stage" : {
+			"all" : {
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [ 0, 1, 6, 8 ],
+					"ban_id" : []
+				}
+			}
+		},
+		"rank" : {
+			"multi" : 2
+		}
+	},
+	"2873" : {
+		"vein" : {
+			"multi" : 2,
+			"extraDrop" : [
+				{
+					"hour" : 2,
+					"item_id" : 3838,
+					"num" : 2
+				}
+			]
+		},
+		"beihai" : {
+			"multi" : 1
+		},
+		"farm" : {
+			"multi" : 2
+		}
+	},
+	"2874" : {
+		"vein" : {
+			"multi" : 2,
+			"extraDrop" : [
+				{
+					"hour" : 2,
+					"item_id" : 3838,
+					"num" : 2
+				}
+			]
+		},
+		"farm" : {
+			"multi" : 2
+		},
+		"stage" : {
+			"all" : {
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [ 1, 6, 8 ],
+					"ban_id" : []
+				}
+			}
+		}
+	},
+	"2875" : {
+		"farm" : {
+			"multi" : 2
+		}
+	},
+	"2876" : {
+		"stage" : {
+			"all" : {
+				"timesMulti" : 2,
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [],
+					"ban_id" : [ 1, 6, 8 ]
+				}
+			}
+		},
+		"saint" : {
+			"multi" : 2
+		}
+	},
+	"2877" : {
+		"beihai" : {
+			"multi" : 2
+		},
+		"dongtian" : {
+			"multi" : 2
+		}
+	},
+	"2878" : {
+		"rank" : {
+			"multi" : 2
+		}
+	},
+	"2879" : {
+		"farm" : {
+			"multi" : 2
+		}
+	},
+	"2880" : {
+		"farm" : {
+			"multi" : 2
+		}
+	},
+	"2881" : {
+		"stage" : {
+			"all" : {
+				"timesMulti" : 2,
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [],
+					"ban_id" : [ 1, 6, 8 ]
+				}
+			}
+		},
+		"saint" : {
+			"multi" : 2
+		}
+	},
+	"2882" : {
+		"beihai" : {
+			"multi" : 2
+		},
+		"rank" : {
+			"multi" : 2
+		}
+	},
+	"2883" : {
+		"vein" : {
+			"multi" : 2,
+			"extraDrop" : [
+				{
+					"hour" : 2,
+					"item_id" : 3709,
+					"num" : 2
+				}
+			]
+		},
+		"stage" : {
+			"all" : {
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [ 1, 6, 8 ],
+					"ban_id" : []
+				}
+			}
+		}
+	},
+	"2884" : {
+		"dongtian" : {
+			"multi" : 2
+		}
+	},
+	"2885" : {
+		"stage" : {
+			"all" : {
+				"timesMulti" : 2,
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [],
+					"ban_id" : [ 1, 6, 8 ]
+				}
+			}
+		},
+		"saint" : {
+			"multi" : 2
+		}
+	},
+	"2886" : {
+		"beihai" : {
+			"multi" : 2
+		},
+		"farm" : {
+			"multi" : 2
+		}
+	},
+	"2887" : {
+		"farm" : {
+			"multi" : 2
+		}
+	},
+	"2888" : {
+		"dongtian" : {
+			"multi" : 2
+		},
+		"stage" : {
+			"all" : {
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [ 1, 6, 8 ],
+					"ban_id" : []
+				}
+			}
+		}
+	},
+	"2889" : {
+		"saint" : {
+			"multi" : 2
+		},
+		"rank" : {
+			"multi" : 2
+		}
+	},
+	"2890" : {
+		"dongtian" : {
+			"multi" : 2
+		}
+	},
+	"2891" : {
+		"vein" : {
+			"multi" : 2,
+			"extraDrop" : [
+				{
+					"hour" : 2,
+					"item_id" : 3624,
+					"num" : 2
+				}
+			]
+		},
+		"farm" : {
+			"multi" : 2
+		}
+	},
+	"2892" : {
+		"beihai" : {
+			"multi" : 2
+		}
+	},
+	"2893" : {
+		"stage" : {
+			"all" : {
+				"timesMulti" : 2,
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [],
+					"ban_id" : [ 1, 6, 8 ]
+				}
+			}
+		},
+		"saint" : {
+			"multi" : 2
+		}
+	},
+	"2895" : {
+		"dongtian" : {
+			"multi" : 2
+		}
+	},
+	"2904" : {
+		"farm" : {
+			"multi" : 2
+		},
+		"rank" : {
+			"multi" : 2
+		},
+		"dongtian" : {
+			"multi" : 2
+		},
+		"saint" : {
+			"multi" : 2
+		},
+		"beihai" : {
+			"multi" : 2
+		},
+		"stage" : {
+			"all" : {
+				"timesMulti" : 2,
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [],
+					"ban_id" : []
+				}
+			}
+		}
+	},
+	"2903" : {
+		"farm" : {
+			"multi" : 2
+		},
+		"rank" : {
+			"multi" : 2
+		},
+		"dongtian" : {
+			"multi" : 2
+		},
+		"saint" : {
+			"multi" : 2
+		},
+		"beihai" : {
+			"multi" : 2
+		},
+		"stage" : {
+			"all" : {
+				"timesMulti" : 2,
+				"starSoulRateMulti" : 2,
+				"stageMulti" : {
+					"rule" : [
+						{
+							"limit" : 15,
+							"multi" : 2
+						}
+					],
+					"allow_id" : [],
+					"ban_id" : []
+				}
+			}
+		}
+	}
+}

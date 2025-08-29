@@ -1,0 +1,2130 @@
+{
+	"0" : {
+		"name" : "每月累签奖励",
+		"description" : "",
+		"content" : [
+			{
+				"reach" : 3,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 150
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					},
+					{
+						"product" : 4000,
+						"num" : 32
+					},
+					{
+						"product" : 3001,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 7,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 250
+					},
+					{
+						"product" : 4000,
+						"num" : 50
+					},
+					{
+						"product" : 3001,
+						"num" : 500
+					},
+					{
+						"product" : 3000,
+						"num" : 1
+					}
+				]
+			},
+			{
+				"reach" : 14,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 350
+					},
+					{
+						"product" : 4000,
+						"num" : 50
+					},
+					{
+						"product" : 3002,
+						"num" : 500
+					},
+					{
+						"product" : 3000,
+						"num" : 1
+					}
+				]
+			},
+			{
+				"reach" : 21,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 400
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					},
+					{
+						"product" : 3002,
+						"num" : 500
+					},
+					{
+						"product" : 3000,
+						"num" : 1
+					}
+				]
+			},
+			{
+				"reach" : 28,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 450
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					},
+					{
+						"product" : 3000,
+						"num" : 2
+					}
+				]
+			},
+			{
+				"reach" : 31,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 1
+					}
+				]
+			}
+		]
+	},
+	"1" : {
+		"name" : "每日活跃礼包",
+		"description" : "",
+		"content" : [
+			{
+				"reach" : 25,
+				"reward" : [
+					{
+						"product" : 6,
+						"num" : 15000
+					},
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 2001,
+						"num" : 1
+					}
+				]
+			},
+			{
+				"reach" : 50,
+				"reward" : [
+					{
+						"product" : 6,
+						"num" : 30000
+					},
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 2001,
+						"num" : 1
+					}
+				]
+			},
+			{
+				"reach" : 75,
+				"reward" : [
+					{
+						"product" : 6,
+						"num" : 45000
+					},
+					{
+						"product" : 5,
+						"num" : 15
+					},
+					{
+						"product" : 2001,
+						"num" : 6
+					}
+				]
+			},
+			{
+				"reach" : 100,
+				"reward" : [
+					{
+						"product" : 6,
+						"num" : 60000
+					},
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 2,
+						"num" : 30
+					},
+					{
+						"product" : 2001,
+						"num" : 7
+					},
+					{
+						"product" : 20,
+						"num" : 1
+					}
+				]
+			}
+		]
+	},
+	"2" : {
+		"name" : "每日累计充值",
+		"description" : "每日累计充值",
+		"content" : [
+			{
+				"reach" : 1,
+				"reward" : [
+					{
+						"product" : 3616,
+						"num" : 10
+					},
+					{
+						"product" : 3617,
+						"num" : 10
+					}
+				]
+			},
+			{
+				"reach" : 5,
+				"reward" : [
+					{
+						"product" : 3616,
+						"num" : 30
+					},
+					{
+						"product" : 3617,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 10,
+				"reward" : [
+					{
+						"product" : 3616,
+						"num" : 30
+					},
+					{
+						"product" : 3617,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 15,
+				"reward" : [
+					{
+						"product" : 3616,
+						"num" : 30
+					},
+					{
+						"product" : 3617,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 30,
+				"reward" : [
+					{
+						"product" : 3616,
+						"num" : 100
+					},
+					{
+						"product" : 3617,
+						"num" : 100
+					},
+					{
+						"product" : 2085,
+						"num" : 10
+					}
+				]
+			},
+			{
+				"reach" : 60,
+				"reward" : [
+					{
+						"product" : 3616,
+						"num" : 200
+					},
+					{
+						"product" : 3617,
+						"num" : 200
+					},
+					{
+						"product" : 2085,
+						"num" : 20
+					},
+					{
+						"product" : 61,
+						"num" : 10
+					}
+				]
+			},
+			{
+				"reach" : 90,
+				"reward" : [
+					{
+						"product" : 3616,
+						"num" : 300
+					},
+					{
+						"product" : 3617,
+						"num" : 300
+					},
+					{
+						"product" : 2085,
+						"num" : 30
+					},
+					{
+						"product" : 61,
+						"num" : 10
+					}
+				]
+			},
+			{
+				"reach" : 120,
+				"reward" : [
+					{
+						"product" : 3616,
+						"num" : 400
+					},
+					{
+						"product" : 3617,
+						"num" : 400
+					},
+					{
+						"product" : 2085,
+						"num" : 40
+					},
+					{
+						"product" : 61,
+						"num" : 10
+					}
+				]
+			},
+			{
+				"reach" : 150,
+				"reward" : [
+					{
+						"product" : 3616,
+						"num" : 500
+					},
+					{
+						"product" : 3617,
+						"num" : 500
+					},
+					{
+						"product" : 2085,
+						"num" : 50
+					},
+					{
+						"product" : 61,
+						"num" : 10
+					}
+				]
+			}
+		]
+	},
+	"3" : {
+		"name" : "每日累计仙石消费",
+		"description" : "每日累计仙石消费",
+		"content" : [
+			{
+				"reach" : 60,
+				"reward" : [
+					{
+						"product" : 6,
+						"num" : 90000
+					},
+					{
+						"product" : 3015,
+						"num" : 1
+					},
+					{
+						"product" : 3010,
+						"num" : 1
+					}
+				]
+			},
+			{
+				"reach" : 180,
+				"reward" : [
+					{
+						"product" : 6,
+						"num" : 190000
+					},
+					{
+						"product" : 3015,
+						"num" : 5
+					},
+					{
+						"product" : 3010,
+						"num" : 5
+					}
+				]
+			},
+			{
+				"reach" : 540,
+				"reward" : [
+					{
+						"product" : 6,
+						"num" : 390000
+					},
+					{
+						"product" : 3015,
+						"num" : 10
+					},
+					{
+						"product" : 3010,
+						"num" : 10
+					}
+				]
+			},
+			{
+				"reach" : 1080,
+				"reward" : [
+					{
+						"product" : 6,
+						"num" : 590000
+					},
+					{
+						"product" : 2014,
+						"num" : 20
+					},
+					{
+						"product" : 3010,
+						"num" : 20
+					}
+				]
+			},
+			{
+				"reach" : 2160,
+				"reward" : [
+					{
+						"product" : 6,
+						"num" : 990000
+					},
+					{
+						"product" : 2014,
+						"num" : 30
+					},
+					{
+						"product" : 3010,
+						"num" : 30
+					}
+				]
+			}
+		]
+	},
+	"5" : {
+		"name" : "每日仙缘消费奖励",
+		"description" : "每日仙缘消费奖励",
+		"content" : [
+			{
+				"reach" : 10,
+				"reward" : [
+					{
+						"product" : 8,
+						"num" : 200
+					},
+					{
+						"product" : 3024,
+						"num" : 4
+					}
+				]
+			},
+			{
+				"reach" : 50,
+				"reward" : [
+					{
+						"product" : 8,
+						"num" : 600
+					},
+					{
+						"product" : 3024,
+						"num" : 8
+					}
+				]
+			},
+			{
+				"reach" : 100,
+				"reward" : [
+					{
+						"product" : 8,
+						"num" : 1000
+					},
+					{
+						"product" : 3024,
+						"num" : 12
+					},
+					{
+						"product" : 3027,
+						"num" : 10
+					}
+				]
+			},
+			{
+				"reach" : 500,
+				"reward" : [
+					{
+						"product" : 8,
+						"num" : 1500
+					},
+					{
+						"product" : 3024,
+						"num" : 16
+					},
+					{
+						"product" : 3027,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 1000,
+				"reward" : [
+					{
+						"product" : 8,
+						"num" : 2000
+					},
+					{
+						"product" : 3024,
+						"num" : 20
+					},
+					{
+						"product" : 3027,
+						"num" : 100
+					}
+				]
+			}
+		]
+	},
+	"4" : {
+		"name" : "累计充值奖励",
+		"description" : "",
+		"content" : [
+			{
+				"reach" : 1,
+				"reward" : [
+					{
+						"product" : 6,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 2,
+				"reward" : [
+					{
+						"product" : 6,
+						"num" : 30000
+					},
+					{
+						"product" : 3011,
+						"num" : 100
+					}
+				]
+			},
+			{
+				"reach" : 3,
+				"reward" : [
+					{
+						"product" : 6,
+						"num" : 35000
+					},
+					{
+						"product" : 3001,
+						"num" : 150
+					}
+				]
+			},
+			{
+				"reach" : 6,
+				"reward" : [
+					{
+						"product" : 6,
+						"num" : 70000
+					},
+					{
+						"product" : 101,
+						"num" : 1
+					}
+				]
+			},
+			{
+				"reach" : 10,
+				"reward" : [
+					{
+						"product" : 4000,
+						"num" : 120
+					},
+					{
+						"product" : 102,
+						"num" : 1
+					}
+				]
+			},
+			{
+				"reach" : 16,
+				"reward" : [
+					{
+						"product" : 4000,
+						"num" : 140
+					},
+					{
+						"product" : 203,
+						"num" : 1
+					}
+				]
+			},
+			{
+				"reach" : 24,
+				"reward" : [
+					{
+						"product" : 8,
+						"num" : 2100
+					},
+					{
+						"product" : 304,
+						"num" : 1
+					}
+				]
+			},
+			{
+				"reach" : 37,
+				"reward" : [
+					{
+						"product" : 8,
+						"num" : 3000
+					},
+					{
+						"product" : 505,
+						"num" : 1
+					}
+				]
+			},
+			{
+				"reach" : 57,
+				"reward" : [
+					{
+						"product" : 6,
+						"num" : 250000
+					},
+					{
+						"product" : 8,
+						"num" : 2400
+					},
+					{
+						"product" : 707,
+						"num" : 1
+					}
+				]
+			},
+			{
+				"reach" : 84,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 6,
+						"num" : 240000
+					},
+					{
+						"product" : 710,
+						"num" : 1
+					}
+				]
+			},
+			{
+				"reach" : 127,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 750
+					},
+					{
+						"product" : 6,
+						"num" : 540000
+					},
+					{
+						"product" : 711,
+						"num" : 1
+					}
+				]
+			},
+			{
+				"reach" : 184,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 1000
+					},
+					{
+						"product" : 6,
+						"num" : 790000
+					},
+					{
+						"product" : 712,
+						"num" : 1
+					}
+				]
+			},
+			{
+				"reach" : 270,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 1500
+					},
+					{
+						"product" : 6,
+						"num" : 1290000
+					},
+					{
+						"product" : 716,
+						"num" : 1
+					}
+				]
+			},
+			{
+				"reach" : 384,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 2000
+					},
+					{
+						"product" : 6,
+						"num" : 1290000
+					},
+					{
+						"product" : 8,
+						"num" : 5000
+					},
+					{
+						"product" : 713,
+						"num" : 1
+					}
+				]
+			},
+			{
+				"reach" : 513,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 2500
+					},
+					{
+						"product" : 8,
+						"num" : 17900
+					},
+					{
+						"product" : 715,
+						"num" : 1
+					}
+				]
+			},
+			{
+				"reach" : 727,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5000
+					},
+					{
+						"product" : 8,
+						"num" : 18900
+					},
+					{
+						"product" : 2013,
+						"num" : 25
+					},
+					{
+						"product" : 720,
+						"num" : 1
+					},
+					{
+						"product" : 3616,
+						"num" : 1526
+					}
+				]
+			},
+			{
+				"reach" : 956,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5000
+					},
+					{
+						"product" : 6,
+						"num" : 2000000
+					},
+					{
+						"product" : 8,
+						"num" : 10000
+					},
+					{
+						"product" : 3617,
+						"num" : 1337
+					}
+				]
+			},
+			{
+				"reach" : 1242,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5000
+					},
+					{
+						"product" : 6,
+						"num" : 3500000
+					},
+					{
+						"product" : 8,
+						"num" : 15000
+					},
+					{
+						"product" : 2243,
+						"num" : 8
+					}
+				]
+			},
+			{
+				"reach" : 1556,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5000
+					},
+					{
+						"product" : 6,
+						"num" : 4000000
+					},
+					{
+						"product" : 8,
+						"num" : 20000
+					},
+					{
+						"product" : 3616,
+						"num" : 1740
+					}
+				]
+			},
+			{
+				"reach" : 1987,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5000
+					},
+					{
+						"product" : 6,
+						"num" : 7500000
+					},
+					{
+						"product" : 8,
+						"num" : 25000
+					},
+					{
+						"product" : 3617,
+						"num" : 1440
+					}
+				]
+			},
+			{
+				"reach" : 2413,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5000
+					},
+					{
+						"product" : 6,
+						"num" : 5000000
+					},
+					{
+						"product" : 8,
+						"num" : 50000
+					},
+					{
+						"product" : 2243,
+						"num" : 8
+					}
+				]
+			},
+			{
+				"reach" : 2974,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5000
+					},
+					{
+						"product" : 8,
+						"num" : 50000
+					},
+					{
+						"product" : 3007,
+						"num" : 1560
+					},
+					{
+						"product" : 3616,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 3697,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10000
+					},
+					{
+						"product" : 8,
+						"num" : 50000
+					},
+					{
+						"product" : 3008,
+						"num" : 780
+					},
+					{
+						"product" : 3617,
+						"num" : 2400
+					}
+				]
+			},
+			{
+				"reach" : 4413,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10000
+					},
+					{
+						"product" : 8,
+						"num" : 50000
+					},
+					{
+						"product" : 3009,
+						"num" : 390
+					},
+					{
+						"product" : 2243,
+						"num" : 14
+					}
+				]
+			},
+			{
+				"reach" : 5270,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10000
+					},
+					{
+						"product" : 8,
+						"num" : 50000
+					},
+					{
+						"product" : 3009,
+						"num" : 590
+					},
+					{
+						"product" : 3616,
+						"num" : 4800
+					}
+				]
+			},
+			{
+				"reach" : 6127,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10000
+					},
+					{
+						"product" : 8,
+						"num" : 50000
+					},
+					{
+						"product" : 3015,
+						"num" : 500
+					},
+					{
+						"product" : 3617,
+						"num" : 3400
+					}
+				]
+			},
+			{
+				"reach" : 7270,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10000
+					},
+					{
+						"product" : 8,
+						"num" : 100000
+					},
+					{
+						"product" : 3015,
+						"num" : 666
+					},
+					{
+						"product" : 2243,
+						"num" : 20
+					}
+				]
+			},
+			{
+				"reach" : 8413,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10000
+					},
+					{
+						"product" : 8,
+						"num" : 100000
+					},
+					{
+						"product" : 3025,
+						"num" : 16
+					},
+					{
+						"product" : 3616,
+						"num" : 6600
+					}
+				]
+			},
+			{
+				"reach" : 9556,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10000
+					},
+					{
+						"product" : 8,
+						"num" : 100000
+					},
+					{
+						"product" : 3025,
+						"num" : 16
+					},
+					{
+						"product" : 3617,
+						"num" : 4800
+					}
+				]
+			},
+			{
+				"reach" : 10984,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10000
+					},
+					{
+						"product" : 6,
+						"num" : 20000000
+					},
+					{
+						"product" : 8,
+						"num" : 100000
+					},
+					{
+						"product" : 2021,
+						"num" : 1000
+					},
+					{
+						"product" : 2243,
+						"num" : 26
+					}
+				]
+			},
+			{
+				"reach" : 12699,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10000
+					},
+					{
+						"product" : 6,
+						"num" : 30000000
+					},
+					{
+						"product" : 8,
+						"num" : 100000
+					},
+					{
+						"product" : 2021,
+						"num" : 1000
+					},
+					{
+						"product" : 3616,
+						"num" : 9000
+					},
+					{
+						"product" : 3617,
+						"num" : 4400
+					},
+					{
+						"product" : 2243,
+						"num" : 12
+					}
+				]
+			},
+			{
+				"reach" : 14413,
+				"reward" : [
+					{
+						"product" : 4,
+						"num" : 60000
+					},
+					{
+						"product" : 3616,
+						"num" : 3600
+					},
+					{
+						"product" : 3617,
+						"num" : 2400
+					},
+					{
+						"product" : 2243,
+						"num" : 12
+					}
+				]
+			},
+			{
+				"reach" : 16127,
+				"reward" : [
+					{
+						"product" : 4,
+						"num" : 66000
+					},
+					{
+						"product" : 3616,
+						"num" : 3600
+					},
+					{
+						"product" : 3617,
+						"num" : 2400
+					},
+					{
+						"product" : 2243,
+						"num" : 12
+					}
+				]
+			},
+			{
+				"reach" : 17985,
+				"reward" : [
+					{
+						"product" : 4,
+						"num" : 78000
+					},
+					{
+						"product" : 3616,
+						"num" : 3900
+					},
+					{
+						"product" : 3617,
+						"num" : 2600
+					},
+					{
+						"product" : 2243,
+						"num" : 13
+					}
+				]
+			},
+			{
+				"reach" : 19742,
+				"reward" : [
+					{
+						"product" : 4,
+						"num" : 84500
+					},
+					{
+						"product" : 3616,
+						"num" : 7800
+					},
+					{
+						"product" : 3617,
+						"num" : 5200
+					},
+					{
+						"product" : 2243,
+						"num" : 130
+					}
+				]
+			},
+			{
+				"reach" : 21842,
+				"reward" : [
+					{
+						"product" : 4,
+						"num" : 98000
+					},
+					{
+						"product" : 3616,
+						"num" : 8400
+					},
+					{
+						"product" : 3617,
+						"num" : 5600
+					},
+					{
+						"product" : 2243,
+						"num" : 140
+					}
+				]
+			},
+			{
+				"reach" : 23842,
+				"reward" : [
+					{
+						"product" : 4,
+						"num" : 105000
+					},
+					{
+						"product" : 3616,
+						"num" : 8400
+					},
+					{
+						"product" : 3617,
+						"num" : 5600
+					},
+					{
+						"product" : 2243,
+						"num" : 140
+					}
+				]
+			},
+			{
+				"reach" : 25842,
+				"reward" : [
+					{
+						"product" : 4,
+						"num" : 112000
+					},
+					{
+						"product" : 3616,
+						"num" : 8400
+					},
+					{
+						"product" : 3617,
+						"num" : 5600
+					},
+					{
+						"product" : 2243,
+						"num" : 140
+					}
+				]
+			},
+			{
+				"reach" : 28413,
+				"reward" : [
+					{
+						"product" : 4,
+						"num" : 153000
+					},
+					{
+						"product" : 3616,
+						"num" : 10800
+					},
+					{
+						"product" : 3617,
+						"num" : 7200
+					},
+					{
+						"product" : 2243,
+						"num" : 180
+					}
+				]
+			}
+		]
+	},
+	"7" : {
+		"name" : "充值卡排名奖励",
+		"description" : "充值卡排名奖励",
+		"2025-04-25" : [
+			{
+				"reach" : 8,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 5
+					},
+					{
+						"product" : 2015,
+						"num" : 510
+					},
+					{
+						"product" : 3010,
+						"num" : 510
+					},
+					{
+						"product" : 3027,
+						"num" : 510
+					},
+					{
+						"product" : 3059,
+						"num" : 5
+					},
+					{
+						"product" : 2099,
+						"num" : 151
+					}
+				]
+			},
+			{
+				"reach" : 15,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 1
+					},
+					{
+						"product" : 2015,
+						"num" : 151
+					},
+					{
+						"product" : 3010,
+						"num" : 151
+					},
+					{
+						"product" : 3027,
+						"num" : 151
+					},
+					{
+						"product" : 3059,
+						"num" : 1
+					},
+					{
+						"product" : 2099,
+						"num" : 51
+					}
+				]
+			}
+		],
+		"2025-04-26" : [
+			{
+				"reach" : 56,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 5
+					},
+					{
+						"product" : 2015,
+						"num" : 510
+					},
+					{
+						"product" : 3010,
+						"num" : 510
+					},
+					{
+						"product" : 3027,
+						"num" : 510
+					},
+					{
+						"product" : 3059,
+						"num" : 5
+					},
+					{
+						"product" : 2099,
+						"num" : 151
+					}
+				]
+			},
+			{
+				"reach" : 65,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 1
+					},
+					{
+						"product" : 2015,
+						"num" : 151
+					},
+					{
+						"product" : 3010,
+						"num" : 151
+					},
+					{
+						"product" : 3027,
+						"num" : 151
+					},
+					{
+						"product" : 3059,
+						"num" : 1
+					},
+					{
+						"product" : 2099,
+						"num" : 51
+					}
+				]
+			}
+		],
+		"2025-04-27" : [
+			{
+				"reach" : 41,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 5
+					},
+					{
+						"product" : 2015,
+						"num" : 510
+					},
+					{
+						"product" : 3010,
+						"num" : 510
+					},
+					{
+						"product" : 3027,
+						"num" : 510
+					},
+					{
+						"product" : 3059,
+						"num" : 5
+					},
+					{
+						"product" : 2099,
+						"num" : 151
+					}
+				]
+			},
+			{
+				"reach" : 75,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 1
+					},
+					{
+						"product" : 2015,
+						"num" : 151
+					},
+					{
+						"product" : 3010,
+						"num" : 151
+					},
+					{
+						"product" : 3027,
+						"num" : 151
+					},
+					{
+						"product" : 3059,
+						"num" : 1
+					},
+					{
+						"product" : 2099,
+						"num" : 51
+					}
+				]
+			}
+		],
+		"2025-04-28" : [
+			{
+				"reach" : 36,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 5
+					},
+					{
+						"product" : 2015,
+						"num" : 510
+					},
+					{
+						"product" : 3010,
+						"num" : 510
+					},
+					{
+						"product" : 3027,
+						"num" : 510
+					},
+					{
+						"product" : 3059,
+						"num" : 5
+					},
+					{
+						"product" : 2099,
+						"num" : 151
+					}
+				]
+			},
+			{
+				"reach" : 78,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 1
+					},
+					{
+						"product" : 2015,
+						"num" : 151
+					},
+					{
+						"product" : 3010,
+						"num" : 151
+					},
+					{
+						"product" : 3027,
+						"num" : 151
+					},
+					{
+						"product" : 3059,
+						"num" : 1
+					},
+					{
+						"product" : 2099,
+						"num" : 51
+					}
+				]
+			}
+		],
+		"2025-04-29" : [
+			{
+				"reach" : 1,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 5
+					},
+					{
+						"product" : 2015,
+						"num" : 510
+					},
+					{
+						"product" : 3010,
+						"num" : 510
+					},
+					{
+						"product" : 3027,
+						"num" : 510
+					},
+					{
+						"product" : 3059,
+						"num" : 5
+					},
+					{
+						"product" : 2099,
+						"num" : 151
+					}
+				]
+			},
+			{
+				"reach" : 10,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 1
+					},
+					{
+						"product" : 2015,
+						"num" : 151
+					},
+					{
+						"product" : 3010,
+						"num" : 151
+					},
+					{
+						"product" : 3027,
+						"num" : 151
+					},
+					{
+						"product" : 3059,
+						"num" : 1
+					},
+					{
+						"product" : 2099,
+						"num" : 51
+					}
+				]
+			}
+		],
+		"2025-04-30" : [
+			{
+				"reach" : 51,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 5
+					},
+					{
+						"product" : 2015,
+						"num" : 510
+					},
+					{
+						"product" : 3010,
+						"num" : 510
+					},
+					{
+						"product" : 3027,
+						"num" : 510
+					},
+					{
+						"product" : 3059,
+						"num" : 5
+					},
+					{
+						"product" : 2099,
+						"num" : 151
+					}
+				]
+			},
+			{
+				"reach" : 68,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 1
+					},
+					{
+						"product" : 2015,
+						"num" : 151
+					},
+					{
+						"product" : 3010,
+						"num" : 151
+					},
+					{
+						"product" : 3027,
+						"num" : 151
+					},
+					{
+						"product" : 3059,
+						"num" : 1
+					},
+					{
+						"product" : 2099,
+						"num" : 51
+					}
+				]
+			}
+		],
+		"2025-05-01" : [
+			{
+				"reach" : 46,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 5
+					},
+					{
+						"product" : 2015,
+						"num" : 510
+					},
+					{
+						"product" : 3010,
+						"num" : 510
+					},
+					{
+						"product" : 3027,
+						"num" : 510
+					},
+					{
+						"product" : 3059,
+						"num" : 5
+					},
+					{
+						"product" : 2099,
+						"num" : 151
+					}
+				]
+			},
+			{
+				"reach" : 70,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 1
+					},
+					{
+						"product" : 2015,
+						"num" : 151
+					},
+					{
+						"product" : 3010,
+						"num" : 151
+					},
+					{
+						"product" : 3027,
+						"num" : 151
+					},
+					{
+						"product" : 3059,
+						"num" : 1
+					},
+					{
+						"product" : 2099,
+						"num" : 51
+					}
+				]
+			}
+		],
+		"2025-05-02" : [
+			{
+				"reach" : 31,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 5
+					},
+					{
+						"product" : 2015,
+						"num" : 510
+					},
+					{
+						"product" : 3010,
+						"num" : 510
+					},
+					{
+						"product" : 3027,
+						"num" : 510
+					},
+					{
+						"product" : 3059,
+						"num" : 5
+					},
+					{
+						"product" : 2099,
+						"num" : 151
+					}
+				]
+			},
+			{
+				"reach" : 80,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 1
+					},
+					{
+						"product" : 2015,
+						"num" : 151
+					},
+					{
+						"product" : 3010,
+						"num" : 151
+					},
+					{
+						"product" : 3027,
+						"num" : 151
+					},
+					{
+						"product" : 3059,
+						"num" : 1
+					},
+					{
+						"product" : 2099,
+						"num" : 51
+					}
+				]
+			}
+		],
+		"2025-05-03" : [
+			{
+				"reach" : 26,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 5
+					},
+					{
+						"product" : 2015,
+						"num" : 510
+					},
+					{
+						"product" : 3010,
+						"num" : 510
+					},
+					{
+						"product" : 3027,
+						"num" : 510
+					},
+					{
+						"product" : 3059,
+						"num" : 5
+					},
+					{
+						"product" : 2099,
+						"num" : 151
+					}
+				]
+			},
+			{
+				"reach" : 85,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 1
+					},
+					{
+						"product" : 2015,
+						"num" : 151
+					},
+					{
+						"product" : 3010,
+						"num" : 151
+					},
+					{
+						"product" : 3027,
+						"num" : 151
+					},
+					{
+						"product" : 3059,
+						"num" : 1
+					},
+					{
+						"product" : 2099,
+						"num" : 51
+					}
+				]
+			}
+		],
+		"2025-05-04" : [
+			{
+				"reach" : 21,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 5
+					},
+					{
+						"product" : 2015,
+						"num" : 510
+					},
+					{
+						"product" : 3010,
+						"num" : 510
+					},
+					{
+						"product" : 3027,
+						"num" : 510
+					},
+					{
+						"product" : 3059,
+						"num" : 5
+					},
+					{
+						"product" : 2099,
+						"num" : 151
+					}
+				]
+			},
+			{
+				"reach" : 88,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 1
+					},
+					{
+						"product" : 2015,
+						"num" : 151
+					},
+					{
+						"product" : 3010,
+						"num" : 151
+					},
+					{
+						"product" : 3027,
+						"num" : 151
+					},
+					{
+						"product" : 3059,
+						"num" : 1
+					},
+					{
+						"product" : 2099,
+						"num" : 51
+					}
+				]
+			}
+		],
+		"2025-05-05" : [
+			{
+				"reach" : 16,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 5
+					},
+					{
+						"product" : 2015,
+						"num" : 510
+					},
+					{
+						"product" : 3010,
+						"num" : 510
+					},
+					{
+						"product" : 3027,
+						"num" : 510
+					},
+					{
+						"product" : 3059,
+						"num" : 5
+					},
+					{
+						"product" : 2099,
+						"num" : 151
+					}
+				]
+			},
+			{
+				"reach" : 90,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 1
+					},
+					{
+						"product" : 2015,
+						"num" : 151
+					},
+					{
+						"product" : 3010,
+						"num" : 151
+					},
+					{
+						"product" : 3027,
+						"num" : 151
+					},
+					{
+						"product" : 3059,
+						"num" : 1
+					},
+					{
+						"product" : 2099,
+						"num" : 51
+					}
+				]
+			}
+		],
+		"2025-05-06" : [
+			{
+				"reach" : 11,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 5
+					},
+					{
+						"product" : 2015,
+						"num" : 510
+					},
+					{
+						"product" : 3010,
+						"num" : 510
+					},
+					{
+						"product" : 3027,
+						"num" : 510
+					},
+					{
+						"product" : 3059,
+						"num" : 5
+					},
+					{
+						"product" : 2099,
+						"num" : 151
+					}
+				]
+			},
+			{
+				"reach" : 95,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 1
+					},
+					{
+						"product" : 2015,
+						"num" : 151
+					},
+					{
+						"product" : 3010,
+						"num" : 151
+					},
+					{
+						"product" : 3027,
+						"num" : 151
+					},
+					{
+						"product" : 3059,
+						"num" : 1
+					},
+					{
+						"product" : 2099,
+						"num" : 51
+					}
+				]
+			}
+		],
+		"2025-05-07" : [
+			{
+				"reach" : 6,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 5
+					},
+					{
+						"product" : 2015,
+						"num" : 510
+					},
+					{
+						"product" : 3010,
+						"num" : 510
+					},
+					{
+						"product" : 3027,
+						"num" : 510
+					},
+					{
+						"product" : 3059,
+						"num" : 5
+					},
+					{
+						"product" : 2099,
+						"num" : 151
+					}
+				]
+			},
+			{
+				"reach" : 98,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 1
+					},
+					{
+						"product" : 2015,
+						"num" : 151
+					},
+					{
+						"product" : 3010,
+						"num" : 151
+					},
+					{
+						"product" : 3027,
+						"num" : 151
+					},
+					{
+						"product" : 3059,
+						"num" : 1
+					},
+					{
+						"product" : 2099,
+						"num" : 51
+					}
+				]
+			}
+		],
+		"2025-05-08" : [
+			{
+				"reach" : 1,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 5
+					},
+					{
+						"product" : 2015,
+						"num" : 510
+					},
+					{
+						"product" : 3010,
+						"num" : 510
+					},
+					{
+						"product" : 3027,
+						"num" : 510
+					},
+					{
+						"product" : 3059,
+						"num" : 5
+					},
+					{
+						"product" : 2099,
+						"num" : 151
+					}
+				]
+			},
+			{
+				"reach" : 100,
+				"reward" : [
+					{
+						"product" : 3071,
+						"num" : 1
+					},
+					{
+						"product" : 2015,
+						"num" : 151
+					},
+					{
+						"product" : 3010,
+						"num" : 151
+					},
+					{
+						"product" : 3027,
+						"num" : 151
+					},
+					{
+						"product" : 3059,
+						"num" : 1
+					},
+					{
+						"product" : 2099,
+						"num" : 51
+					}
+				]
+			}
+		]
+	}
+}

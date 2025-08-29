@@ -1,0 +1,42 @@
+{
+	"1" : {
+		"description" : "每日登录",
+		"reach" : 1,
+		"reward" : 5
+	},
+	"2" : {
+		"description" : "累计在线五分钟",
+		"reach" : 300,
+		"reward" : 5
+	},
+	"3" : {
+		"description" : "成功拜访一次",
+		"reach" : 1,
+		"reward" : 10
+	},
+	"4" : {
+		"description" : "成功拜访三次",
+		"reach" : 3,
+		"reward" : 20
+	},
+	"5" : {
+		"description" : "每日签到额外有惊喜",
+		"reach" : 1,
+		"reward" : 10
+	},
+	"6" : {
+		"description" : "通关三次封神剧情",
+		"reach" : 3,
+		"reward" : 10
+	},
+	"7" : {
+		"description" : "通关三次气运之争",
+		"reach" : 3,
+		"reward" : 20
+	},
+	"8" : {
+		"description" : "挑战三次竞技天梯",
+		"reach" : 3,
+		"reward" : 20
+	}
+}

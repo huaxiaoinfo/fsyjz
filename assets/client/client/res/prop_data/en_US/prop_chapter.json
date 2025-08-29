@@ -1,0 +1,258 @@
+{
+	"1001" : {
+		"story_id_start" : 100,
+		"times_limit" : 9,
+		"chapter_name" : "姬昌奉诏赴朝歌",
+		"description" : "自从妲己入宫，纣王便长年沉迷于美色，荒废了朝政，残害谏言的大臣梅伯赵启，戕害姜皇后，吓死杨、黄两位贵妃，追杀殷郊殷洪二个皇子，逼死丞相商容，使得朝堂上人人自危，老百姓怨声载道。恰逢朝贺之年，纣王宣四镇诸侯到朝歌来见驾。",
+		"vitality" : 6
+	},
+	"1002" : {
+		"story_id_start" : 200,
+		"times_limit" : 9,
+		"chapter_name" : "邑考献宝欲救父",
+		"description" : "东伯侯姜桓楚、南伯侯鄂崇禹被纣王无故处死后，他们的儿子便带兵反了商朝，西伯侯姬昌被囚禁，北伯侯崇侯虎助纣为虐，借督造鹿台的机会收刮民脂民膏，纣王越发荒淫无度，一时间天下大乱，只有西岐的地界上民丰物阜，行人让路，老幼无欺，市井谦和。转眼七年过去，姜子牙把八百从朝歌逃难的百姓带往西岐，伯邑考思及父王七年囚禁异乡，举目无亲。于心不忍，便不顾劝阻，身带祖传三件宝贝，去朝歌进贡，以赎父罪。”",
+		"vitality" : 6
+	},
+	"1003" : {
+		"story_id_start" : 300,
+		"times_limit" : 9,
+		"chapter_name" : "文王喂水聘子牙",
+		"description" : "姬昌被囚禁了七年，历经千辛万苦才回到西岐。一路上见到各种灾害和异常现象频发，旱涝失调，为了便于观看吉凶之兆，他决定在西岐的正南边建造一个灵台。",
+		"vitality" : 6
+	},
+	"1004" : {
+		"story_id_start" : 400,
+		"times_limit" : 9,
+		"chapter_name" : "张桂芳奉诏西征",
+		"description" : "姬昌讨伐崇侯虎的消息传到朝歌，群臣激愤，只有纣王对此无动于衷，整日在酒池肉林享乐。便是闻太师回朝主持大局也没能使纣王听取忠臣谏言，反而越发荒淫无度，欺辱臣妻，逼反了黄飞虎。",
+		"vitality" : 6
+	},
+	"1005" : {
+		"story_id_start" : 500,
+		"times_limit" : 9,
+		"chapter_name" : "魔家四将围西岐",
+		"description" : "",
+		"vitality" : 6
+	},
+	"1006" : {
+		"story_id_start" : 600,
+		"times_limit" : 9,
+		"chapter_name" : "闻太师西岐大战，上",
+		"description" : "",
+		"vitality" : 6
+	},
+	"1007" : {
+		"story_id_start" : 700,
+		"times_limit" : 9,
+		"chapter_name" : "闻太师西岐大战，下",
+		"description" : "",
+		"vitality" : 6
+	},
+	"1008" : {
+		"story_id_start" : 800,
+		"times_limit" : 9,
+		"chapter_name" : "邓九公奉敕西征",
+		"description" : "",
+		"vitality" : 6
+	},
+	"1009" : {
+		"story_id_start" : 900,
+		"times_limit" : 9,
+		"chapter_name" : "冀州侯苏护伐西岐",
+		"description" : "",
+		"vitality" : 6
+	},
+	"1010" : {
+		"story_id_start" : 1000,
+		"times_limit" : 9,
+		"chapter_name" : "张山李锦伐西岐",
+		"description" : "",
+		"vitality" : 6
+	},
+	"1011" : {
+		"story_id_start" : 1100,
+		"times_limit" : 9,
+		"chapter_name" : "孔宣兵阻金鸡岭",
+		"description" : "",
+		"vitality" : 6
+	},
+	"1012" : {
+		"story_id_start" : 1200,
+		"times_limit" : 9,
+		"chapter_name" : "姜子牙分兵破三观",
+		"description" : "",
+		"vitality" : 6
+	},
+	"1013" : {
+		"story_id_start" : 1300,
+		"times_limit" : 9,
+		"chapter_name" : "三教会破诛仙阵",
+		"description" : "",
+		"vitality" : 6
+	},
+	"1014" : {
+		"story_id_start" : 1400,
+		"times_limit" : 9,
+		"chapter_name" : "西岐大破瘟癀阵",
+		"description" : "",
+		"vitality" : 6
+	},
+	"1015" : {
+		"story_id_start" : 1500,
+		"times_limit" : 9,
+		"chapter_name" : "万仙阵大决战",
+		"description" : "",
+		"vitality" : 6
+	},
+	"2001" : {
+		"story_id_start" : 100,
+		"times_limit" : 3,
+		"chapter_name" : "姬昌奉诏赴朝歌",
+		"description" : "",
+		"vitality" : 10
+	},
+	"2002" : {
+		"story_id_start" : 200,
+		"times_limit" : 3,
+		"chapter_name" : "邑考献宝欲救父",
+		"description" : "",
+		"vitality" : 10
+	},
+	"2003" : {
+		"story_id_start" : 300,
+		"times_limit" : 3,
+		"chapter_name" : "文王喂水聘子牙",
+		"description" : "",
+		"vitality" : 10
+	},
+	"2004" : {
+		"story_id_start" : 400,
+		"times_limit" : 3,
+		"chapter_name" : "张桂芳奉诏西征",
+		"description" : "姬昌讨伐崇侯虎的消息传到朝歌，群臣激愤，只有纣王对此无动于衷，整日在酒池肉林享乐。便是闻太师回朝主持大局也没能使纣王听取忠臣谏言，反而越发荒淫无度，欺辱臣妻，逼反了黄飞虎。",
+		"vitality" : 10
+	},
+	"2005" : {
+		"story_id_start" : 500,
+		"times_limit" : 3,
+		"chapter_name" : "魔家四将围西岐",
+		"description" : "",
+		"vitality" : 10
+	},
+	"2006" : {
+		"story_id_start" : 600,
+		"times_limit" : 3,
+		"chapter_name" : "闻太师西岐大战，上",
+		"description" : "",
+		"vitality" : 10
+	},
+	"2007" : {
+		"story_id_start" : 700,
+		"times_limit" : 3,
+		"chapter_name" : "闻太师西岐大战，下",
+		"description" : "",
+		"vitality" : 10
+	},
+	"2008" : {
+		"story_id_start" : 800,
+		"times_limit" : 3,
+		"chapter_name" : "邓九公奉敕西征",
+		"description" : "",
+		"vitality" : 10
+	},
+	"2009" : {
+		"story_id_start" : 900,
+		"times_limit" : 3,
+		"chapter_name" : "冀州侯苏护伐西岐",
+		"description" : "",
+		"vitality" : 10
+	},
+	"2010" : {
+		"story_id_start" : 1000,
+		"times_limit" : 3,
+		"chapter_name" : "张山李锦伐西岐",
+		"description" : "",
+		"vitality" : 10
+	},
+	"2011" : {
+		"story_id_start" : 1100,
+		"times_limit" : 3,
+		"chapter_name" : "孔宣兵阻金鸡岭",
+		"description" : "",
+		"vitality" : 10
+	},
+	"2012" : {
+		"story_id_start" : 1200,
+		"times_limit" : 3,
+		"chapter_name" : "姜子牙分兵破三观",
+		"description" : "",
+		"vitality" : 10
+	},
+	"2013" : {
+		"story_id_start" : 1300,
+		"times_limit" : 3,
+		"chapter_name" : "三教会破诛仙阵",
+		"description" : "",
+		"vitality" : 10
+	},
+	"2014" : {
+		"story_id_start" : 1400,
+		"times_limit" : 3,
+		"chapter_name" : "西岐大破瘟癀阵",
+		"description" : "",
+		"vitality" : 10
+	},
+	"2015" : {
+		"story_id_start" : 1500,
+		"times_limit" : 3,
+		"chapter_name" : "万仙阵大决战",
+		"description" : "",
+		"vitality" : 10
+	},
+	"4001" : {
+		"story_id_start" : 100,
+		"times_limit" : 0,
+		"chapter_name" : "姬昌奉诏赴朝歌剧场版",
+		"description" : "自从妲己入宫，纣王便长年沉迷于美色，荒废了朝政，残害谏言的大臣梅伯赵启，戕害姜皇后，吓死杨、黄两位贵妃，追杀殷郊殷洪二个皇子，逼死丞相商容，使得朝堂上人人自危，老百姓怨声载道。恰逢朝贺之年，纣王宣四镇诸侯到朝歌来见驾。",
+		"vitality" : 6
+	},
+	"4002" : {
+		"story_id_start" : 200,
+		"times_limit" : 0,
+		"chapter_name" : "邑考献宝欲救父剧场版",
+		"description" : "东伯侯姜桓楚、南伯侯鄂崇禹被纣王无故处死后，他们的儿子便带兵反了商朝，西伯侯姬昌被囚禁，北伯侯崇侯虎助纣为虐，借督造鹿台的机会收刮民脂民膏，纣王越发荒淫无度，一时间天下大乱，只有西岐的地界上民丰物阜，行人让路，老幼无欺，市井谦和。转眼七年过去，姜子牙把八百从朝歌逃难的百姓带往西岐，伯邑考思及父王七年囚禁异乡，举目无亲。于心不忍，便不顾劝阻，身带祖传三件宝贝，去朝歌进贡，以赎父罪。”",
+		"vitality" : 6
+	},
+	"4003" : {
+		"story_id_start" : 300,
+		"times_limit" : 0,
+		"chapter_name" : "文王喂水聘子牙剧场版",
+		"description" : "姬昌被囚禁了七年，历经千辛万苦才回到西岐。一路上见到各种灾害和异常现象频发，旱涝失调，为了便于观看吉凶之兆，他决定在西岐的正南边建造一个灵台。",
+		"vitality" : 6
+	},
+	"4004" : {
+		"story_id_start" : 400,
+		"times_limit" : 0,
+		"chapter_name" : "张桂芳奉诏西征剧场版",
+		"description" : "姬昌讨伐崇侯虎的消息传到朝歌，群臣激愤，只有纣王对此无动于衷，整日在酒池肉林享乐。便是闻太师回朝主持大局也没能使纣王听取忠臣谏言，反而越发荒淫无度，欺辱臣妻，逼反了黄飞虎。",
+		"vitality" : 6
+	},
+	"3001" : {
+		"start_time" : "2025-08-01",
+		"duration" : 35,
+		"story_id_start" : 0,
+		"times_limit" : 6,
+		"chapter_name" : "虫族入侵",
+		"description" : "虫族入侵活动副本，仅限稀有英杰闯关，每关选定稀有英杰即可，无指定英杰，上阵英杰如剧情那样不带任何加成，神魂修炼除外，有等级压制，周卡特权额外增加次数，周卡人级加2次、周卡地级加4次、周卡天极加6次。副本月卡额外增加次数，副本月卡人级加一次、副本月卡地级加两次、副本月卡天极加三次，三星通关一键扫荡和超级扫荡特权保留，本章节六关卡。",
+		"vitality" : 10
+	},
+	"3002" : {
+		"start_time" : "2025-08-01",
+		"duration" : 35,
+		"story_id_start" : 0,
+		"times_limit" : 6,
+		"chapter_name" : "虫族入侵，下",
+		"description" : "虫族入侵活动副本，仅限稀有英杰闯关，每关选定稀有英杰即可，无指定英杰，上阵英杰如剧情那样不带任何加成，神魂修炼除外，有等级压制，周卡特权额外增加次数，周卡人级加2次、周卡地级加4次、周卡天极加6次。副本月卡额外增加次数，副本月卡人级加一次、副本月卡地级加两次、副本月卡天极加三次，三星通关一键扫荡和超级扫荡特权保留，本章节三关卡。",
+		"vitality" : 10
+	}
+}

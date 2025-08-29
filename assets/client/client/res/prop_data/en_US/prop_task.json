@@ -1,0 +1,7171 @@
+{
+	"101" : {
+		"name" : "封神剧情",
+		"description" : "通关封神剧情%s-%s",
+		"content" : [
+			{
+				"reach" : 100101,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 100102,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 100103,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 100104,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 100105,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 100106,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 100201,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 100202,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 100203,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 100204,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 100205,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 100206,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 100301,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 100302,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 100303,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 100304,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 100305,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 100306,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 100401,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 20000
+					}
+				]
+			},
+			{
+				"reach" : 100402,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 20000
+					}
+				]
+			},
+			{
+				"reach" : 100403,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 20000
+					}
+				]
+			},
+			{
+				"reach" : 100404,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 20000
+					}
+				]
+			},
+			{
+				"reach" : 100405,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 20000
+					}
+				]
+			},
+			{
+				"reach" : 100406,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 20000
+					}
+				]
+			},
+			{
+				"reach" : 100501,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 20000
+					}
+				]
+			},
+			{
+				"reach" : 100502,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 20000
+					}
+				]
+			},
+			{
+				"reach" : 100503,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 20000
+					}
+				]
+			},
+			{
+				"reach" : 100504,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 20000
+					}
+				]
+			},
+			{
+				"reach" : 100505,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 20000
+					}
+				]
+			},
+			{
+				"reach" : 100506,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 20000
+					}
+				]
+			},
+			{
+				"reach" : 100601,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 20000
+					}
+				]
+			},
+			{
+				"reach" : 100602,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 20000
+					}
+				]
+			},
+			{
+				"reach" : 100603,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 20000
+					}
+				]
+			},
+			{
+				"reach" : 100604,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 20000
+					}
+				]
+			},
+			{
+				"reach" : 100605,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 20000
+					}
+				]
+			},
+			{
+				"reach" : 100606,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 20000
+					}
+				]
+			},
+			{
+				"reach" : 100701,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					}
+				]
+			},
+			{
+				"reach" : 100702,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					}
+				]
+			},
+			{
+				"reach" : 100703,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					}
+				]
+			},
+			{
+				"reach" : 100704,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					}
+				]
+			},
+			{
+				"reach" : 100705,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					}
+				]
+			},
+			{
+				"reach" : 100706,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					}
+				]
+			},
+			{
+				"reach" : 100801,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					}
+				]
+			},
+			{
+				"reach" : 100802,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					}
+				]
+			},
+			{
+				"reach" : 100803,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					}
+				]
+			},
+			{
+				"reach" : 100804,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					}
+				]
+			},
+			{
+				"reach" : 100805,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					}
+				]
+			},
+			{
+				"reach" : 100806,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					}
+				]
+			},
+			{
+				"reach" : 100901,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					}
+				]
+			},
+			{
+				"reach" : 100902,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					}
+				]
+			},
+			{
+				"reach" : 100903,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					}
+				]
+			},
+			{
+				"reach" : 100904,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					}
+				]
+			},
+			{
+				"reach" : 100905,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					}
+				]
+			},
+			{
+				"reach" : 100906,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					}
+				]
+			},
+			{
+				"reach" : 101001,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 200000
+					}
+				]
+			},
+			{
+				"reach" : 101002,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 200000
+					}
+				]
+			},
+			{
+				"reach" : 101003,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 200000
+					}
+				]
+			},
+			{
+				"reach" : 101004,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 200000
+					}
+				]
+			},
+			{
+				"reach" : 101005,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 200000
+					}
+				]
+			},
+			{
+				"reach" : 101006,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 200000
+					}
+				]
+			},
+			{
+				"reach" : 101101,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 200000
+					}
+				]
+			},
+			{
+				"reach" : 101102,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 200000
+					}
+				]
+			},
+			{
+				"reach" : 101103,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 200000
+					}
+				]
+			},
+			{
+				"reach" : 101104,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 200000
+					}
+				]
+			},
+			{
+				"reach" : 101105,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 200000
+					}
+				]
+			},
+			{
+				"reach" : 101106,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 200000
+					}
+				]
+			},
+			{
+				"reach" : 101201,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 200000
+					}
+				]
+			},
+			{
+				"reach" : 101202,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 200000
+					}
+				]
+			},
+			{
+				"reach" : 101203,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 200000
+					}
+				]
+			},
+			{
+				"reach" : 101204,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 200000
+					}
+				]
+			},
+			{
+				"reach" : 101205,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 200000
+					}
+				]
+			},
+			{
+				"reach" : 101206,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 200000
+					}
+				]
+			},
+			{
+				"reach" : 101301,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 300000
+					}
+				]
+			},
+			{
+				"reach" : 101302,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 300000
+					}
+				]
+			},
+			{
+				"reach" : 101303,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 300000
+					}
+				]
+			},
+			{
+				"reach" : 101304,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 300000
+					}
+				]
+			},
+			{
+				"reach" : 101305,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 300000
+					}
+				]
+			},
+			{
+				"reach" : 101306,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 300000
+					}
+				]
+			},
+			{
+				"reach" : 101401,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 300000
+					}
+				]
+			},
+			{
+				"reach" : 101402,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 300000
+					}
+				]
+			},
+			{
+				"reach" : 101403,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 300000
+					}
+				]
+			},
+			{
+				"reach" : 101404,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 300000
+					}
+				]
+			},
+			{
+				"reach" : 101405,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 300000
+					}
+				]
+			},
+			{
+				"reach" : 101406,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 300000
+					}
+				]
+			},
+			{
+				"reach" : 101501,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 300000
+					}
+				]
+			},
+			{
+				"reach" : 101502,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 300000
+					}
+				]
+			},
+			{
+				"reach" : 101503,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 300000
+					}
+				]
+			},
+			{
+				"reach" : 101504,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 300000
+					}
+				]
+			},
+			{
+				"reach" : 101505,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 300000
+					}
+				]
+			},
+			{
+				"reach" : 101506,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 300000
+					}
+				]
+			}
+		]
+	},
+	"102" : {
+		"name" : "气运之争",
+		"description" : "通关气运之争%s-%s",
+		"content" : [
+			{
+				"reach" : 200101,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 8,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 200102,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 8,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 200103,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 8,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 200104,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 8,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 200105,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 8,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 200106,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 8,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 200201,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 8,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 200202,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 8,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 200203,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 8,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 200204,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 8,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 200205,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 8,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 200206,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 8,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 200301,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 8,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 200302,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 8,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 200303,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 8,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 200304,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 8,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 200305,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 8,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 200306,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 8,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 200401,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 8,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 200402,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 8,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 200403,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 8,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 200404,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 8,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 200405,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 8,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 200406,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 8,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 200501,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 8,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 200502,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 8,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 200503,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 8,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 200504,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 8,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 200505,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 8,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 200506,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 8,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 200601,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 8,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 200602,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 8,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 200603,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 8,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 200604,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 8,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 200605,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 8,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 200606,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 8,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 200701,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 8,
+						"num" : 500
+					}
+				]
+			},
+			{
+				"reach" : 200702,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 8,
+						"num" : 500
+					}
+				]
+			},
+			{
+				"reach" : 200703,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 8,
+						"num" : 500
+					}
+				]
+			},
+			{
+				"reach" : 200704,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 8,
+						"num" : 500
+					}
+				]
+			},
+			{
+				"reach" : 200705,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 8,
+						"num" : 500
+					}
+				]
+			},
+			{
+				"reach" : 200706,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 8,
+						"num" : 500
+					}
+				]
+			},
+			{
+				"reach" : 200801,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 8,
+						"num" : 500
+					}
+				]
+			},
+			{
+				"reach" : 200802,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 8,
+						"num" : 500
+					}
+				]
+			},
+			{
+				"reach" : 200803,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 8,
+						"num" : 500
+					}
+				]
+			},
+			{
+				"reach" : 200804,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 8,
+						"num" : 500
+					}
+				]
+			},
+			{
+				"reach" : 200805,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 8,
+						"num" : 500
+					}
+				]
+			},
+			{
+				"reach" : 200806,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 8,
+						"num" : 500
+					}
+				]
+			},
+			{
+				"reach" : 200901,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 8,
+						"num" : 500
+					}
+				]
+			},
+			{
+				"reach" : 200902,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 8,
+						"num" : 500
+					}
+				]
+			},
+			{
+				"reach" : 200903,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 8,
+						"num" : 500
+					}
+				]
+			},
+			{
+				"reach" : 200904,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 8,
+						"num" : 500
+					}
+				]
+			},
+			{
+				"reach" : 200905,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 8,
+						"num" : 500
+					}
+				]
+			},
+			{
+				"reach" : 200906,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 8,
+						"num" : 500
+					}
+				]
+			},
+			{
+				"reach" : 201001,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 201002,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 201003,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 201004,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 201005,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 201006,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 201101,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 201102,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 201103,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 201104,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 201105,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 201106,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 201201,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 201202,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 201203,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 201204,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 201205,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 201206,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 201301,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					}
+				]
+			},
+			{
+				"reach" : 201302,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					}
+				]
+			},
+			{
+				"reach" : 201303,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					}
+				]
+			},
+			{
+				"reach" : 201304,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					}
+				]
+			},
+			{
+				"reach" : 201305,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					}
+				]
+			},
+			{
+				"reach" : 201306,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					}
+				]
+			},
+			{
+				"reach" : 201401,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					}
+				]
+			},
+			{
+				"reach" : 201402,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					}
+				]
+			},
+			{
+				"reach" : 201403,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					}
+				]
+			},
+			{
+				"reach" : 201404,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					}
+				]
+			},
+			{
+				"reach" : 201405,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					}
+				]
+			},
+			{
+				"reach" : 201406,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					}
+				]
+			},
+			{
+				"reach" : 201501,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					}
+				]
+			},
+			{
+				"reach" : 201502,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					}
+				]
+			},
+			{
+				"reach" : 201503,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					}
+				]
+			},
+			{
+				"reach" : 201504,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					}
+				]
+			},
+			{
+				"reach" : 201505,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					}
+				]
+			},
+			{
+				"reach" : 201506,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					}
+				]
+			}
+		]
+	},
+	"103" : {
+		"name" : "英杰收集",
+		"description" : "收集%s个英杰",
+		"content" : [
+			{
+				"reach" : 5,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 2011,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 10,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2012,
+						"num" : 80
+					}
+				]
+			},
+			{
+				"reach" : 15,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 150
+					},
+					{
+						"product" : 2012,
+						"num" : 120
+					}
+				]
+			},
+			{
+				"reach" : 20,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 200
+					},
+					{
+						"product" : 2012,
+						"num" : 160
+					}
+				]
+			},
+			{
+				"reach" : 25,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 250
+					},
+					{
+						"product" : 2012,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 30,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 300
+					},
+					{
+						"product" : 2013,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 35,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 300
+					},
+					{
+						"product" : 2013,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 40,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 300
+					},
+					{
+						"product" : 2013,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 45,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 300
+					},
+					{
+						"product" : 2013,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 50,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 300
+					},
+					{
+						"product" : 2013,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 55,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 300
+					},
+					{
+						"product" : 2013,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 60,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 300
+					},
+					{
+						"product" : 2013,
+						"num" : 50
+					}
+				]
+			}
+		]
+	},
+	"104" : {
+		"name" : "英杰升品1",
+		"description" : "升级%s个英杰的品阶到橙色",
+		"content" : [
+			{
+				"reach" : 1,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 2,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 3,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 4,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					},
+					{
+						"product" : 5,
+						"num" : 500
+					}
+				]
+			},
+			{
+				"reach" : 5,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 6,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 7,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 8,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 9,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 10,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 11,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 12,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 13,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 14,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 15,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 16,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 17,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 18,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 19,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 20,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 21,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 22,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 23,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 24,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 25,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 26,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 27,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 28,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 29,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 30,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 31,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 32,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 33,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 34,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 35,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 36,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 37,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 38,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 39,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 40,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 41,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 42,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 43,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 44,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 45,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 46,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 47,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 48,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 49,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 50,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 51,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 52,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 53,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 54,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 55,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 56,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 57,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 58,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 59,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 60,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			}
+		]
+	},
+	"105" : {
+		"name" : "英杰升品2",
+		"description" : "首次将英杰的品阶升到%s",
+		"content" : [
+			{
+				"reach" : 20,
+				"reward" : [
+					{
+						"product" : 3012,
+						"num" : 15
+					}
+				]
+			},
+			{
+				"reach" : 30,
+				"reward" : [
+					{
+						"product" : 3012,
+						"num" : 15
+					}
+				]
+			},
+			{
+				"reach" : 40,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 3013,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 50,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 3013,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 60,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 3013,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 70,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 3014,
+						"num" : 105
+					}
+				]
+			},
+			{
+				"reach" : 80,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 3014,
+						"num" : 105
+					}
+				]
+			},
+			{
+				"reach" : 90,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 3014,
+						"num" : 105
+					}
+				]
+			},
+			{
+				"reach" : 100,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 3014,
+						"num" : 105
+					}
+				]
+			},
+			{
+				"reach" : 110,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 120,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 130,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 140,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			},
+			{
+				"reach" : 150,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 3015,
+						"num" : 180
+					}
+				]
+			}
+		]
+	},
+	"106" : {
+		"name" : "英杰升星1",
+		"description" : "将%s个英杰的星级升到3星",
+		"content" : [
+			{
+				"reach" : 1,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 2,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 3,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 4,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 5,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 6,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 7,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 8,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 9,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 10,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 11,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 12,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 13,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 14,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 15,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 16,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 17,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 18,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 19,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 20,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 21,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 22,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 23,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 24,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 25,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 26,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 27,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 28,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 29,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 30,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 31,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 32,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 33,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 34,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 35,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 36,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 37,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 38,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 39,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 40,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 41,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 42,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 43,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 44,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 45,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 46,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 47,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 48,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 49,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 50,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 51,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 52,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 53,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 54,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 55,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 56,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 57,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 58,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 59,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 60,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			}
+		]
+	},
+	"107" : {
+		"name" : "英杰升星2",
+		"description" : "首次将英杰的星级升到%s星",
+		"content" : [
+			{
+				"reach" : 2,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 2021,
+						"num" : 10
+					}
+				]
+			},
+			{
+				"reach" : 3,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 2021,
+						"num" : 20
+					}
+				]
+			},
+			{
+				"reach" : 4,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 2021,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 5,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 120
+					},
+					{
+						"product" : 2021,
+						"num" : 40
+					}
+				]
+			}
+		]
+	},
+	"108" : {
+		"name" : "境界提升1",
+		"description" : "将%s个英杰的境界升到玄仙",
+		"content" : [
+			{
+				"reach" : 1,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 2,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 3,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 4,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 5,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 6,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 7,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 8,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 9,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 10,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 11,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 12,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 13,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 14,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 15,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 16,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 17,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 18,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 19,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 20,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 21,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 22,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 23,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 24,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 25,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 26,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 27,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 28,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 29,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 30,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 31,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 32,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 33,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 34,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 35,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 36,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 37,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 38,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 39,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 40,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 41,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 42,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 43,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 44,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 45,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 46,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 47,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 48,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 49,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 50,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 51,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 52,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 53,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 54,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 55,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 56,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 57,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 58,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 59,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			},
+			{
+				"reach" : 60,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 8,
+						"num" : 3000
+					}
+				]
+			}
+		]
+	},
+	"109" : {
+		"name" : "境界提升2",
+		"description" : "首次将英杰的境界升到%s",
+		"content" : [
+			{
+				"reach" : 8,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 9,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					}
+				]
+			},
+			{
+				"reach" : 10,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 8,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 11,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 8,
+						"num" : 10000
+					}
+				]
+			},
+			{
+				"reach" : 12,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 200
+					},
+					{
+						"product" : 8,
+						"num" : 20000
+					}
+				]
+			}
+		]
+	},
+	"110" : {
+		"name" : "提升技能",
+		"description" : "首次将某个技能的等级升到%s级",
+		"content" : [
+			{
+				"reach" : 10,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 10000
+					}
+				]
+			},
+			{
+				"reach" : 20,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 40000
+					}
+				]
+			},
+			{
+				"reach" : 30,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 90000
+					}
+				]
+			},
+			{
+				"reach" : 40,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 160000
+					}
+				]
+			},
+			{
+				"reach" : 50,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 250000
+					}
+				]
+			},
+			{
+				"reach" : 60,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 360000
+					}
+				]
+			},
+			{
+				"reach" : 70,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 500000
+					}
+				]
+			},
+			{
+				"reach" : 80,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 6,
+						"num" : 650000
+					}
+				]
+			},
+			{
+				"reach" : 90,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 80
+					},
+					{
+						"product" : 6,
+						"num" : 800000
+					}
+				]
+			},
+			{
+				"reach" : 100,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 6,
+						"num" : 1000000
+					}
+				]
+			}
+		]
+	},
+	"111" : {
+		"name" : "法宝升级",
+		"description" : "首次将某个法宝的等级升到%s级",
+		"content" : [
+			{
+				"reach" : 10,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 4000,
+						"num" : 100
+					}
+				]
+			},
+			{
+				"reach" : 20,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 4000,
+						"num" : 400
+					}
+				]
+			},
+			{
+				"reach" : 30,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 90
+					},
+					{
+						"product" : 4000,
+						"num" : 900
+					}
+				]
+			},
+			{
+				"reach" : 40,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 160
+					},
+					{
+						"product" : 4000,
+						"num" : 1600
+					}
+				]
+			},
+			{
+				"reach" : 50,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 250
+					},
+					{
+						"product" : 4000,
+						"num" : 2500
+					}
+				]
+			},
+			{
+				"reach" : 60,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 360
+					},
+					{
+						"product" : 4000,
+						"num" : 3600
+					}
+				]
+			},
+			{
+				"reach" : 70,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 4000,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 80,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 600
+					},
+					{
+						"product" : 4000,
+						"num" : 6500
+					}
+				]
+			},
+			{
+				"reach" : 90,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 800
+					},
+					{
+						"product" : 4000,
+						"num" : 8000
+					}
+				]
+			},
+			{
+				"reach" : 100,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 1000
+					},
+					{
+						"product" : 4000,
+						"num" : 10000
+					}
+				]
+			}
+		]
+	},
+	"112" : {
+		"name" : "法宝升品",
+		"description" : "首次将某个法宝的品阶升到%s",
+		"content" : [
+			{
+				"reach" : 2,
+				"reward" : [
+					{
+						"product" : 3021,
+						"num" : 1
+					}
+				]
+			},
+			{
+				"reach" : 3,
+				"reward" : [
+					{
+						"product" : 3022,
+						"num" : 2
+					}
+				]
+			},
+			{
+				"reach" : 4,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 3023,
+						"num" : 5
+					}
+				]
+			},
+			{
+				"reach" : 5,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 150
+					},
+					{
+						"product" : 3024,
+						"num" : 6
+					}
+				]
+			},
+			{
+				"reach" : 6,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 1000
+					},
+					{
+						"product" : 3025,
+						"num" : 10
+					}
+				]
+			}
+		]
+	},
+	"113" : {
+		"name" : "装备升阶",
+		"description" : "首次将某件装备的品阶升到%s10阶",
+		"content" : [
+			{
+				"reach" : 10,
+				"reward" : [
+					{
+						"product" : 6,
+						"num" : 1000
+					},
+					{
+						"product" : 3001,
+						"num" : 5
+					}
+				]
+			},
+			{
+				"reach" : 110,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 4000
+					},
+					{
+						"product" : 3002,
+						"num" : 5
+					}
+				]
+			},
+			{
+				"reach" : 210,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 9000
+					},
+					{
+						"product" : 3003,
+						"num" : 6
+					}
+				]
+			},
+			{
+				"reach" : 310,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 15
+					},
+					{
+						"product" : 6,
+						"num" : 16000
+					},
+					{
+						"product" : 3004,
+						"num" : 10
+					}
+				]
+			},
+			{
+				"reach" : 410,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 25
+					},
+					{
+						"product" : 6,
+						"num" : 25000
+					},
+					{
+						"product" : 3005,
+						"num" : 15
+					}
+				]
+			},
+			{
+				"reach" : 510,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 25
+					},
+					{
+						"product" : 6,
+						"num" : 36000
+					},
+					{
+						"product" : 3006,
+						"num" : 18
+					}
+				]
+			},
+			{
+				"reach" : 610,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 25
+					},
+					{
+						"product" : 6,
+						"num" : 50000
+					},
+					{
+						"product" : 3007,
+						"num" : 25
+					}
+				]
+			},
+			{
+				"reach" : 710,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 65000
+					},
+					{
+						"product" : 3008,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 810,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 6,
+						"num" : 80000
+					},
+					{
+						"product" : 3009,
+						"num" : 36
+					}
+				]
+			},
+			{
+				"reach" : 910,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					},
+					{
+						"product" : 3009,
+						"num" : 50
+					}
+				]
+			}
+		]
+	},
+	"114" : {
+		"name" : "坐骑升级",
+		"description" : "首次将某个坐骑的等级升到%s级",
+		"content" : [
+			{
+				"reach" : 10,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 21,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 20,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 21,
+						"num" : 4000
+					}
+				]
+			},
+			{
+				"reach" : 30,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 90
+					},
+					{
+						"product" : 21,
+						"num" : 9000
+					}
+				]
+			},
+			{
+				"reach" : 40,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 160
+					},
+					{
+						"product" : 21,
+						"num" : 16000
+					}
+				]
+			},
+			{
+				"reach" : 50,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 250
+					},
+					{
+						"product" : 21,
+						"num" : 25000
+					}
+				]
+			},
+			{
+				"reach" : 60,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 360
+					},
+					{
+						"product" : 21,
+						"num" : 36000
+					}
+				]
+			},
+			{
+				"reach" : 70,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 500
+					},
+					{
+						"product" : 21,
+						"num" : 50000
+					}
+				]
+			},
+			{
+				"reach" : 80,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 600
+					},
+					{
+						"product" : 21,
+						"num" : 65000
+					}
+				]
+			},
+			{
+				"reach" : 90,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 800
+					},
+					{
+						"product" : 21,
+						"num" : 80000
+					}
+				]
+			},
+			{
+				"reach" : 100,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 1000
+					},
+					{
+						"product" : 21,
+						"num" : 100000
+					}
+				]
+			}
+		]
+	},
+	"115" : {
+		"name" : "封神剧情累计获得星数",
+		"description" : "封神剧情获得%s颗星",
+		"content" : [
+			{
+				"reach" : 9,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 18,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 27,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 36,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 45,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 54,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 5
+					},
+					{
+						"product" : 6,
+						"num" : 5000
+					}
+				]
+			},
+			{
+				"reach" : 63,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 20000
+					}
+				]
+			},
+			{
+				"reach" : 72,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 20000
+					}
+				]
+			},
+			{
+				"reach" : 81,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 20000
+					}
+				]
+			},
+			{
+				"reach" : 90,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 20000
+					}
+				]
+			},
+			{
+				"reach" : 99,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 20000
+					}
+				]
+			},
+			{
+				"reach" : 108,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 20000
+					}
+				]
+			},
+			{
+				"reach" : 117,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					}
+				]
+			},
+			{
+				"reach" : 126,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					}
+				]
+			},
+			{
+				"reach" : 135,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					}
+				]
+			},
+			{
+				"reach" : 144,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					}
+				]
+			},
+			{
+				"reach" : 153,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					}
+				]
+			},
+			{
+				"reach" : 162,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 100000
+					}
+				]
+			},
+			{
+				"reach" : 171,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 200000
+					}
+				]
+			},
+			{
+				"reach" : 180,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 200000
+					}
+				]
+			},
+			{
+				"reach" : 189,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 200000
+					}
+				]
+			},
+			{
+				"reach" : 198,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 200000
+					}
+				]
+			},
+			{
+				"reach" : 207,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 200000
+					}
+				]
+			},
+			{
+				"reach" : 216,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 200000
+					}
+				]
+			},
+			{
+				"reach" : 225,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 300000
+					}
+				]
+			},
+			{
+				"reach" : 234,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 300000
+					}
+				]
+			},
+			{
+				"reach" : 243,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 300000
+					}
+				]
+			},
+			{
+				"reach" : 252,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 300000
+					}
+				]
+			},
+			{
+				"reach" : 261,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 300000
+					}
+				]
+			},
+			{
+				"reach" : 270,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 300000
+					}
+				]
+			}
+		]
+	},
+	"116" : {
+		"name" : "气运之争累计获得星数",
+		"description" : "气运之争获得%s颗星",
+		"content" : [
+			{
+				"reach" : 9,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 8,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 18,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 8,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 27,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 8,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 36,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 8,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 45,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 8,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 54,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 8,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 63,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 8,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 72,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 8,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 81,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 8,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 90,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 8,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 99,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 8,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 108,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 8,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 117,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 8,
+						"num" : 500
+					}
+				]
+			},
+			{
+				"reach" : 126,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 8,
+						"num" : 500
+					}
+				]
+			},
+			{
+				"reach" : 135,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 8,
+						"num" : 500
+					}
+				]
+			},
+			{
+				"reach" : 144,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 8,
+						"num" : 500
+					}
+				]
+			},
+			{
+				"reach" : 153,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 8,
+						"num" : 500
+					}
+				]
+			},
+			{
+				"reach" : 162,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 40
+					},
+					{
+						"product" : 8,
+						"num" : 500
+					}
+				]
+			},
+			{
+				"reach" : 171,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 180,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 189,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 198,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 207,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 216,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 60
+					},
+					{
+						"product" : 8,
+						"num" : 1000
+					}
+				]
+			},
+			{
+				"reach" : 225,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					}
+				]
+			},
+			{
+				"reach" : 234,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					}
+				]
+			},
+			{
+				"reach" : 243,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					}
+				]
+			},
+			{
+				"reach" : 252,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					}
+				]
+			},
+			{
+				"reach" : 261,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					}
+				]
+			},
+			{
+				"reach" : 270,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 8,
+						"num" : 2000
+					}
+				]
+			}
+		]
+	},
+	"117" : {
+		"name" : "打通经脉",
+		"description" : "首次将某条经脉打通%s次",
+		"content" : [
+			{
+				"reach" : 1,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 200000
+					}
+				]
+			},
+			{
+				"reach" : 2,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 10
+					},
+					{
+						"product" : 6,
+						"num" : 400000
+					}
+				]
+			},
+			{
+				"reach" : 3,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 600000
+					}
+				]
+			},
+			{
+				"reach" : 4,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 20
+					},
+					{
+						"product" : 6,
+						"num" : 800000
+					}
+				]
+			},
+			{
+				"reach" : 5,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 1000000
+					}
+				]
+			},
+			{
+				"reach" : 6,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 30
+					},
+					{
+						"product" : 6,
+						"num" : 1200000
+					}
+				]
+			},
+			{
+				"reach" : 7,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 1400000
+					}
+				]
+			},
+			{
+				"reach" : 8,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 50
+					},
+					{
+						"product" : 6,
+						"num" : 1600000
+					}
+				]
+			},
+			{
+				"reach" : 9,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 6,
+						"num" : 1800000
+					}
+				]
+			},
+			{
+				"reach" : 10,
+				"reward" : [
+					{
+						"product" : 5,
+						"num" : 100
+					},
+					{
+						"product" : 6,
+						"num" : 2000000
+					}
+				]
+			}
+		]
+	},
+	"118" : {
+		"name" : "",
+		"description" : "",
+		"content" : [
+			{
+				"reach" : 1,
+				"reward" : [
+					{
+						"product" : 6005,
+						"num" : 5
+					},
+					{
+						"product" : 6003,
+						"num" : 3
+					},
+					{
+						"product" : 6004,
+						"num" : 1
+					},
+					{
+						"product" : 7005,
+						"num" : 1
+					},
+					{
+						"product" : 4,
+						"num" : 10
+					}
+				]
+			},
+			{
+				"reach" : 3,
+				"reward" : [
+					{
+						"product" : 6005,
+						"num" : 5
+					},
+					{
+						"product" : 6003,
+						"num" : 5
+					},
+					{
+						"product" : 6004,
+						"num" : 3
+					},
+					{
+						"product" : 7006,
+						"num" : 1
+					},
+					{
+						"product" : 4,
+						"num" : 20
+					}
+				]
+			},
+			{
+				"reach" : 5,
+				"reward" : [
+					{
+						"product" : 6005,
+						"num" : 10
+					},
+					{
+						"product" : 6003,
+						"num" : 10
+					},
+					{
+						"product" : 6004,
+						"num" : 5
+					},
+					{
+						"product" : 7004,
+						"num" : 1
+					},
+					{
+						"product" : 4,
+						"num" : 20
+					}
+				]
+			},
+			{
+				"reach" : 6,
+				"reward" : [
+					{
+						"product" : 6005,
+						"num" : 20
+					},
+					{
+						"product" : 6003,
+						"num" : 20
+					},
+					{
+						"product" : 6004,
+						"num" : 10
+					},
+					{
+						"product" : 6001,
+						"num" : 2
+					},
+					{
+						"product" : 6002,
+						"num" : 1
+					},
+					{
+						"product" : 7003,
+						"num" : 1
+					},
+					{
+						"product" : 7002,
+						"num" : 1
+					},
+					{
+						"product" : 4,
+						"num" : 20
+					}
+				]
+			},
+			{
+				"reach" : 8,
+				"reward" : [
+					{
+						"product" : 6005,
+						"num" : 50
+					},
+					{
+						"product" : 6003,
+						"num" : 50
+					},
+					{
+						"product" : 6004,
+						"num" : 30
+					},
+					{
+						"product" : 6001,
+						"num" : 5
+					},
+					{
+						"product" : 6002,
+						"num" : 2
+					},
+					{
+						"product" : 7001,
+						"num" : 1
+					},
+					{
+						"product" : 7005,
+						"num" : 1
+					},
+					{
+						"product" : 4,
+						"num" : 30
+					}
+				]
+			},
+			{
+				"reach" : 10,
+				"reward" : [
+					{
+						"product" : 6005,
+						"num" : 100
+					},
+					{
+						"product" : 6003,
+						"num" : 100
+					},
+					{
+						"product" : 6004,
+						"num" : 50
+					},
+					{
+						"product" : 6001,
+						"num" : 10
+					},
+					{
+						"product" : 6002,
+						"num" : 5
+					},
+					{
+						"product" : 7006,
+						"num" : 1
+					},
+					{
+						"product" : 7004,
+						"num" : 1
+					},
+					{
+						"product" : 4,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 11,
+				"reward" : [
+					{
+						"product" : 6005,
+						"num" : 200
+					},
+					{
+						"product" : 6003,
+						"num" : 200
+					},
+					{
+						"product" : 6004,
+						"num" : 100
+					},
+					{
+						"product" : 6001,
+						"num" : 10
+					},
+					{
+						"product" : 6002,
+						"num" : 5
+					},
+					{
+						"product" : 7001,
+						"num" : 1
+					},
+					{
+						"product" : 7002,
+						"num" : 1
+					},
+					{
+						"product" : 7003,
+						"num" : 1
+					},
+					{
+						"product" : 4,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 12,
+				"reward" : [
+					{
+						"product" : 6005,
+						"num" : 200
+					},
+					{
+						"product" : 6003,
+						"num" : 200
+					},
+					{
+						"product" : 6004,
+						"num" : 100
+					},
+					{
+						"product" : 6001,
+						"num" : 10
+					},
+					{
+						"product" : 6002,
+						"num" : 5
+					},
+					{
+						"product" : 7005,
+						"num" : 1
+					},
+					{
+						"product" : 7006,
+						"num" : 1
+					},
+					{
+						"product" : 7004,
+						"num" : 1
+					},
+					{
+						"product" : 4,
+						"num" : 50
+					}
+				]
+			},
+			{
+				"reach" : 13,
+				"reward" : [
+					{
+						"product" : 6005,
+						"num" : 200
+					},
+					{
+						"product" : 6003,
+						"num" : 200
+					},
+					{
+						"product" : 6004,
+						"num" : 100
+					},
+					{
+						"product" : 6001,
+						"num" : 10
+					},
+					{
+						"product" : 6002,
+						"num" : 5
+					},
+					{
+						"product" : 7001,
+						"num" : 1
+					},
+					{
+						"product" : 7002,
+						"num" : 1
+					},
+					{
+						"product" : 7003,
+						"num" : 1
+					},
+					{
+						"product" : 4,
+						"num" : 100
+					}
+				]
+			},
+			{
+				"reach" : 14,
+				"reward" : [
+					{
+						"product" : 6005,
+						"num" : 300
+					},
+					{
+						"product" : 6003,
+						"num" : 300
+					},
+					{
+						"product" : 6004,
+						"num" : 150
+					},
+					{
+						"product" : 6001,
+						"num" : 10
+					},
+					{
+						"product" : 6002,
+						"num" : 5
+					},
+					{
+						"product" : 7001,
+						"num" : 1
+					},
+					{
+						"product" : 7002,
+						"num" : 1
+					},
+					{
+						"product" : 7003,
+						"num" : 1
+					},
+					{
+						"product" : 7004,
+						"num" : 1
+					},
+					{
+						"product" : 4,
+						"num" : 200
+					}
+				]
+			},
+			{
+				"reach" : 15,
+				"reward" : [
+					{
+						"product" : 6005,
+						"num" : 500
+					},
+					{
+						"product" : 6003,
+						"num" : 500
+					},
+					{
+						"product" : 6004,
+						"num" : 300
+					},
+					{
+						"product" : 6001,
+						"num" : 10
+					},
+					{
+						"product" : 6002,
+						"num" : 5
+					},
+					{
+						"product" : 7001,
+						"num" : 1
+					},
+					{
+						"product" : 7002,
+						"num" : 1
+					},
+					{
+						"product" : 7003,
+						"num" : 1
+					},
+					{
+						"product" : 7004,
+						"num" : 1
+					},
+					{
+						"product" : 7005,
+						"num" : 2
+					},
+					{
+						"product" : 7006,
+						"num" : 2
+					},
+					{
+						"product" : 4,
+						"num" : 500
+					}
+				]
+			}
+		]
+	}
+}
